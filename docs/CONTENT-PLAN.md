@@ -13,7 +13,10 @@ Do not start Step 4 (opening locators and filling location rows) or Step 5 (full
 - **Pilot:** Denver metro, Denver proper first. Inner-ring cities later: Aurora, Lakewood, Commerce City, Englewood, Wheat Ridge, Federal Heights.
 - **Payday / title-loan storefronts:** omitted from the directory for now.
 - **Fees:** only published official figures. If a provider does not publish a price, the cell is **Not published, call ahead**. Never estimate or average.
-- **After-hours:** any published service window outside Monday–Friday 09:00–17:00 America/Denver (including Saturday, Sunday, weekday evenings after 17:00, or weekday mornings before 09:00). If hours are not published, leave hours empty and do not set the flag.
+- **Hours labels (decided 2026-11-10):** the site displays two labels, not a single after-hours badge.
+  - **Open evenings** (`open_after_1700_weekday`): published hours are open after 17:00 America/Denver on at least one weekday (Monday–Friday).
+  - **Open weekends** (`open_weekends`): published hours on Saturday or Sunday.
+  If hours are not published, leave hours empty and leave the corresponding flag null. Do not guess. The `after_hours` field is still computed for internal use (true when any published service window is outside Monday–Friday 09:00–17:00 America/Denver, including Saturday, Sunday, weekday evenings after 17:00, or weekday mornings before 09:00). It is not displayed on the site.
 - **Location rows:** `last_verified` (YYYY-MM-DD) and `verification_status` are required.
 - **Disclaimer:** the site-wide block in `site-src/src/partials/disclaimer.html` already appears on every built page. City and guide pages also get the longer "not affiliated / not financial advice" note from PLAN.md.
 - **No affiliate links** in this seed. No outreach, no paid tools.
@@ -126,8 +129,8 @@ Required sections on every national comparison guide, unless noted: kicker with 
 - **H1:** Finding a desk open outside bank hours
 - **Intent:** "check cashing open late," "cash a check on Sunday," "money order Saturday"
 - **Question:** "Where is a desk open after 5 p.m. or on the weekend, and which of those actually publish a fee?"
-- **Sections:** Definition (Mon–Fri 09:00–17:00 America/Denver); how the flag is computed from published hours only; national patterns only when official pages state them (e.g. King Soopers: many stores seven days, "generally open from 8am-8pm, but operating hours may vary"); link to `/denver/after-hours/`; reminder that hours change and must be confirmed
-- **Data tables:** No national store list. A small definition table (flag, meaning). Denver after-hours rows live on the city sub-page
+- **Sections:** Display rule (decided 2026-11-10): **Open evenings** means published hours are open after 17:00 America/Denver on at least one weekday (Monday–Friday); **Open weekends** means published hours on Saturday or Sunday. Both labels are computed from published hours only. Mention that the older single after-hours flag is internal and not shown. National patterns only when official pages state them (e.g. King Soopers: many stores seven days, "generally open from 8am-8pm, but operating hours may vary"); link to `/denver/after-hours/`; reminder that hours change and must be confirmed
+- **Data tables:** No national store list. A small definition table (label, meaning) for Open evenings and Open weekends. Denver rows with either label live on the city sub-page
 - **Sources:** Same official hours-language pages as above; location hours only from official locators, collected in Step 4
 - **Links:** `/denver/after-hours/`, `/guides/check-cashing-fees/`, `/guides/money-orders/`
 - **JSON-LD:** `Article` + `BreadcrumbList` + `FAQPage` if FAQs exist
@@ -211,9 +214,9 @@ Public city lists include only rows with `verification_status` of `verified_offi
 - **Title:** After-hours check cashing, money orders, and bill pay in Denver
 - **H1:** Denver desks open evenings or weekends
 - **Intent:** "check cashing open Sunday Denver," "cash a check at night Denver"
-- **Question:** "Which verified Denver locations have published hours outside Monday–Friday 9–5?"
-- **Sections:** Repeat the after-hours definition; list only rows with `after_hours` true and hours from an official locator; if a store is missing hours, it does not appear here
-- **Data tables:** Location table, after-hours subset, showing per-day hours
+- **Question:** "Which verified Denver locations are open after 5 p.m. on a weekday, or open on Saturday or Sunday?"
+- **Sections:** Repeat the two display labels (Open evenings / Open weekends, decided 2026-11-10); list only rows with `open_after_1700_weekday` or `open_weekends` true and hours from an official locator or official store page; if a store is missing hours, it does not appear here. Do not use the internal `after_hours` field as the display filter.
+- **Data tables:** Location table of rows with either label, showing per-day hours and the Open evenings / Open weekends labels
 - **Sources:** Official locator hours, Step 4
 - **Links:** `/denver/`, `/guides/after-hours/`
 - **JSON-LD:** `Article` + `BreadcrumbList` + optional `FAQPage`
@@ -278,7 +281,7 @@ On `/denver/` and its sub-pages, each public card or table row shows:
 - Public phone only if the official locator or official page publishes one
 - Services offered (check cashing, money orders, bill pay, prepaid reload) as the official source states them
 - Published hours by day, or "Hours not published"
-- After-hours flag when hours justify it
+- **Open evenings** and/or **Open weekends** labels when the corresponding flags are true (decided 2026-11-10). Do not display a single after-hours badge.
 - Fee notes: official chain or store wording, or **Not published, call ahead**, plus the fee source URL
 - ID requirements when published
 - `last_verified` (visible date)
@@ -296,10 +299,10 @@ Never show example CSV rows (`is_example=true`). Never show `unverified` rows on
 ### Sort order
 
 1. Published fee, **lower first** (use the official dollar or official maximum when one exists; a published maximum still sorts as a published fee).
-2. Then **after-hours** locations before locations that are not after-hours (among rows with the same published-fee band, or among all "Not published, call ahead" rows).
+2. Then locations labeled **Open evenings** before those that are not, then **Open weekends** before those that are not (among rows with the same published-fee band, or among all "Not published, call ahead" rows).
 3. Then name, A–Z.
 
-The after-hours sub-page uses the same fee sort, then latest published weekday closing time when hours exist, then name. Do not invent a fee in order to sort.
+The `/denver/after-hours/` sub-page lists rows with either label, uses the same fee sort, then latest published weekday closing time when hours exist, then name. Do not invent a fee in order to sort.
 
 ### Neighborhood grouping
 
@@ -401,8 +404,8 @@ This is proposed, not decided. See open questions.
 | Data type | Recheck at least | What to do if stale |
 |---|---|---|
 | National published fees and official "not published" statements | Every **90 days**, or sooner if we learn the official page changed | Build warning; do not silently ship a last_verified older than 90 days on a newly published or newly edited page |
-| Location hours, phones, service flags from official locators | Every **90 days** | Same warning; drop from the after-hours list if hours disappear or no longer qualify |
-| After-hours flag | Recompute whenever hours are re-verified | — |
+| Location hours, phones, service flags from official locators | Every **90 days** | Same warning; drop from the Open evenings or Open weekends lists if hours disappear or no longer qualify |
+| Open evenings / Open weekends flags (and the internal `after_hours` field) | Recompute whenever hours are re-verified | — |
 | Regulatory / CFPB / FDIC / DORA context | When the official page is updated, and at least **annually** | Label the official "last reviewed" date if the agency prints one |
 | Online app fees | Every **90 days** (these change often; tighten to 60 days if Step 4 shows frequent changes) | Same as national fees |
 
@@ -457,7 +460,7 @@ Do not use OSM, Google Maps, CitySquares, or Yelp as a fee source or as the sole
 
 - [ ] Every fees row has `source_url`, `last_verified`, and official wording or **Not published, call ahead**
 - [ ] Every public location row has `last_verified`, `verification_status` in `{verified_official_locator, verified_official_store_page}`, `is_example=false`, and a public `source_urls` value
-- [ ] `after_hours` is computed only from published hours and the Mon–Fri 09:00–17:00 America/Denver rule
+- [ ] `open_after_1700_weekday` (**Open evenings**) and `open_weekends` (**Open weekends**) are computed only from published hours: Open evenings = open after 17:00 America/Denver on at least one weekday (Monday–Friday); Open weekends = published hours on Saturday or Sunday. The internal `after_hours` field is still computed (any published window outside Monday–Friday 09:00–17:00 America/Denver) but is not displayed. Leave flags null when hours are not published.
 - [ ] No payday/title-loan storefronts
 - [ ] Phones are public-only
 - [ ] Human review pause (PLAN.md Step 4) before any full page draft

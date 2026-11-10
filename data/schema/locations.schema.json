@@ -155,25 +155,35 @@
         "boolean",
         "null"
       ],
-      "description": "True if any published service window is outside Mon-Fri 09:00-17:00 America/Denver. Null if hours are not published."
+      "description": "Internal computed field, not displayed on the site. True if any published service window is outside Mon-Fri 09:00-17:00 America/Denver (including Saturday, Sunday, weekday evenings after 17:00, or weekday mornings before 09:00). Null if hours are not published. The site displays 'Open evenings' (open_after_1700_weekday) and 'Open weekends' (open_weekends) instead."
     },
     "open_saturday": {
       "type": [
         "boolean",
         "null"
-      ]
+      ],
+      "description": "True if published Saturday hours are an open window (not 'closed'). Null if Saturday hours are not published."
     },
     "open_sunday": {
       "type": [
         "boolean",
         "null"
-      ]
+      ],
+      "description": "True if published Sunday hours are an open window (not 'closed'). Null if Sunday hours are not published."
     },
     "open_after_1700_weekday": {
       "type": [
         "boolean",
         "null"
-      ]
+      ],
+      "description": "Displayed on the site as 'Open evenings'. True if published hours are open after 17:00 America/Denver on at least one weekday (Monday-Friday). Null if weekday hours are not published."
+    },
+    "open_weekends": {
+      "type": [
+        "boolean",
+        "null"
+      ],
+      "description": "Displayed on the site as 'Open weekends'. True if published hours exist on Saturday or Sunday. Null if Saturday and Sunday hours are not published."
     },
     "fee_notes": {
       "type": [
@@ -228,7 +238,7 @@
         "medium",
         "low"
       ],
-      "description": "high: official locator or official store page for address/hours/services, plus official fee page or an explicit 'no price published' note. medium: official locator for the place but hours or services incomplete. low: lead from a non-official index, not yet confirmed on an official locator \u2014 do not publish."
+      "description": "high: official locator or official store page for address/hours/services, plus official fee page or an explicit 'no price published' note. medium: official locator for the place but hours or services incomplete. low: lead from a non-official index, not yet confirmed on an official locator — do not publish."
     },
     "notes": {
       "type": [
