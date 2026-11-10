@@ -1,7 +1,7 @@
 # Check Desk — Step 4 data-collection notes
 
 **Date opened / last_verified:** 2026-11-10 (America/Denver).  
-**Branch intent:** `step4-data` (PR #2; do not merge until Richard reviews).  
+**Branch intent:** `step4-data` (PR #2, merged). Hours-label follow-up (`hours-labels`) records the 2026-11-10 decision to display **Open evenings** and **Open weekends** instead of a single after-hours badge.  
 **What this is:** official policy facts plus verified Denver-proper location rows collected from official store pages and the official USPS locator in a browser on 2026-11-10. This is not Step 5 page copy.
 
 Related files: [../CONTENT-PLAN.md](../CONTENT-PLAN.md), [../../data/providers/fees.csv](../../data/providers/fees.csv), [../../data/locations/denver.csv](../../data/locations/denver.csv), [../../tools/validate_data.py](../../tools/validate_data.py), and the browser collection notes in [step4-browser/](step4-browser/).
@@ -29,7 +29,7 @@ Browser collection notes (verbatim extracts from official pages opened 2026-11-1
 | Walmart | 3 | Official store pages | Supercenters 5676, 3533, and 3566 only |
 | King Soopers | 13 | Official store pages | All Denver-address stores except Federal Heights 00034 |
 | USPS | 16 | Official USPS locator detail pages | Retail Post Offices with listed money-order services |
-| **Total** | **32** | | `after_hours=true` on all 32 rows |
+| **Total** | **32** | | `open_weekends=true` on all 32 rows; `open_after_1700_weekday=true` on 26 rows (the 6 exceptions are USPS offices that close at 17:00 on weekdays) |
 
 Service flags on the 32 rows (true only when that location’s official page listed the service):
 
@@ -38,7 +38,7 @@ Service flags on the 32 rows (true only when that location’s official page lis
 - `bill_pay=true`: 3 (Walmart Supercenters only)
 - `prepaid_reload=true`: 1 (Walmart 5676, which listed load/unload)
 
-All 32 rows have `after_hours=true` because every included location publishes at least one window outside Monday–Friday 09:00–17:00 America/Denver. For every USPS office that is true because Saturday retail hours are published (and, at many offices, because weekday hours start before 09:00 or end after 17:00). All 16 Walmart and King Soopers rows are also open Sunday.
+Display labels (decided 2026-11-10): **Open evenings** = `open_after_1700_weekday` (published hours open after 17:00 America/Denver on at least one weekday, Monday–Friday); **Open weekends** = `open_weekends` (published hours on Saturday or Sunday). All 32 rows have `open_weekends=true` (every included location publishes Saturday retail hours; all 16 Walmart and King Soopers rows also publish Sunday hours). 26 of 32 rows have `open_after_1700_weekday=true`. The 6 false rows are USPS offices whose weekday retail hours end at 17:00 (Mile High, Cherry Creek, Park Hill, Wellshire, Stockyards, and Westwood). The internal `after_hours` field remains true on all 32 rows because every included location publishes at least one window outside Monday–Friday 09:00–17:00 America/Denver (for every USPS office, Saturday retail hours; and, at many offices, weekday hours that start before 09:00 or end after 17:00). It is not displayed.
 
 ## Exclusions and why
 
@@ -63,7 +63,7 @@ All 32 rows have `after_hours=true` because every included location publishes at
 ## Decisions applied
 
 - ACE: check-cashing-only national policy row is included and may point at ACE’s official locator URL. No ACE store rows in `denver.csv`. No loan products described or promoted.
-- After-hours flags are computed only from published per-day hours versus Monday–Friday 09:00–17:00 America/Denver. Saturday or Sunday hours count as after-hours. If hours had been missing, the flag would have been left null. No hours were missing on the 32 included rows.
+- Hours labels (decided 2026-11-10) are computed only from published per-day hours. **Open evenings** is true when a weekday window is open after 17:00 America/Denver. **Open weekends** is true when Saturday or Sunday hours are published as an open window. The internal `after_hours` field is still computed (any published window outside Monday–Friday 09:00–17:00 America/Denver, including Saturday, Sunday, weekday evenings after 17:00, or weekday mornings before 09:00) but is not displayed. If hours had been missing, the flags would have been left null. No hours were missing on the 32 included rows.
 - Service flags are copied only from what that location’s official page or official locator lists. A chain policy page is not enough to mark a specific desk.
 - King Soopers national biller examples include non-Colorado names (for example City of Houston). Those are not a Denver biller list.
 - USPS `check_cashing` is false. Locator pages in this collection list Domestic Money Orders and Inquiry Money Orders, not general check cashing. Cashing a *postal* money order at a Post Office is a money-order service (and is free, per the national policy page), not a reason to set `check_cashing=true`.

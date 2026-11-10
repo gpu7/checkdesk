@@ -74,7 +74,7 @@ Production host is a separate site (Check Desk). The intended domain is **checkd
 | `/guides/money-orders/` | USPS, Walmart, Western Union, MoneyGram. Can start from Errand Desk's guide after a fresh official-page check |
 | `/guides/bill-pay/` | In-store bill pay: what official pages say about stubs, payment methods, and fees (often "varies / ask at the desk") |
 | `/guides/prepaid-reload/` | Where official pages say you can reload prepaid cards; CFPB fee-type explainer (not a product endorsement) |
-| `/guides/after-hours/` | How we define after-hours, how the flag is set, and how to use the Denver after-hours view |
+| `/guides/after-hours/` | How we define **Open evenings** and **Open weekends**, and how to use the Denver evenings-and-weekends view |
 | `/guides/lower-fee-options/` | Side-by-side of options that official pages actually price (own bank, issuing bank *if* the bank publishes a policy — do not invent a legal duty), grocery money desks, USPS, Walmart vs stores that do not post a national fee |
 
 ### Geography (pilot first)
@@ -85,7 +85,7 @@ Production host is a separate site (Check Desk). The intended domain is **checkd
 | `/denver/check-cashing/` | Denver-area check-cashing locations only |
 | `/denver/money-orders/` | Denver-area money-order sellers |
 | `/denver/bill-pay/` | Denver-area bill-pay desks |
-| `/denver/after-hours/` | Locations whose published hours fall outside the after-hours definition below |
+| `/denver/after-hours/` | Locations with published hours that qualify for **Open evenings** or **Open weekends** (see definitions below) |
 | `/aurora/`, `/lakewood/`, `/commerce-city/`, … | Add metro city pages only after the Denver hub listing set is reviewed. Reuse Errand Desk slug rules (`/aurora/` is Colorado unless a collision requires a suffix) |
 
 Do not create thin city pages that only repeat national fees. A city page goes live when it has verified local locations (or an explicit, sourced statement that a given brand has no official locator result in that city).
@@ -104,9 +104,16 @@ Do not create thin city pages that only repeat national fees. A city page goes l
 
 No per-store vanity URLs in the pilot (`/denver/walmart-example-st/` is later, if needed). The city page plus a data row is enough for v1.
 
-### After-hours definition (proposed)
+### Hours labels (decided 2026-11-10)
 
-A location is `after_hours=true` when *any* published service window is outside **Monday–Friday, 09:00–17:00 America/Denver** (typical bank hours), including Saturday, Sunday, or a weekday open after 17:00 or before 09:00. Also store the raw weekday hours and separate flags (`open_saturday`, `open_sunday`, `open_after_1700_weekday`) so the after-hours page can filter precisely. If hours are not published on an official or locator page, leave hours empty, set `after_hours` to unknown/null, and say so — do not guess.
+The site displays two labels, not a single after-hours badge:
+
+- **Open evenings** (`open_after_1700_weekday=true`): published hours are open after 17:00 America/Denver on at least one weekday (Monday–Friday).
+- **Open weekends** (`open_weekends=true`): published hours on Saturday or Sunday.
+
+If hours are not published on an official or locator page, leave hours empty, leave the corresponding flag null, and say so — do not guess.
+
+`after_hours` is still stored as an **internal computed field** (not displayed). It is true when any published service window is outside Monday–Friday 09:00–17:00 America/Denver (including Saturday, Sunday, weekday evenings after 17:00, or weekday mornings before 09:00), and null when hours are not published. Also store the raw per-day hours and `open_saturday` / `open_sunday` so pages can filter precisely.
 
 ---
 
@@ -120,7 +127,7 @@ Mirror Errand Desk templates, with directory cards added.
 
 **Guide.** Kicker (`Guide · <topic> · All figures last checked <date>`); disclaimer box; short version; comparison table that quotes official pages; "what to bring"; FAQ as `<details>` so FAQPage JSON-LD cannot drift; numbered Sources list.
 
-**City / after-hours.** Kicker with city name and last-checked date; disclaimer; short version that favors lower-fee options first; filters (service, after-hours, brand); location cards from `locations.csv` (name, address, public phone, services, hours, fee notes + fee source, last verified, confidence); a clearly labeled "example / not yet verified" state must never appear on a published page; sources.
+**City / after-hours.** Kicker with city name and last-checked date; disclaimer; short version that favors lower-fee options first; filters (service, Open evenings, Open weekends, brand); location cards from `locations.csv` (name, address, public phone, services, hours, Open evenings / Open weekends labels, fee notes + fee source, last verified, confidence); a clearly labeled "example / not yet verified" state must never appear on a published page; sources.
 
 **Provider.** National or chain-wide official policy; locator link; "fees may differ by store"; no invented ranges.
 
@@ -204,7 +211,7 @@ Aggregator directories, Bankrate/NerdWallet/MoneyPantry fee tables, and "typical
 
 Two datasets, both requiring `source_url` (or `source_urls`) and `last_verified` (YYYY-MM-DD) on every fact.
 
-**Locations** (`data/schema/locations.schema.json`, header + example-only rows in `data/schema/locations.csv`): `id`, `name`, `brand`, address fields, `lat`/`lng`, public `phone` only, service booleans (`check_cashing`, `money_orders`, `bill_pay`, `prepaid_reload`), per-day hours, `after_hours`, `open_saturday`, `open_sunday`, `open_after_1700_weekday`, `fee_notes`, `fee_source_url`, `id_requirements`, `source_urls`, **`last_verified` (required on every row)**, **`verification_status` (required)**, `verified_by`, `confidence` (`high`/`medium`/`low`), `notes`, `is_example`. Example rows are labeled and must never be published.
+**Locations** (`data/schema/locations.schema.json`, header + example-only rows in `data/schema/locations.csv`): `id`, `name`, `brand`, address fields, `lat`/`lng`, public `phone` only, service booleans (`check_cashing`, `money_orders`, `bill_pay`, `prepaid_reload`), per-day hours, `open_after_1700_weekday` (displayed as **Open evenings**), `open_weekends` (displayed as **Open weekends**), `open_saturday`, `open_sunday`, internal `after_hours` (computed, not displayed), `fee_notes`, `fee_source_url`, `id_requirements`, `source_urls`, **`last_verified` (required on every row)**, **`verification_status` (required)**, `verified_by`, `confidence` (`high`/`medium`/`low`), `notes`, `is_example`. Example rows are labeled and must never be published.
 
 `last_verified` is the America/Denver calendar date the cited sources were last opened, even when the store itself has not been individually verified. A row that is only a chain policy still needs this date (the date the official policy or locator page was checked).
 
