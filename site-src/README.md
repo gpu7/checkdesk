@@ -2,7 +2,7 @@
 
 This folder is the source of the Check Desk static site. Preview builds go to `public/` (gitignored). Don't edit the output by hand. Edit the files here and rebuild.
 
-The production domain is not chosen yet. `site.config.json` uses the placeholder `https://checkdesk.example/`. Override with `SITE_BASE_URL` when a real domain exists.
+The intended production domain is **checkdesk.com** (decided 2026-11-10). Registration and ownership are still Richard's step and are unconfirmed. `site.config.json` uses `https://checkdesk.com/`. You can still override it with `SITE_BASE_URL` at build time.
 
 ## Build
 
@@ -24,7 +24,7 @@ The builder also writes `sitemap.xml` and `robots.txt`, and it fails if the site
 
 ```
 build.py            the builder
-site.config.json    base_url (placeholder), default_lastmod, disclaimer_updated, cf_analytics_token (leave empty)
+site.config.json    base_url (https://checkdesk.com/), default_lastmod, disclaimer_updated, cf_analytics_token (leave empty)
 src/layout.html     shared header, nav, footer, and {{disclaimer}}
 src/partials/disclaimer.html   the site-wide disclaimer block
 src/pages/          page bodies, each starting with <!--meta {...} -->

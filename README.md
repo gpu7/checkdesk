@@ -11,7 +11,7 @@ Owner: Richard Casey. Hard rules: use only public sources; never contact busines
 ```
 site-src/             static site generator (Python 3, standard library only)
   build.py
-  site.config.json    placeholder base URL; no analytics token
+  site.config.json    base URL https://checkdesk.com/; no analytics token
   src/layout.html     shared chrome, including the site-wide disclaimer
   src/partials/       disclaimer.html (injected into every built page)
   src/pages/          page bodies (DRAFT placeholders)
@@ -19,7 +19,7 @@ site-src/             static site generator (Python 3, standard library only)
   src/static/         favicon and 404.html
 docs/                 PLAN.md, research, remote-setup notes, HOSTING-HANDOFF.md
 data/schema/          locations and fees schemas, plus an example-only CSV
-CHECKLIST.md          Cloudflare DNS + AWS (S3/CloudFront) deploy checklist (placeholders only)
+CHECKLIST.md          Cloudflare DNS + AWS (S3/CloudFront) deploy checklist (bucket/account/distribution IDs stay placeholders)
 scripts/deploy.sh     optional, untested AWS CLI upload helper (env vars, no hardcoded IDs)
 ```
 
@@ -39,7 +39,7 @@ python3 site-src/build.py --out /tmp/checkdesk-preview
 
 Then: `python3 -m http.server 8787 --directory site-src/public`
 
-`site.config.json` uses the placeholder base URL `https://checkdesk.example/`. Override it with `SITE_BASE_URL` when a real domain exists. Leave `cf_analytics_token` empty unless Richard later adds a public analytics token.
+`site.config.json` uses `https://checkdesk.com/` (domain decided 2026-11-10; registration and ownership are still Richard's step and are unconfirmed). You can still override it with `SITE_BASE_URL` at build time. Leave `cf_analytics_token` empty unless Richard later adds a public analytics token.
 
 ## Hosting
 

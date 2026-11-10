@@ -1,11 +1,12 @@
 // CloudFront Function for Check Desk, runtime: cloudfront-js-2.0
 // Uses only features listed for runtime 2.0 (const/let, for, for-in, endsWith, includes; no for...of).
 // Event: VIEWER REQUEST on the distribution's Default (*) behavior.
-// 1) Redirects www.YOUR_DOMAIN -> https://YOUR_DOMAIN (301), keeping path and query string.
+// 1) Redirects www.checkdesk.com -> https://checkdesk.com (301), keeping path and query string.
 // 2) Serves folder URLs from S3: "/about/" -> "/about/index.html",
 //    and "/about" (no dot, no trailing slash) -> "/about/index.html".
-// Replace YOUR_DOMAIN with the apex hostname (no protocol, no www) before publishing the function.
-const APEX = 'YOUR_DOMAIN';
+// APEX is the intended production hostname (decided 2026-11-10).
+// Registration and ownership of checkdesk.com are still Richard's step and are unconfirmed.
+const APEX = 'checkdesk.com';
 
 function buildQuery(qs) {
   const parts = [];

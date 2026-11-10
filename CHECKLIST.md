@@ -2,14 +2,14 @@
 
 This checklist matches how [erranddesk.com](https://erranddesk.com) was verified live on **2026-11-10** (America/Denver). It replaces the earlier draft that assumed Route 53 for DNS.
 
-**Do not run these steps until Richard approves a domain and a go-ahead to create resources.** Domain, hosting, and any AWS or registrar charges are Richard's decisions. Pax must not spend money, register a domain, create AWS resources, or change DNS as part of writing or reviewing this document.
+The intended domain is **checkdesk.com** (decided 2026-11-10). Registration and ownership of that domain are still Richard's step and are unconfirmed. **Do not run these steps until Richard gives a go-ahead to create resources.** Hosting and any AWS or registrar charges are Richard's decisions. Pax must not spend money, register a domain, create AWS resources, or change DNS as part of writing or reviewing this document.
 
-Replace every `YOUR_*` placeholder with values from the AWS or Cloudflare consoles. Never commit the filled-in account ID, bucket name, distribution ID, or API tokens.
+Replace every remaining `YOUR_*` placeholder (`YOUR_BUCKET_NAME`, `YOUR_ACCOUNT_ID`, `YOUR_DISTRIBUTION_ID`) with values from the AWS or Cloudflare consoles. Never commit the filled-in account ID, bucket name, distribution ID, or API tokens. The hostname `checkdesk.com` is intended site configuration, not a secret.
 
 ## Target architecture (verified for Errand Desk, 2026-11-10)
 
 - **Hosting:** a private S3 bucket (Block Public Access ON, default encryption SSE-S3, no static website hosting) served only through CloudFront with Origin Access Control (OAC).
-- **Edge:** a CloudFront Function (runtime `cloudfront-js-2.0`, viewer request) from `cloudfront-function-index-rewrite.js`. After you replace the `YOUR_DOMAIN` placeholder, it rewrites folder URLs to `index.html` and 301-redirects `www` to the apex.
+- **Edge:** a CloudFront Function (runtime `cloudfront-js-2.0`, viewer request) from `cloudfront-function-index-rewrite.js`. With `APEX` set to `checkdesk.com`, it rewrites folder URLs to `index.html` and 301-redirects `www` to the apex.
 - **TLS:** a free ACM public certificate in **us-east-1** for the apex and `www`, DNS-validated.
 - **DNS:** the zone is hosted at Cloudflare (nameservers on Cloudflare). Records are **DNS-only** (grey cloud, **not** proxied). The apex uses a CNAME to `d….cloudfront.net`; Cloudflare flattens that apex CNAME, so public resolvers see CloudFront IPs as A records. `www` is also a DNS-only CNAME to the same distribution domain.
 - **Analytics (optional):** Cloudflare Web Analytics. The public site token lives in `site-src/site.config.json` as `cf_analytics_token`. Leave it empty so the build emits no script.
@@ -26,13 +26,13 @@ Every step is marked **Richard (console login)** or **Pax (after access granted)
 
 ## 0. Prerequisites and decisions
 
-**Who:** Richard (console login) for account and domain decisions. Pax does not choose or buy the domain.
+**Who:** Richard (console login) for account, registration, and ownership. Pax does not buy or register the domain.
 
 Before any console work, settle these:
 
-1. **Domain name (`YOUR_DOMAIN`).** Still TBD. `site-src/site.config.json` uses the placeholder base URL `https://checkdesk.example/`. When a real domain exists, set `base_url` or override with `SITE_BASE_URL` at build time, and replace `YOUR_DOMAIN` in `cloudfront-function-index-rewrite.js` before publishing the function (do not commit a filled-in function if you prefer to keep the live hostname out of git; filling it only in the CloudFront console is fine).
+1. **Domain name (`checkdesk.com`).** Decided 2026-11-10 as the intended production domain. `site-src/site.config.json` `base_url` is `https://checkdesk.com/`, and `cloudfront-function-index-rewrite.js` sets `APEX` to `checkdesk.com`. **Registration and ownership are still Richard's step and are unconfirmed.** This decision does not mean the domain has been purchased, transferred, or pointed at Cloudflare. You can still override `base_url` with `SITE_BASE_URL` at build time if needed.
 2. **Registrar.** Either:
-   - Register `YOUR_DOMAIN` with **Cloudflare Registrar**, which requires Cloudflare nameservers, or
+   - Register `checkdesk.com` with **Cloudflare Registrar**, which requires Cloudflare nameservers, or
    - Register (or keep) the domain at **another registrar** and point its nameservers at the Cloudflare zone you create in section B.
    - Do **not** use Route 53 as the authoritative DNS for this site. Errand Desk's original checklist assumed Route 53; the live site uses Cloudflare DNS instead. You do not need a Route 53 hosted zone, and you will not attach one to a CloudFront plan.
 3. **Accounts.** Richard's AWS account (console access) and a Cloudflare account that can create a zone on the Free plan.
@@ -60,7 +60,7 @@ This is the same $5 monthly safety net Errand Desk used, with the same source.
 
 **Who:** Richard (console login)
 
-2. In the Cloudflare dashboard, **Add a site** (or add a zone) for `YOUR_DOMAIN`. Choose the **Free** plan.
+2. In the Cloudflare dashboard, **Add a site** (or add a zone) for `checkdesk.com`. Choose the **Free** plan.
 3. Cloudflare will show two nameservers. If the domain is already at Cloudflare Registrar, nameservers should already be Cloudflare's. If the domain is at another registrar, change the domain's nameservers there to the two Cloudflare nameservers. Do not leave Route 53 or the registrar's default nameservers authoritative.
 4. Wait until the Cloudflare zone status is **Active**. Do not create the apex/`www` CloudFront records yet (those come in section H, after the distribution exists). Do not orange-cloud / proxy any records you add later.
 
@@ -71,7 +71,7 @@ This is the same $5 monthly safety net Errand Desk used, with the same source.
 **Who:** Richard (console login) for the ACM request and for adding the validation records in Cloudflare. **Pax (after access granted)** could add the validation CNAMEs only if Richard later issues a Cloudflare API token scoped to DNS edit on this one zone; that access is optional and is not in place now.
 
 5. In the AWS console, switch the region to **us-east-1**. Go to **Certificate Manager (ACM) → Request → Request a public certificate.**
-   - Fully qualified domain names: `YOUR_DOMAIN`, then **Add another name**: `www.YOUR_DOMAIN`.
+   - Fully qualified domain names: `checkdesk.com`, then **Add another name**: `www.checkdesk.com`.
    - Validation: **DNS validation**. Key algorithm: default (RSA 2048) → Request.
    - Public certificates used with CloudFront are documented by AWS as no cost. Confirm if needed on [ACM pricing](https://aws.amazon.com/certificate-manager/pricing/). Don't create two certificates for the same names.
 6. ACM will show one CNAME validation record per hostname. **There is no "Create records in Route 53" step for this setup.** Copy each CNAME name and value from ACM and add them **manually** in Cloudflare DNS:
@@ -99,10 +99,10 @@ This is the same $5 monthly safety net Errand Desk used, with the same source.
 **Who:** Richard (console login)
 
 10. **CloudFront → Functions → Create function.** Name: `checkdesk-viewer-request`. Runtime: **cloudfront-js-2.0** → Create.
-    - In **Build**, replace the code with the full contents of `cloudfront-function-index-rewrite.js` after replacing `YOUR_DOMAIN` with the apex hostname (no protocol, no `www`) → **Save changes**.
+    - In **Build**, replace the code with the full contents of `cloudfront-function-index-rewrite.js` (the repo file already sets `APEX` to `checkdesk.com`) → **Save changes**.
     - **Test** tab, event type Viewer request:
-      - Path `/about/`, host `YOUR_DOMAIN` → output URI should be `/about/index.html`.
-      - Host `www.YOUR_DOMAIN` → 301 to `https://YOUR_DOMAIN/...` (path and query preserved).
+      - Path `/about/`, host `checkdesk.com` → output URI should be `/about/index.html`.
+      - Host `www.checkdesk.com` → 301 to `https://checkdesk.com/...` (path and query preserved).
     - **Publish** tab → **Publish function**.
     - Don't share this function with another distribution if your CloudFront plan forbids it.
 
@@ -117,13 +117,13 @@ This follows the same CloudFront and WAF choices Errand Desk's checklist used, e
 11. **CloudFront → Distributions → Create distribution.**
     - If the wizard offers a plan, Errand Desk chose **Free ($0/month)** (the flat-rate Free plan), subject to the eligibility check in section 0. Confirm current plan names, limits, and prices in the console and on [CloudFront pricing](https://aws.amazon.com/cloudfront/pricing/).
     - Distribution name: something like `checkdesk`. Type: **Single website or app**.
-    - **Domain:** if offered, enter `YOUR_DOMAIN`, then add `www`.
+    - **Domain:** if offered, enter `checkdesk.com`, then add `www`.
 12. **Origin:** Origin type **Amazon S3** → choose your bucket. Use **recommended origin settings**, which set up **Origin Access Control (OAC)**.
 13. **Security:** if you are on a flat-rate plan, keep the AWS WAF protections the wizard offers. Errand Desk's checklist recorded that a WAF web ACL is required for flat-rate plans and is included at no extra cost, with the Free plan allowing up to 5 rules. Confirm current plan rules and cost. If you use pay-as-you-go instead, decide whether to keep WAF; it may not be included.
 14. **TLS certificate:** choose the **Issued** ACM certificate from section C (covers both names) → create the distribution.
     - Write down `YOUR_DISTRIBUTION_ID` and the distribution domain name (`d….cloudfront.net`) in a local untracked note, not in git.
 15. **Finish settings.** Open the distribution → **General → Settings → Edit**:
-    - Alternate domain names (CNAMEs): `YOUR_DOMAIN` and `www.YOUR_DOMAIN`.
+    - Alternate domain names (CNAMEs): `checkdesk.com` and `www.checkdesk.com`.
     - Custom SSL certificate: the section C certificate.
     - **Default root object:** `index.html`.
     - IPv6: **On**.
@@ -153,7 +153,7 @@ This follows the same CloudFront and WAF choices Errand Desk's checklist used, e
 
 **Who:** Richard (console login). **Pax (after access granted)** could create or update these records only with a later, optional Cloudflare API token scoped to DNS edit on this one zone.
 
-19. In the Cloudflare DNS tab for `YOUR_DOMAIN`, wait until the CloudFront distribution is deployed, then create two records pointing at the distribution domain (`d….cloudfront.net`), **not** at individual CloudFront IPs (those IPs can change):
+19. In the Cloudflare DNS tab for `checkdesk.com`, wait until the CloudFront distribution is deployed, then create two records pointing at the distribution domain (`d….cloudfront.net`), **not** at individual CloudFront IPs (those IPs can change):
 
     | Name | Type | Target | Proxy status |
     |---|---|---|---|
@@ -198,7 +198,7 @@ This follows the same CloudFront and WAF choices Errand Desk's checklist used, e
 
     ```sh
     # Hosting path: CloudFront in front of S3, not Cloudflare-proxied.
-    curl -sI https://YOUR_DOMAIN/
+    curl -sI https://checkdesk.com/
     # Expect: server: AmazonS3 (or similar S3/CloudFront server header)
     #         via: … cloudfront.net (or a Via header that names CloudFront)
     #         no cf-ray header
@@ -206,25 +206,25 @@ This follows the same CloudFront and WAF choices Errand Desk's checklist used, e
     curl -sI https://YOUR_BUCKET_NAME.s3.amazonaws.com/index.html
     # Expect: Access Denied (bucket is private)
 
-    curl -sI https://www.YOUR_DOMAIN/about/
-    # Expect: 301 Location: https://YOUR_DOMAIN/about/
+    curl -sI https://www.checkdesk.com/about/
+    # Expect: 301 Location: https://checkdesk.com/about/
 
-    curl -sI http://YOUR_DOMAIN/
-    # Expect: redirect to https://YOUR_DOMAIN/ (or https on the same path)
+    curl -sI http://checkdesk.com/
+    # Expect: redirect to https://checkdesk.com/ (or https on the same path)
 
-    curl -sI https://YOUR_DOMAIN/about/
-    curl -sI https://YOUR_DOMAIN/about
+    curl -sI https://checkdesk.com/about/
+    curl -sI https://checkdesk.com/about
     # Both should succeed (function rewrites to /about/index.html)
 
-    curl -sI https://YOUR_DOMAIN/this-path-should-not-exist
+    curl -sI https://checkdesk.com/this-path-should-not-exist
     # Expect: 404 (if the custom error response in section F is set), body is 404.html
 
-    curl -s https://YOUR_DOMAIN/ | grep -i disclaimer
-    curl -s https://YOUR_DOMAIN/about/ | grep -i disclaimer
+    curl -s https://checkdesk.com/ | grep -i disclaimer
+    curl -s https://checkdesk.com/about/ | grep -i disclaimer
     # Site-wide disclaimer must be present
     ```
 
-    Also open in a private window: `https://YOUR_DOMAIN/`, `/about/`, `/disclosure/`, `/privacy/`, `/sitemap.xml`, `/robots.txt`, and `/favicon.svg`. Confirm the padlock, the disclaimer on each HTML page, and that the placeholder domain is gone if you have already switched `base_url`.
+    Also open in a private window: `https://checkdesk.com/`, `/about/`, `/disclosure/`, `/privacy/`, `/sitemap.xml`, `/robots.txt`, and `/favicon.svg`. Confirm the padlock, the disclaimer on each HTML page, and that page canonicals and sitemap URLs use `https://checkdesk.com/`.
 
 ---
 
@@ -232,7 +232,7 @@ This follows the same CloudFront and WAF choices Errand Desk's checklist used, e
 
 **Who:** Richard (console login) creates the analytics site and token. Pax can paste a token Richard provides, rebuild, and (after access granted) re-upload; until then, Richard does the upload and invalidation.
 
-26. Only if Richard wants analytics: in the Cloudflare dashboard, create a **Web Analytics** site for `YOUR_DOMAIN`. This works on a site that is not proxied through Cloudflare (beacon JavaScript only).
+26. Only if Richard wants analytics: in the Cloudflare dashboard, create a **Web Analytics** site for `checkdesk.com`. This works on a site that is not proxied through Cloudflare (beacon JavaScript only).
 27. Paste the public site token into `cf_analytics_token` in `site-src/site.config.json`. Leave the field empty to emit no script. This token is a public site token (it will appear in page HTML once enabled); still do not commit Cloudflare API tokens or other secrets.
 28. Rebuild (`python3 site-src/build.py`), re-upload with the same Content-Type and Cache-Control rules as section I, and invalidate `/*`.
 
@@ -251,4 +251,4 @@ Do not commit any of the following (see also `.gitignore` and [SECURITY.md](SECU
 
 The public Cloudflare Web Analytics site token may be stored in `site.config.json` after Richard approves it. Filled-in infrastructure identifiers still stay out.
 
-When a real domain is chosen, updating `base_url` in `site.config.json` and the apex string in the CloudFront function is expected site configuration, not a secret. Still keep account, bucket, and distribution IDs out of the repo.
+The chosen domain (`checkdesk.com`) is already set in `base_url` and in the CloudFront function. That is expected site configuration, not a secret. Still keep account, bucket, and distribution IDs out of the repo.

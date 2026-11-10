@@ -2,13 +2,14 @@
 
 **Date:** 2026-11-10 (America/Denver).  
 **Status:** Step 3 of 8. This file is a content and URL plan only. It does not collect Denver listings and does not draft full page copy.  
-**Repo:** `/workspace/checkdesk-repo` (site is its own property; `site.config.json` still uses the placeholder base URL `https://checkdesk.example/`).  
+**Repo:** `/workspace/checkdesk-repo` (site is its own property; intended production domain is **checkdesk.com**, decided 2026-11-10; registration and ownership are still Richard's step and are unconfirmed).  
 **Related:** [PLAN.md](PLAN.md), [research/step1-scope.md](research/step1-scope.md), [research/step1-competitors.md](research/step1-competitors.md), [../data/schema/locations.schema.json](../data/schema/locations.schema.json).
 
 Do not start Step 4 (opening locators and filling location rows) or Step 5 (full page drafts) until Richard approves this plan.
 
 ## Decisions in force
 
+- **Domain:** intended production host is **checkdesk.com** (decided 2026-11-10). Registration and ownership are still Richard's step and are unconfirmed; no registrar, DNS, or AWS work has been done from this decision.
 - **Pilot:** Denver metro, Denver proper first. Inner-ring cities later: Aurora, Lakewood, Commerce City, Englewood, Wheat Ridge, Federal Heights.
 - **Payday / title-loan storefronts:** omitted from the directory for now.
 - **Fees:** only published official figures. If a provider does not publish a price, the cell is **Not published, call ahead**. Never estimate or average.
