@@ -1,7 +1,7 @@
 {
-  "base_url": "https://checkdesk.com/",
+  "base_url": "https://checkdesk.us/",
   "default_lastmod": "2026-11-10",
   "disclaimer_updated": "2026-11-10",
-  "_notes": "base_url is the intended production domain, decided 2026-11-10 (env SITE_BASE_URL overrides). Registration and ownership of checkdesk.com are still Richard's step and are unconfirmed. cf_analytics_token: leave empty so no analytics code is emitted. disclaimer_updated is the date shown in the site-wide disclaimer block.",
+  "_notes": "base_url is the production domain, registered at Cloudflare Registrar on 2026-11-10 (env SITE_BASE_URL overrides). cf_analytics_token: leave empty so no analytics code is emitted. disclaimer_updated is the date shown in the site-wide disclaimer block.",
   "cf_analytics_token": ""
 }
