@@ -4,6 +4,8 @@ Prepared **2026-11-10** (America/Denver). This is a planning document. **No AWS 
 
 The intended setup is the one in [CHECKLIST.md](../CHECKLIST.md): a private S3 bucket served only through CloudFront, DNS at Cloudflare (DNS-only, not proxied), a free ACM public certificate in `us-east-1`, and optional Cloudflare Web Analytics. It matches how erranddesk.com was verified live on 2026-11-10.
 
+The intended production domain is **checkdesk.com** (decided 2026-11-10). Registration and ownership are still Richard's step and are unconfirmed. This document does not register the domain, create AWS resources, or change DNS.
+
 ---
 
 ## 1. What Pax can do now (as of 2026-11-10)
@@ -68,7 +70,7 @@ If this access is granted, Pax could run (after a local build) the untested `scr
 
 ### Optional: Cloudflare API token for DNS edit on one zone
 
-A custom token scoped to **Zone → DNS → Edit**, and only the one `YOUR_DOMAIN` zone (not all zones; not Zone settings, analytics, or registrar). That would let Pax add or update the ACM validation CNAMEs and the apex/`www` CNAMEs described in the checklist, still as **DNS-only** records.
+A custom token scoped to **Zone → DNS → Edit**, and only the one `checkdesk.com` zone (not all zones; not Zone settings, analytics, or registrar). That would let Pax add or update the ACM validation CNAMEs and the apex/`www` CNAMEs described in the checklist, still as **DNS-only** records.
 
 It would **not** let Pax change nameservers at the registrar, turn the proxy on, or create the zone in the first place, and it should not be used to orange-cloud the CloudFront records.
 
@@ -76,14 +78,14 @@ It would **not** let Pax change nameservers at the registrar, turn the proxy on,
 
 ## 3. Richard's steps, in order
 
-Do not start this list until you have approved a domain and a go-ahead to create resources. Detailed console clicks are in [CHECKLIST.md](../CHECKLIST.md). Short version:
+The domain is decided as **checkdesk.com** (2026-11-10), but registration and ownership are still unconfirmed and remain Richard's step. Do not start creating AWS or DNS resources until you give a go-ahead. Detailed console clicks are in [CHECKLIST.md](../CHECKLIST.md). Short version:
 
-1. **Choose `YOUR_DOMAIN`.** Decide the registrar: Cloudflare Registrar, or another registrar whose nameservers you will point at Cloudflare. Do not use Route 53 as authoritative DNS.
+1. **Domain: `checkdesk.com` (decided 2026-11-10).** Registration and proof of ownership are still Richard's step and are unconfirmed. Decide the registrar: Cloudflare Registrar, or another registrar whose nameservers you will point at Cloudflare. Do not use Route 53 as authoritative DNS.
 2. **Create the $5 AWS Budget** `checkdesk-monthly` (80% actual and 100% forecasted email alerts; no budget actions). Confirm current [Budgets pricing](https://aws.amazon.com/aws-cost-management/aws-budgets/pricing/).
 3. **Add the Cloudflare zone** on the Free plan. Set nameservers at the registrar if needed. Wait until the zone is **Active**.
-4. **Request the ACM public certificate** in **us-east-1** for `YOUR_DOMAIN` and `www.YOUR_DOMAIN`, DNS validation. Add the ACM CNAME records **manually** in Cloudflare as **DNS only**. Wait until the certificate is **Issued**.
+4. **Request the ACM public certificate** in **us-east-1** for `checkdesk.com` and `www.checkdesk.com`, DNS validation. Add the ACM CNAME records **manually** in Cloudflare as **DNS only**. Wait until the certificate is **Issued**.
 5. **Create the private S3 bucket** in `us-east-1`: Block Public Access ON, SSE-S3, ACLs disabled, no static website hosting. Write down `YOUR_BUCKET_NAME` locally; do not commit it.
-6. **Create and publish** the CloudFront Function `checkdesk-viewer-request` (runtime `cloudfront-js-2.0`) from `cloudfront-function-index-rewrite.js`, with `YOUR_DOMAIN` substituted in the console.
+6. **Create and publish** the CloudFront Function `checkdesk-viewer-request` (runtime `cloudfront-js-2.0`) from `cloudfront-function-index-rewrite.js`. The repo file already sets `APEX` to `checkdesk.com`; confirm that when you publish the function.
 7. **Create the CloudFront distribution:** S3 origin with OAC, alternate domain names apex + `www`, the Issued ACM certificate, default root object `index.html`, HTTP → HTTPS redirect, cache policy CachingOptimized, viewer-request function association. If you use the flat-rate Free plan (subject to eligibility), keep the wizard WAF as Errand Desk did. **Do not attach a Route 53 hosted zone.** Recommended: map 403/404 to `/404.html`. Write down `YOUR_DISTRIBUTION_ID` and `d….cloudfront.net` locally.
 8. **Confirm or paste the OAC bucket policy** from `s3-bucket-policy.json` (filled in only in the console). Block Public Access stays ON.
 9. **In Cloudflare DNS**, create the apex CNAME and the `www` CNAME to `d….cloudfront.net`, both **DNS only (grey cloud)**. Do not proxy them. Do not point at raw CloudFront IPs.
