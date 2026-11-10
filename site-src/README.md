@@ -2,7 +2,7 @@
 
 This folder is the source of the Check Desk static site. Preview builds go to `public/` (gitignored). Don't edit the output by hand. Edit the files here and rebuild.
 
-The production domain is not chosen yet. `site.config.json` uses the placeholder `https://checkdesk.example/`. Override with `SITE_BASE_URL` when a real domain exists.
+The intended production domain is **checkdesk.com** (decided 2026-11-10). Registration and ownership are still Richard's step and are unconfirmed. `site.config.json` uses `https://checkdesk.com/`. You can still override it with `SITE_BASE_URL` at build time.
 
 ## Build
 
@@ -24,7 +24,7 @@ The builder also writes `sitemap.xml` and `robots.txt`, and it fails if the site
 
 ```
 build.py            the builder
-site.config.json    base_url (placeholder), default_lastmod, disclaimer_updated, cf_analytics_token (leave empty)
+site.config.json    base_url (https://checkdesk.com/), default_lastmod, disclaimer_updated, cf_analytics_token (leave empty)
 src/layout.html     shared header, nav, footer, and {{disclaimer}}
 src/partials/disclaimer.html   the site-wide disclaimer block
 src/pages/          page bodies, each starting with <!--meta {...} -->
@@ -55,4 +55,13 @@ Page `schema` values: `website` (WebSite JSON-LD), `article` (Article, Breadcrum
 
 ## Deploy
 
-See the repo-root `CHECKLIST.md`. Upload a fresh `site-src/public/` build (or another `--out` directory) to the private S3 bucket, then invalidate CloudFront. Bucket names and distribution IDs stay out of this repository.
+Hosting matches Errand Desk: a private S3 bucket served only through CloudFront, with DNS at Cloudflare in **DNS-only** (not proxied) mode. See the repo-root [CHECKLIST.md](../CHECKLIST.md) and [docs/HOSTING-HANDOFF.md](../docs/HOSTING-HANDOFF.md). Do not create AWS resources or change DNS until Richard approves those steps.
+
+After a fresh `python3 site-src/build.py`:
+
+1. Upload the contents of `site-src/public/` (or another `--out` directory) to the private S3 bucket with explicit Content-Type and Cache-Control. HTML, `sitemap.xml`, and `robots.txt` get 5 minutes; fingerprinted assets (`assets/*`, including `style.css` with `?v=`) and `favicon.svg` get one year, immutable.
+2. Invalidate `/*` on the CloudFront distribution and wait for it to complete.
+
+An optional, untested helper is [`scripts/deploy.sh`](../scripts/deploy.sh). It reads `CHECKDESK_BUCKET` and `CHECKDESK_DISTRIBUTION_ID` from the environment and hardcodes no IDs. Bucket names, account IDs, and distribution IDs stay out of this repository.
+
+Optional Cloudflare Web Analytics: leave `cf_analytics_token` empty for no script. If Richard later creates a site in the Cloudflare dashboard, paste the public site token, rebuild, re-upload, and invalidate.
