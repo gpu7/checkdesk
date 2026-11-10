@@ -1,0 +1,7 @@
+# preview build output (regenerate with: python3 site-src/build.py)
+public/
+dist/
+__pycache__/
+*.pyc
+*.zip
+.DS_Store

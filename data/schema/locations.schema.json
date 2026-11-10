@@ -1,0 +1,244 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://checkdesk.local/schema/locations.schema.json",
+  "title": "Check Desk location records",
+  "description": "One row per physical place that offers at least one in-scope service. Every factual field that is filled must be supportable by source_urls and last_verified. last_verified is required on every row, including policy_only_call_ahead rows. Example rows must set is_example=true and must not be published.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "brand",
+    "address",
+    "city",
+    "state",
+    "zip",
+    "check_cashing",
+    "money_orders",
+    "bill_pay",
+    "prepaid_reload",
+    "source_urls",
+    "last_verified",
+    "verification_status",
+    "verified_by",
+    "confidence",
+    "is_example"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]{2,63}$",
+      "description": "Stable slug. Example rows must start with 'ex-'."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Public location name as the official locator or official page lists it."
+    },
+    "brand": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Chain or independent brand key, e.g. walmart, usps, king_soopers, ace_cash_express, western_union, moneygram, independent."
+    },
+    "address": {
+      "type": "string",
+      "minLength": 1
+    },
+    "city": {
+      "type": "string",
+      "minLength": 1
+    },
+    "state": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}$",
+      "description": "USPS two-letter state code."
+    },
+    "zip": {
+      "type": "string",
+      "pattern": "^[0-9]{5}(-[0-9]{4})?$"
+    },
+    "lat": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": -90,
+      "maximum": 90,
+      "description": "Only from a cited public source (official locator or Census). Null if unknown."
+    },
+    "lng": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": -180,
+      "maximum": 180
+    },
+    "phone": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Public phone only, as published on an official page or official locator. Never a number collected by calling the store. Null if not published."
+    },
+    "check_cashing": {
+      "type": "boolean"
+    },
+    "money_orders": {
+      "type": "boolean"
+    },
+    "bill_pay": {
+      "type": "boolean"
+    },
+    "prepaid_reload": {
+      "type": "boolean"
+    },
+    "hours_mon": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Published hours for Monday, e.g. '09:00-19:00' or 'closed'. Null if not published."
+    },
+    "hours_tue": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "hours_wed": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "hours_thu": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "hours_fri": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "hours_sat": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "hours_sun": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "hours_notes": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Holiday or 'hours may vary' language copied from the source."
+    },
+    "hours_source_url": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
+    "after_hours": {
+      "type": [
+        "boolean",
+        "null"
+      ],
+      "description": "True if any published service window is outside Mon-Fri 09:00-17:00 America/Denver. Null if hours are not published."
+    },
+    "open_saturday": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "open_sunday": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "open_after_1700_weekday": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "fee_notes": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Quote or close paraphrase of official fee language for this brand or location. If the official page says fees vary and posts no number, say that. Never invent a typical range."
+    },
+    "fee_source_url": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
+    "id_requirements": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "ID or enrollment rules as the official page states them."
+    },
+    "source_urls": {
+      "type": "string",
+      "minLength": 8,
+      "description": "One or more official source URLs, separated by ' | ' in the CSV."
+    },
+    "last_verified": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+      "description": "Required. America/Denver calendar date (YYYY-MM-DD) the cited sources were last opened. Required even when verification_status is policy_only_call_ahead or unverified (for unverified example rows, use a clearly dummy date such as 1900-01-01)."
+    },
+    "verification_status": {
+      "type": "string",
+      "enum": [
+        "unverified",
+        "policy_only_call_ahead",
+        "verified_official_locator",
+        "verified_official_store_page"
+      ],
+      "description": "unverified: not yet checked against an official source (do not publish). policy_only_call_ahead: official chain/policy known, this store not individually verified; tell the reader to call ahead. verified_official_locator: address/hours/services confirmed on the official locator. verified_official_store_page: confirmed on that location's own official page."
+    },
+    "verified_by": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Person or agent identifier who opened the sources, e.g. 'RC' or 'checkdesk-step4'."
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ],
+      "description": "high: official locator or official store page for address/hours/services, plus official fee page or an explicit 'no price published' note. medium: official locator for the place but hours or services incomplete. low: lead from a non-official index, not yet confirmed on an official locator \u2014 do not publish."
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "is_example": {
+      "type": "boolean",
+      "description": "Must be true for any fictional or illustrative row. Published site builds must drop rows where is_example is true."
+    }
+  }
+}

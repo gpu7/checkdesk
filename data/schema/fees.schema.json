@@ -1,0 +1,128 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://checkdesk.local/schema/fees.schema.json",
+  "title": "Check Desk provider-level fee facts",
+  "description": "One row per published fee or official 'no national price' statement. Do not invent ranges. Quote official wording in official_wording when possible.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "provider",
+    "service",
+    "geography",
+    "source_url",
+    "last_verified",
+    "verified_by",
+    "confidence",
+    "is_example"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]{2,63}$"
+    },
+    "provider": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Brand or agency, e.g. usps, walmart, king_soopers, western_union, moneygram, ace_cash_express."
+    },
+    "service": {
+      "type": "string",
+      "enum": [
+        "check_cashing",
+        "money_orders",
+        "bill_pay",
+        "prepaid_reload",
+        "money_order_replacement",
+        "other"
+      ]
+    },
+    "fee_amount_min": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "description": "Numeric amount when the official page publishes one number or the low end of a published range. Null if unpublished."
+    },
+    "fee_amount_max": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "description": "Same as min for a single figure; high end if the official page publishes a maximum (e.g. Walmart '$4 maximum')."
+    },
+    "fee_unit": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "usd_flat",
+        "usd_maximum",
+        "percent",
+        "percent_or_flat",
+        "unpublished",
+        null
+      ]
+    },
+    "currency": {
+      "type": "string",
+      "const": "USD"
+    },
+    "conditions": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "What the fee applies to (amount tiers, check type, loyalty card, payment method)."
+    },
+    "geography": {
+      "type": "string",
+      "description": "national, state:CO, or a tighter area if the official page is that specific."
+    },
+    "official_wording": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Verbatim or closely quoted official sentence(s)."
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "source_title": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "last_verified": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "verified_by": {
+      "type": "string",
+      "minLength": 1
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "is_example": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Build artifacts
+checkdesk-site.zip
+site-src/public/
+site-src/dist/
+__pycache__/
+*.pyc
+*.zip
+
+# Private notes and local secrets
+aws.doc
+*.env
+.env*
+*.pem
+*.key
+
+# Editors
+.vscode/
+.idea/
