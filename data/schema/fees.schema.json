@@ -63,6 +63,7 @@
         "usd_maximum",
         "percent",
         "percent_or_flat",
+        "usd_range",
         "unpublished",
         null
       ]
@@ -123,6 +124,55 @@
     },
     "is_example": {
       "type": "boolean"
+    },
+    "verification_status": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "unverified",
+        "policy_only_call_ahead",
+        "verified_official_locator",
+        "verified_official_store_page",
+        null
+      ],
+      "description": "For national policy rows this is usually policy_only_call_ahead (chain or program policy, not a store)."
+    },
+    "published_fee": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Human-readable published fee as it should appear in a table: an official figure, official maximum, official range, or 'Not published, call ahead'."
+    },
+    "limits": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Amount caps or 'not stated on the official page'."
+    },
+    "accepted_check_types": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Only what the official page lists, or 'not stated on the official page'."
+    },
+    "id_rules": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Only what the official page lists, or 'not stated on the official page'."
+    },
+    "hours_note": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Official national or chain hours language, clearly labeled as not a specific store's hours."
     }
   }
 }
