@@ -51,7 +51,7 @@ Canonical source of truth for https://erranddesk.com:
 
 ## 2. Proposed site map and URL scheme
 
-Production host is a separate site (Check Desk). The intended domain is **checkdesk.com** (decided 2026-11-10). Registration and ownership are still Richard's step and are unconfirmed. URL patterns below follow Errand Desk: trailing slashes, stable slugs, state suffixes only when two cities would collide.
+Production host is a separate site (Check Desk). The production domain is **checkdesk.us**, registered at Cloudflare Registrar on 2026-11-10. URL patterns below follow Errand Desk: trailing slashes, stable slugs, state suffixes only when two cities would collide.
 
 ### Global and utility
 
@@ -267,4 +267,4 @@ This is formally **Step 1 of 8**. Later steps are a proposal; do not start them 
 
 See the Step 1 report; the three questions were: (1) separate domain vs a section of Errand Desk; (2) exact Denver metro boundary for the first listing pass; (3) whether payday/title-loan storefronts that also cash checks may appear as check-cashing locations with a non-promotional label, or should be omitted.
 
-**Later decisions:** (1) Check Desk is its own site. The intended production domain is **checkdesk.com** (decided 2026-11-10). Registration and ownership are still Richard's step and are unconfirmed; no DNS or registrar work has been done in this repo. (2) and (3) are recorded in the Step 3 content plan: Denver proper first, then the named inner-ring cities; payday and title-loan storefronts omitted from city lists.
+**Later decisions:** (1) Check Desk is its own site. The production domain is **checkdesk.us**, registered at Cloudflare Registrar on 2026-11-10. No AWS resources have been created and no site DNS records have been added from this repo. (2) and (3) are recorded in the Step 3 content plan: Denver proper first, then the named inner-ring cities; payday and title-loan storefronts omitted from city lists.
