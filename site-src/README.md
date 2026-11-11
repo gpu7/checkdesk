@@ -30,7 +30,19 @@ src/partials/disclaimer.html   the site-wide disclaimer block
 src/pages/          page bodies, each starting with <!--meta {...} -->
 src/assets/         style.css (link gets ?v=<sha256 prefix> for cache-busting)
 src/static/         copied to the site root (favicon, 404.html)
+directory.py        renders location tables and counts from ../data at build time
+fee-display.json    chain fee wording shown on city tables; every entry cites fee ids in data/providers/fees.csv
 ```
+
+## Data-driven blocks
+
+Page bodies can include these comments, which `build.py` replaces through `directory.py`:
+
+- `<!--locations {"city": "denver", "service": "money_orders"} -->` renders the location table for one service (`check_cashing`, `money_orders`, `bill_pay`, `prepaid_reload`, or `any` for every public row).
+- `<!--locations {"city": "denver", "view": "evenings_weekends"} -->` renders rows labeled Open evenings or Open weekends that list at least one service.
+- `<!--count {...} -->` prints the number of rows for the same filters, plus optional `"label": "open_evenings"` or `"open_weekends"`, so prose counts never drift from the data.
+
+Only rows with `verification_status` of `verified_official_locator` or `verified_official_store_page`, `is_example=false`, and a `last_verified` date are shown. The build fails if a payday or title-loan brand (for example `ace_cash_express`) appears in a city file, if a block matches no rows, or if `fee-display.json` cites a fee id that does not exist. A brand/service with no published figure must read "Not published, call ahead". The build prints a warning for any shown row whose `last_verified` is more than 90 days older than the page's `lastmod`. The internal `after_hours` field is never displayed.
 
 How pages map to URLs:
 

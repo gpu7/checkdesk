@@ -1,0 +1,53 @@
+{
+  "_notes": "How chain-level fees appear on city location tables. Every fee id must exist in data/providers/fees.csv; build fails otherwise. sort_fee_id is the published dollar figure used to sort (official maximum, single fee, or the top of a published range). A null sort_fee_id means no fee is published, and the text must say 'Not published, call ahead'. Edit wording here, not in page files. These are chain policies, not a store's till price.",
+  "money_orders": {
+    "walmart": {
+      "sort_fee_id": "walmart-money-orders-maximum-1",
+      "fee_ids": [],
+      "short": "$1 maximum",
+      "text": "$1 maximum. Walmart says exact charges vary by location but won't be over $1. Cash or debit."
+    },
+    "usps": {
+      "sort_fee_id": "usps-money-orders-0-01-to-500",
+      "fee_ids": ["usps-money-orders-500-01-to-1000"],
+      "short": "$2.65 up to $500; $3.75 for $500.01–$1,000",
+      "text": "$2.65 for $0.01–$500.00; $3.75 for $500.01–$1,000.00 (national USPS fees). $1,000 limit per money order. Cash or debit, not credit."
+    },
+    "king_soopers": {
+      "sort_fee_id": null,
+      "fee_ids": ["king-soopers-money-orders"],
+      "short": "Not published, call ahead",
+      "text": "Not published, call ahead. King Soopers says the cost of a money order will vary by state. Cash or debit."
+    }
+  },
+  "check_cashing": {
+    "walmart": {
+      "sort_fee_id": "walmart-cc-preprinted-to-1000",
+      "fee_ids": ["walmart-cc-preprinted-above-1000", "walmart-cc-two-party-personal"],
+      "short": "$4 maximum up to $1,000; $8 maximum above",
+      "text": "$4 maximum for pre-printed checks up to $1,000; $8 maximum above $1,000. Two-party personal checks: limited to $200, $6 maximum."
+    },
+    "king_soopers": {
+      "sort_fee_id": null,
+      "fee_ids": ["king-soopers-check-cashing"],
+      "short": "Not published, call ahead",
+      "text": "Not published, call ahead. King Soopers says fees and limits vary by state, and that it accepts checks up to $5,000."
+    }
+  },
+  "bill_pay": {
+    "walmart": {
+      "sort_fee_id": "walmart-bill-pay-starts-at-1",
+      "fee_ids": [],
+      "short": "Starts at $1",
+      "text": "Starts at $1 and varies by biller and speed (no maximum published). Cash or debit; photo ID may be required over $900."
+    }
+  },
+  "prepaid_reload": {
+    "walmart": {
+      "sort_fee_id": "walmart-load-unload",
+      "fee_ids": [],
+      "short": "$0–$3.74 per load or unload",
+      "text": "$0–$3.74 per transaction (published range); $20–$1,000 per transaction; up to 3 per day."
+    }
+  }
+}
