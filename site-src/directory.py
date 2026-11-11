@@ -217,8 +217,11 @@ def _span(v):
         return "not published"
     if v == "closed":
         return "closed"
-    a, b = v.split("-")
-    return f"{_t(a)}–{_t(b)}"
+    spans = []
+    for part in v.split(","):  # split windows, e.g. a published midday closure
+        a, b = part.split("-")
+        spans.append(f"{_t(a)}–{_t(b)}")
+    return ", ".join(spans)
 
 
 def format_hours(r):
@@ -239,6 +242,6 @@ def latest_weekday_close(r):
     for d in ("mon", "tue", "wed", "thu", "fri"):
         v = r[f"hours_{d}"]
         if v and v != "closed":
-            h, m = (int(x) for x in v.split("-")[1].split(":"))
+            h, m = (int(x) for x in v.split(",")[-1].split("-")[1].split(":"))
             best = max(best, h * 60 + m)
     return best
