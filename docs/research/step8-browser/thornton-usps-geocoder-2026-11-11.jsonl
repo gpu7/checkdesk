@@ -1,0 +1,7 @@
+{"input": "12470 York St|Eastlake|80614", "matched": null, "err": null}
+{"input": "11887 Washington St|Northglenn|80233", "matched": "11887 WASHINGTON ST, NORTHGLENN, CO, 80233", "place": ["Northglenn city"], "cdp": [], "county": ["Adams County"], "x": -104.977988547113, "y": 39.911887659304, "n": 1}
+{"input": "850 W 112th Ave|Northglenn|80234", "matched": "850 W 112TH AVE, NORTHGLENN, CO, 80234", "place": ["Northglenn city"], "cdp": [], "county": ["Adams County"], "x": -104.997365011888, "y": 39.899670267582, "n": 1}
+{"input": "12210 Brighton Rd|Henderson|80640", "matched": "12210 BRIGHTON RD, HENDERSON, CO, 80640", "place": [], "cdp": [], "county": ["Adams County"], "x": -104.867683353124, "y": 39.918045546291, "n": 1}
+{"input": "8096 Brighton Rd|Commerce City|80022", "matched": "8096 BRIGHTON RD, COMMERCE CITY, CO, 80022", "place": [], "cdp": ["Derby CDP"], "county": ["Adams County"], "x": -104.920963056369, "y": 39.843787332563, "n": 1}
+{"input": "3051 W 105th Ave|Westminster|80031", "matched": null, "err": null}
+{"input": "1411 Cortez St|Denver|80221", "matched": "1411 CORTEZ ST, DENVER, CO, 80221", "place": [], "cdp": ["Sherrelwood CDP"], "county": ["Adams County"], "x": -105.004437051316, "y": 39.830774855477, "n": 1}
