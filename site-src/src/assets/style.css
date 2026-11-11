@@ -32,3 +32,11 @@ tbody th{background:#fafbfc;font-weight:600;white-space:nowrap}
 .small{font-size:.85rem;color:var(--muted)}
 .site-footer{border-top:1px solid var(--line);background:var(--soft);font-size:.9rem;padding:16px 0}
 @media (max-width:600px){h1{font-size:1.45rem}body{font-size:15.5px}}
+.label{display:inline-block;font-size:.78rem;font-weight:600;background:#e8f1f8;color:#1f4f72;border:1px solid #b9d3e6;border-radius:3px;padding:0 6px;margin:2px 4px 2px 0;white-space:nowrap}
+.addr{font-weight:400}
+table.locations tbody th{white-space:normal;min-width:180px}
+.official{font-weight:600}
+.unk{color:var(--warn)}
+.sources{font-size:.88rem;color:#333}
+.sources li{margin:4px 0;word-break:break-word}
+.jump{display:flex;flex-wrap:wrap;gap:6px 18px;list-style:none;padding:0}

@@ -14,6 +14,8 @@ or if any output page lacks the required disclaimer sentence.
 """
 import argparse, calendar, hashlib, html as htmlmod, json, os, re, shutil, sys
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from directory import Directory  # data-driven location tables and counts (see directory.py)
 from xml.sax.saxutils import escape
 
 ROOT = Path(__file__).resolve().parent
@@ -140,6 +142,16 @@ def faq_pairs(body):
     return pairs
 
 
+def breadcrumbs(meta, h1, url):
+    """Home > optional parent (meta "parent": {"name", "path"}) > this page."""
+    items = [{"@type": "ListItem", "position": 1, "name": "Home", "item": BASE}]
+    parent = meta.get("parent")
+    if parent:
+        items.append({"@type": "ListItem", "position": 2, "name": parent["name"], "item": BASE + parent["path"].lstrip("/")})
+    items.append({"@type": "ListItem", "position": len(items) + 1, "name": h1, "item": url})
+    return {"@type": "BreadcrumbList", "itemListElement": items}
+
+
 def jsonld(meta, body, url, lastmod):
     graph, kind = [], meta.get("schema")
     if kind == "website":
@@ -153,9 +165,7 @@ def jsonld(meta, body, url, lastmod):
         if HAS_OG_IMAGE:
             node["image"] = OG_IMAGE
         graph.append(node)
-        graph.append({"@type": "BreadcrumbList", "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Home", "item": BASE},
-            {"@type": "ListItem", "position": 2, "name": h1, "item": url}]})
+        graph.append(breadcrumbs(meta, h1, url))
         faqs = faq_pairs(body)
         if faqs:
             graph.append({"@type": "FAQPage", "url": url, "mainEntity": [
@@ -165,9 +175,7 @@ def jsonld(meta, body, url, lastmod):
         h1 = plain(re.search(r"<h1[^>]*>(.*?)</h1>", body, re.S).group(1))
         graph.append({"@type": "CollectionPage", "name": h1, "description": meta["description"], "url": url,
                       "dateModified": lastmod, "inLanguage": "en-US", "publisher": ORG})
-        graph.append({"@type": "BreadcrumbList", "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Home", "item": BASE},
-            {"@type": "ListItem", "position": 2, "name": h1, "item": url}]})
+        graph.append(breadcrumbs(meta, h1, url))
     if not graph:
         return ""
     data = json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False, indent=1)
@@ -192,6 +200,7 @@ if static.exists():
     for f in static.glob("*"):
         shutil.copy(f, OUT / f.name)
 
+DIRECTORY = Directory(ROOT.parent, ROOT)
 pages = []
 for page in sorted((SRC / "pages").rglob("*.html")):
     raw = page.read_text()
@@ -200,9 +209,10 @@ for page in sorted((SRC / "pages").rglob("*.html")):
         raise SystemExit(f"missing <!--meta {{...}} --> in {page}")
     meta = json.loads(m.group(1))
     body = raw[m.end():].strip()
+    body = DIRECTORY.expand(body, meta.get("lastmod", cfg["default_lastmod"]), page_path(page) or "/")
     pages.append((page_path(page), meta, body))
 
-NAV_KEYS = ("about", "disclosure", "privacy")
+NAV_KEYS = ("denver", "guides", "about", "disclosure", "privacy")
 urls = []
 for path, meta, body in pages:
     dest = OUT / path / "index.html"
@@ -242,4 +252,7 @@ sm.append("</urlset>")
 (OUT / "sitemap.xml").write_text("\n".join(sm) + "\n")
 (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {BASE}sitemap.xml\n")
 print(f"built sitemap.xml ({len(urls)} urls) and robots.txt, base {BASE}")
+for w in DIRECTORY.warnings:
+    print(w)
+print(f"warnings: {len(DIRECTORY.warnings)}")
 print(f"disclaimer present on {sum(1 for _ in OUT.rglob('*.html'))} HTML files")
