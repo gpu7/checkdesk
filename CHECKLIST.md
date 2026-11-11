@@ -169,7 +169,7 @@ This follows the same CloudFront and WAF choices Errand Desk's checklist used, e
 
 **Who:** Richard (console login). **Pax (after access granted)** could run the upload and invalidation with a later, optional IAM user or role limited to this one bucket and this one distribution (see [docs/HOSTING-HANDOFF.md](docs/HOSTING-HANDOFF.md)). There is no AWS CLI and no AWS credentials on the shared box as of 2026-11-10.
 
-21. Build from the repo root: `python3 site-src/build.py`. Upload the **contents** of `site-src/public/` (or another `--out` directory), not the folder name itself. `index.html` must sit at the bucket root. Include `about/`, `disclosure/`, `privacy/`, `assets/`, `sitemap.xml`, `robots.txt`, `favicon.svg`, and `404.html`.
+21. Build from the repo root: `python3 site-src/build.py`. Upload the **contents** of `site-src/public/` (or another `--out` directory), not the folder name itself. `index.html` must sit at the bucket root. Include `about/`, `disclosure/`, `privacy/`, `assets/`, `sitemap.xml`, `robots.txt`, `favicon.svg`, `404.html`, and the IndexNow key file (a 32-character hex `.txt` at the site root, `text/plain; charset=utf-8`, `Cache-Control: public, max-age=86400`).
 22. Set **Content-Type** and **Cache-Control** explicitly on every object:
 
     | Files | Content-Type | Cache-Control |
@@ -179,11 +179,12 @@ This follows the same CloudFront and WAF choices Errand Desk's checklist used, e
     | `robots.txt` | `text/plain; charset=utf-8` | `public, max-age=300` |
     | Fingerprinted assets (`assets/*`, including `style.css` with the build's `?v=` query) | `text/css` for CSS | `public, max-age=31536000, immutable` (1 year) |
     | `favicon.svg` | `image/svg+xml` | `public, max-age=31536000, immutable` |
+    | IndexNow key (`<32-hex-char>.txt` at the site root) | `text/plain; charset=utf-8` | `public, max-age=86400` (1 day) |
 
     The CSS link is cache-busted with `?v=<sha256 prefix>`, so the long cache is safe for that file.
 
-23. Create a CloudFront invalidation for `/*` and wait until it completes.
-24. An optional, **untested**, CI-free template is [`scripts/deploy.sh`](scripts/deploy.sh). It reads `CHECKDESK_BUCKET` and `CHECKDESK_DISTRIBUTION_ID` from the environment and does not hardcode IDs. It does not use `aws s3 sync --delete`. Richard should review and test it before relying on it. Do not put the env values in git.
+23. Create a CloudFront invalidation for `/*` and wait until it completes. Then, from the repo root, run `python3 site-src/tools/indexnow_ping.py --all` (or pass changed `https://checkdesk.us/...` URLs) so search engines are told about the published sitemap URLs. Confirm `https://checkdesk.us/<key>.txt` returns the key as `text/plain` before relying on the ping.
+24. An optional, **untested**, CI-free template is [`scripts/deploy.sh`](scripts/deploy.sh). It reads `CHECKDESK_BUCKET` and `CHECKDESK_DISTRIBUTION_ID` from the environment and does not hardcode IDs. It uploads the IndexNow key file, but it does not wait for the invalidation or run the ping. It does not use `aws s3 sync --delete`. Richard should review and test it before relying on it. Do not put the env values in git.
 
 ---
 

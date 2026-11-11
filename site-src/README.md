@@ -29,7 +29,7 @@ src/layout.html     shared header, nav, footer, and {{disclaimer}}
 src/partials/disclaimer.html   the site-wide disclaimer block
 src/pages/          page bodies, each starting with <!--meta {...} -->
 src/assets/         style.css (link gets ?v=<sha256 prefix> for cache-busting)
-src/static/         copied to the site root (favicon, 404.html)
+src/static/         copied to the site root (favicon, 404.html, IndexNow key file)
 directory.py        renders location tables and counts from ../data at build time
 fee-display.json    chain fee wording shown on city tables; every entry cites fee ids in data/providers/fees.csv
 ```

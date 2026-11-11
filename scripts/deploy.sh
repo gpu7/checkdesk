@@ -72,7 +72,20 @@ aws s3 sync "$SRC" "s3://${CHECKDESK_BUCKET}" \
   --cache-control "public, max-age=300" \
   --metadata-directive REPLACE
 
-# 6) Clear the CloudFront edge cache.
+# 6) IndexNow key file at the site root (32-character hex name) — 1 day.
+#    The build copies it from site-src/src/static/. Do not use this include for robots.txt.
+aws s3 sync "$SRC" "s3://${CHECKDESK_BUCKET}" \
+  --exclude "*" --include "*.txt" --exclude "robots.txt" \
+  --content-type "text/plain; charset=utf-8" \
+  --cache-control "public, max-age=86400" \
+  --metadata-directive REPLACE
+
+# 7) Clear the CloudFront edge cache.
 aws cloudfront create-invalidation \
   --distribution-id "${CHECKDESK_DISTRIBUTION_ID}" \
   --paths "/*"
+
+# After the invalidation completes, from the repo root:
+#   python3 site-src/tools/indexnow_ping.py --all
+# Or pass changed https://checkdesk.us/... URLs. This script does not wait for
+# the invalidation, so do not run the ping from here automatically.
