@@ -1,0 +1,3 @@
+{"input": "5885 Allison St|Arvada|80004", "matched": "5885 ALLISON ST, ARVADA, CO, 80004", "place": ["Arvada city"], "cdp": [], "county": ["Jefferson County"], "x": -105.086187160711, "y": 39.803238305772, "n": 1}
+{"input": "7765 Wadsworth Blvd|Arvada|80003", "matched": "7765 WADSWORTH BLVD, ARVADA, CO, 80003", "place": ["Arvada city"], "cdp": [], "county": ["Jefferson County"], "x": -105.081817795425, "y": 39.838175851083, "n": 1}
+{"input": "7262 Meade St|Westminster|80030", "matched": "7262 MEADE ST, WESTMINSTER, CO, 80030", "place": ["Westminster city"], "cdp": [], "county": ["Adams County"], "x": -105.035796674926, "y": 39.828408959248, "n": 1}
