@@ -98,7 +98,7 @@
         "string",
         "null"
       ],
-      "description": "Published hours for Monday, e.g. '09:00-19:00' or 'closed'. Null if not published."
+      "description": "Published hours for Monday, e.g. '09:00-19:00', 'closed', or split windows '09:00-11:00,12:00-16:00'. Null if not published."
     },
     "hours_tue": {
       "type": [

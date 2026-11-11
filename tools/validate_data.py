@@ -7,6 +7,8 @@ Empty values become null for optional schema fields; required fields must be pre
 Usage (from repo root):
   python3 tools/validate_data.py
   python3 tools/validate_data.py data/providers/fees.csv data/locations/denver.csv
+
+With no arguments it validates fees.csv and every data/locations/*.csv city file.
 """
 
 from __future__ import annotations
@@ -57,6 +59,13 @@ def parse_hours_value(value):
         return None
     if text.lower() == "closed":
         return ("closed",)
+    if "," in text:
+        # Split windows on one day, e.g. '09:00-11:00,12:00-16:00' (a published midday closure).
+        # Flags only need the earliest opening and latest closing, so collapse to that span.
+        parts = [parse_hours_value(part) for part in text.split(",")]
+        if any(part is None or part[0] != "range" or part[2] <= part[1] for part in parts):
+            return ("unparseable",)
+        return ("range", min(part[1] for part in parts), max(part[2] for part in parts))
     match = HOURS_RANGE.match(text)
     if not match:
         return ("unparseable",)
@@ -341,10 +350,8 @@ def validate_file(path: Path) -> tuple[int, list[str]]:
 
 def default_paths() -> list[Path]:
     found = []
-    for p in [
-        ROOT / "data" / "providers" / "fees.csv",
-        ROOT / "data" / "locations" / "denver.csv",
-    ]:
+    for p in [ROOT / "data" / "providers" / "fees.csv",
+              *sorted((ROOT / "data" / "locations").glob("*.csv"))]:
         if p.exists():
             found.append(p)
     return found

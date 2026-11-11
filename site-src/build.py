@@ -212,7 +212,7 @@ for page in sorted((SRC / "pages").rglob("*.html")):
     body = DIRECTORY.expand(body, meta.get("lastmod", cfg["default_lastmod"]), page_path(page) or "/")
     pages.append((page_path(page), meta, body))
 
-NAV_KEYS = ("denver", "guides", "about", "disclosure", "privacy")
+NAV_KEYS = ("denver", "cities", "guides", "about", "disclosure", "privacy")
 urls = []
 for path, meta, body in pages:
     dest = OUT / path / "index.html"
