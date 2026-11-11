@@ -1,6 +1,6 @@
 # Step 8: Colorado Springs (2026-11-11, America/Denver)
 
-**Rows:** 20 (8 USPS, 4 Walmart Supercenters hub-only, 8 King Soopers). City 1 of the approved six-city batch (Colorado Springs, Fort Collins, Thornton, Arvada, Westminster, Greeley). Only addresses inside Colorado Springs city limits are listed. No businesses were contacted.
+**Rows:** 24 (9 USPS, 5 Walmart Supercenters hub-only, 10 King Soopers), including 4 rows added in the coordinate-backup follow-up below. City 1 of the approved six-city batch (Colorado Springs, Fort Collins, Thornton, Arvada, Westminster, Greeley). Only addresses inside Colorado Springs city limits are listed. No businesses were contacted.
 
 ## Method
 
@@ -90,3 +90,16 @@ King Soopers search: 16 grocery results on 2 pages, all opened. Walmart finder: 
 
 - Payday / title-loan storefronts, including ACE: omitted by policy.
 - Stand-alone Western Union / MoneyGram agents and other grocery brands were not collected. City Market was noted only in passing by the browser pass; no money-service pages were read for it, and no new brand was added.
+
+## Follow-up: coordinate-backup inclusion approved (2026-11-11)
+
+Richard approved adding the four held locations on 2026-11-11. Each printed a Colorado Springs address, the Census address geocoder returned no match, and a Census coordinates lookup placed the point inside Colorado Springs city limits (OpenStreetMap Nominatim points for the three stores; the official USPS locator point 38.812737, -104.759994 for the General Mail Facility). No new official pages were read for services; flags, hours, and phones come from the 2026-11-11 official-page records above and in `step8-browser/` (USPS phone and hours re-read from the official locator data on 2026-11-11). `last_verified` is 2026-11-11, and each row's notes record the placement method.
+
+| Row | Address | Services (official page) | Hours used | Labels |
+|---|---|---|---|---|
+| King Soopers 00053 Woodmen and Academy | 6930 N Academy Blvd 80918 | Money orders | Store Sun-Sat 6 AM-11 PM | Open evenings, Open weekends |
+| King Soopers 00098 Stetson Hills | 6030 Stetson Hills Blvd 80923 | Money orders | Store Sun-Sat 6 AM-11 PM | Open evenings, Open weekends |
+| Walmart Supercenter 5123 | 5550 E Woodmen Rd 80920 | Money Services only: hub only, all flags false, no fee applied | Store Mon-Sun 6am-11pm (Nov 26 closure in notes) | Open evenings, Open weekends (not on evenings/weekends page) |
+| USPS General Mail Facility 1364595 (retail counter) | 3655 E Fountain Blvd Ste 106 80910 | Domestic + Inquiry Money Orders | Mon-Fri 09:00-18:00, Sat 09:00-13:30, Sun closed | Open evenings, Open weekends |
+
+Still off: King Soopers 00134 Constitution Avenue (map point outside city limits) and King Soopers 00077 Monument (geocoder places it in Monument town). The hub's "not listed yet" copy no longer names the four added locations, and the hub, money-order, and evenings/weekends pages note the coordinate method.
