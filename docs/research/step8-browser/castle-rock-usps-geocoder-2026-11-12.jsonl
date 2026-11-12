@@ -1,0 +1,13 @@
+{"input": "220 S WILCOX ST | Castle Rock | 80104", "matched": "220 S WILCOX ST, CASTLE ROCK, CO, 80104", "place": ["Castle Rock town"], "cdp": [], "county": ["Douglas County"], "x": -104.861452622441, "y": 39.367112882459, "n": 1}
+{"input": "300 E MILLER CT | Castle Rock | 80104", "matched": "300 E MILLER CT, CASTLE ROCK, CO, 80104", "place": ["Castle Rock town"], "cdp": [], "county": ["Douglas County"], "x": -104.860224827968, "y": 39.365521923828, "n": 1}
+{"input": "7519 E STATE HIGHWAY 86 | Franktown | 80116", "matched": "7519 STATE HWY 86, FRANKTOWN, CO, 80116", "place": [], "cdp": ["Franktown CDP"], "county": ["Douglas County"], "x": -104.752046280779, "y": 39.39103229313, "n": 1}
+{"input": "4195 DOUGLAS AVE | Sedalia | 80135", "matched": null, "err": null}
+{"input": "96 PERRY PARK AVE | Larkspur | 80118", "matched": "96 PERRY PARK AVE, LARKSPUR, CO, 80118", "place": ["Larkspur town"], "cdp": [], "county": ["Douglas County"], "x": -104.8862459766, "y": 39.230057486802, "n": 1}
+{"input": "18695 PONY EXPRESS DR | Parker | 80134", "matched": "18695 PONY EXPRESS DR, PARKER, CO, 80134", "place": ["Parker town"], "cdp": [], "county": ["Douglas County"], "x": -104.771044472238, "y": 39.521256050867, "n": 1}
+{"input": "7895 LOUVIERS BLVD | Louviers | 80131", "matched": "7895 LOUVIERS DR, LOUVIERS, CO, 80131", "place": [], "cdp": ["Louviers CDP"], "county": ["Douglas County"], "x": -105.006468675312, "y": 39.476516156053, "n": 1}
+{"input": "795 E KIOWA AVE | Elizabeth | 80107", "matched": null, "err": null}
+{"input": "9609 S UNIVERSITY BLVD | Highlands Ranch | 80130", "matched": "9609 S UNIVERSITY BLVD, HIGHLANDS RANCH, CO, 80130", "place": [], "cdp": ["Highlands Ranch CDP"], "county": ["Douglas County"], "x": -104.917685506672, "y": 39.544028802899, "n": 1}
+{"input": "9609 S UNIVERSITY BLVD | Highlands Ranch | 80130", "matched": "9609 S UNIVERSITY BLVD, HIGHLANDS RANCH, CO, 80130", "place": [], "cdp": ["Highlands Ranch CDP"], "county": ["Douglas County"], "x": -104.917685506672, "y": 39.544028802899, "n": 1}
+{"input": "6855 S DAYTON ST | Greenwood Village | 80112", "matched": "6855 S DAYTON ST, GREENWOOD VILLAGE, CO, 80112", "place": ["Greenwood Village city"], "cdp": [], "county": ["Arapahoe County"], "x": -104.87625255352, "y": 39.592260180504, "n": 1}
+{"input": "2221 E ARAPAHOE RD | Centennial | 80122", "matched": "2221 E ARAPAHOE RD, CENTENNIAL, CO, 80122", "place": ["Centennial city"], "cdp": [], "county": ["Arapahoe County"], "x": -104.963232089028, "y": 39.595233463715, "n": 1}
+{"input": "18555 E SMOKY HILL RD | Centennial | 80015", "matched": "18555 E SMOKY HILL RD, CENTENNIAL, CO, 80015", "place": ["Centennial city"], "cdp": [], "county": ["Arapahoe County"], "x": -104.772575986976, "y": 39.618626586405, "n": 1}
