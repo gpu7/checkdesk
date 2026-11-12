@@ -1,0 +1,19 @@
+{"input": "601 CLEVELAND AVE | Loveland | 80537", "matched": "601 CLEVELAND AVE, LOVELAND, CO, 80537", "place": ["Loveland city"], "cdp": [], "county": ["Larimer County"], "x": -105.07458863904, "y": 40.397604734379, "n": 1}
+{"input": "446 E 29TH ST | Loveland | 80538", "matched": "446 E 29TH ST, LOVELAND, CO, 80538", "place": ["Loveland city"], "cdp": [], "county": ["Larimer County"], "x": -105.070429642512, "y": 40.421683623272, "n": 1}
+{"input": "425 3RD ST | Berthoud | 80513", "matched": "425 N 3RD ST, BERTHOUD, CO, 80513", "place": ["Berthoud town"], "cdp": [], "county": ["Larimer County"], "x": -105.078435112232, "y": 40.304410093189, "n": 1}
+{"input": "8669 N COUNTY ROAD 27 | Masonville | 80541", "matched": null, "err": null}
+{"input": "301 BOARDWALK DR | Fort Collins | 80525", "matched": "301 E BOARDWALK DR, FORT COLLINS, CO, 80525", "place": ["Fort Collins city"], "cdp": [], "county": ["Larimer County"], "x": -105.073711102054, "y": 40.531990337636, "n": 1}
+{"input": "301 BOARDWALK DR | Fort Collins | 80525", "matched": "301 E BOARDWALK DR, FORT COLLINS, CO, 80525", "place": ["Fort Collins city"], "cdp": [], "county": ["Larimer County"], "x": -105.073711102054, "y": 40.531990337636, "n": 1}
+{"input": "121 CASTLE PINES AVE | Johnstown | 80534", "matched": "121 CASTLE PINES AVE, JOHNSTOWN, CO, 80534", "place": ["Johnstown town"], "cdp": [], "county": ["Weld County"], "x": -104.907467620793, "y": 40.331305592991, "n": 1}
+{"input": "350 WELKER AVE | Mead | 80542", "matched": "350 WELKER AVE, MEAD, CO, 80542", "place": ["Mead town"], "cdp": [], "county": ["Weld County"], "x": -104.999189122476, "y": 40.233195635291, "n": 1}
+{"input": "4128 MAIN ST | Timnath | 80547", "matched": "4128 MAIN ST, TIMNATH, CO, 80547", "place": ["Timnath town"], "cdp": [], "county": ["Larimer County"], "x": -104.982224562496, "y": 40.529535874148, "n": 1}
+{"input": "215 6TH ST | Windsor | 80550", "matched": "215 6TH ST, WINDSOR, CO, 80550", "place": ["Windsor town"], "cdp": [], "county": ["Weld County"], "x": -104.905813471024, "y": 40.479718721177, "n": 1}
+{"input": "1601 US HIGHWAY 34 | Drake | 80515", "matched": null, "err": null}
+{"input": "1070 DIAMOND VALLEY DR STE 500 | Windsor | 80550", "matched": "1070 DIAMOND VALLEY DR, WINDSOR, CO, 80550", "place": ["Windsor town"], "cdp": [], "county": ["Weld County"], "x": -104.880617279702, "y": 40.467664563359, "n": 1}
+{"input": "1009 BROAD ST | Milliken | 80543", "matched": "1009 BROAD ST, MILLIKEN, CO, 80543", "place": ["Milliken town"], "cdp": [], "county": ["Weld County"], "x": -104.856713418937, "y": 40.330219431537, "n": 1}
+{"input": "11830 N 75TH ST | Hygiene | 80533", "matched": null, "err": null}
+{"input": "305 RAILROAD AVE | Lyons | 80540", "matched": "305 RAILROAD AVE, LYONS, CO, 80540", "place": ["Lyons town"], "cdp": [], "county": ["Boulder County"], "x": -105.267639021931, "y": 40.223470893011, "n": 1}
+{"input": "301 S HOWES ST FL 1 | Fort Collins | 80521", "matched": "301 S HOWES ST, FORT COLLINS, CO, 80521", "place": ["Fort Collins city"], "cdp": [], "county": ["Larimer County"], "x": -105.080785770876, "y": 40.584174963025, "n": 1}
+{"input": "320 1ST ST | Severance | 80546", "matched": "320 1ST ST, SEVERANCE, CO, 80615", "place": ["Eaton town"], "cdp": [], "county": ["Weld County"], "x": -104.714716855437, "y": 40.525966932357, "n": 3}
+{"input": "2724 N OVERLAND TRL | Laporte | 80535", "matched": "2724 N OVERLAND TRL, LAPORTE, CO, 80535", "place": [], "cdp": ["Laporte CDP"], "county": ["Larimer County"], "x": -105.137914460792, "y": 40.626070929915, "n": 1}
+{"input": "5301 RIST CANYON RD | Bellvue | 80512", "matched": "5301 RIST CANYON RD, BELLVUE, CO, 80512", "place": [], "cdp": [], "county": ["Larimer County"], "x": -105.174665442078, "y": 40.629517707059, "n": 1}
