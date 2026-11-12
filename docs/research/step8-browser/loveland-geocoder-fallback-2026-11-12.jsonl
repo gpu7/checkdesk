@@ -1,0 +1,21 @@
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "8669 N County Road 27, Masonville, CO 80541", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "8669 N County Road 27, Masonville, CO 80541", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "1601 US Highway 34, Drake, CO 80515", "matches": [{"matched": "1601 US HWY 34, DRAKE, CO, 80515", "place": [], "cdp": [], "x": -105.338776147666, "y": 40.432766334619}]}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "1601 US Highway 34, Drake, CO 80515", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "11830 N 75th St, Hygiene, CO 80533", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "11830 N 75th St, Hygiene, CO 80533", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "5801 Silverstone Dr, Frederick, CO 80504", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "5801 Silverstone Dr, Frederick, CO 80504", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "1891 State Highway 7, Erie, CO 80516", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "1891 State Highway 7, Erie, CO 80516", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "320 1st St, Severance, CO 80546", "matches": [{"matched": "320 1ST ST, SEVERANCE, CO, 80524", "place": ["Fort Collins city"], "cdp": [], "x": -105.067170749993, "y": 40.591712813162}, {"matched": "320 1ST ST, SEVERANCE, CO, 80550", "place": ["Windsor town"], "cdp": [], "x": -104.897029489112, "y": 40.478082207693}, {"matched": "320 1ST ST, SEVERANCE, CO, 80615", "place": ["Eaton town"], "cdp": [], "x": -104.714716625945, "y": 40.5259641585}]}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "320 1st St, Severance, CO 80546", "matches": [{"matched": "320 1ST ST, SEVERANCE, CO, 80615", "place": ["Eaton town"], "cdp": [], "x": -104.714716855437, "y": 40.525966932357}, {"matched": "320 1ST ST, SEVERANCE, CO, 80524", "place": ["Fort Collins city"], "cdp": [], "x": -105.067170370142, "y": 40.591710357098}, {"matched": "320 1ST ST, SEVERANCE, CO, 80550", "place": ["Windsor town"], "cdp": [], "x": -104.897030116893, "y": 40.478083839076}]}
+{"input": "Masonville 1372106 official USPS locator point", "x": -105.212808, "y": 40.482076, "benchmark": "Public_AR_Current", "place": [], "cdp": [], "county": ["Larimer County"]}
+{"input": "Drake 1361283 official USPS locator point", "x": -105.33967, "y": 40.432702, "benchmark": "Public_AR_Current", "place": [], "cdp": [], "county": ["Larimer County"]}
+{"input": "Hygiene 1367788 official USPS locator point", "x": -105.17769, "y": 40.189394, "benchmark": "Public_AR_Current", "place": [], "cdp": [], "county": ["Boulder County"]}
+{"input": "Severance 1381248 official USPS locator point", "x": -104.850942, "y": 40.523996, "benchmark": "Public_AR_Current", "place": ["Severance town"], "cdp": [], "county": ["Weld County"]}
+{"input": "Bellvue 1354562 official USPS locator point", "x": -105.175074, "y": 40.62928, "benchmark": "Public_AR_Current", "place": [], "cdp": [], "county": ["Larimer County"]}
+{"input": "Valentine 1371038 official USPS locator point", "x": -105.074845, "y": 40.39781, "benchmark": "Public_AR_Current", "place": ["Loveland city"], "cdp": [], "county": ["Larimer County"]}
+{"input": "Loveland 1371037 official USPS locator point", "x": -105.070626, "y": 40.421141, "benchmark": "Public_AR_Current", "place": ["Loveland city"], "cdp": [], "county": ["Larimer County"]}
+{"input": "King Soopers 00154 Frederick (OSM, supplementary) OpenStreetMap point (non-official, supplementary)", "x": -104.9442011, "y": 40.0898221, "benchmark": "Public_AR_Current", "place": ["Frederick town"], "cdp": [], "county": ["Weld County"]}
+{"input": "King Soopers 00129 VISTA RIDGE Erie (OSM, supplementary) OpenStreetMap point (non-official, supplementary)", "x": -105.0099449, "y": 40.0023911, "benchmark": "Public_AR_Current", "place": ["Erie town"], "cdp": [], "county": ["Weld County"]}
