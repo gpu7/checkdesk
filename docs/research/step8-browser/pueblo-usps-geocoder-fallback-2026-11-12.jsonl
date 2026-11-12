@@ -1,0 +1,5 @@
+{"file": "usps_1354585_census2020.json", "benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "1025 E US Highway 50 Byp Pueblo CO 81001", "matches": [{"matched": "1025 US HWY 50, PUEBLO, CO, 81008", "place": ["Pueblo city"], "cdp": [], "x": -104.624470811004, "y": 38.308778120688}]}
+{"file": "usps_1354585_coord.json", "benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": {"x": -104.594254, "y": 38.286995}, "place": ["Pueblo city"], "cdp": []}
+{"file": "usps_1373010_census2020.json", "benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "1000 W 6th St Ste U Pueblo CO 81003", "matches": []}
+{"file": "usps_1373010_coord.json", "benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": {"x": -104.621066, "y": 38.272504}, "place": ["Pueblo city"], "cdp": []}
+{"file": "usps_1373010_current_nosuite.json", "benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "1000 W 6th St Pueblo CO 81003", "matches": []}

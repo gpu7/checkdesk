@@ -1,0 +1,8 @@
+{"input": "1025 E Us Highway 50 Byp | Pueblo | 81001", "matched": "1025 US HWY 50, PUEBLO, CO, 81008", "place": ["Pueblo city"], "cdp": [], "county": ["Pueblo County"], "x": -104.624471705983, "y": 38.308778757517, "n": 1}
+{"input": "1000 W 6Th St Ste U | Pueblo | 81003", "matched": null, "err": null}
+{"input": "1022 Fortino Blvd | Pueblo | 81008", "matched": "1022 W FORTINO BLVD, PUEBLO, CO, 81008", "place": ["Pueblo city"], "cdp": [], "county": ["Pueblo County"], "x": -104.618721213142, "y": 38.312178927306, "n": 1}
+{"input": "3000 Wedgewood Dr | Pueblo | 81005", "matched": "3000 WEDGEWOOD DR, PUEBLO, CO, 81005", "place": ["Pueblo city"], "cdp": [], "county": ["Pueblo County"], "x": -104.645204305365, "y": 38.242049404217, "n": 1}
+{"input": "230 Avondale Blvd | Avondale | 81022", "matched": "230 AVONDALE BLVD, AVONDALE, CO, 81022", "place": [], "cdp": ["Avondale CDP"], "county": ["Pueblo County"], "x": -104.349167088488, "y": 38.240223629252, "n": 1}
+{"input": "524 Main St | Boone | 81025", "matched": "524 MAIN ST, BOONE, CO, 81025", "place": ["Boone town"], "cdp": [], "county": ["Pueblo County"], "x": -104.257010018798, "y": 38.248159790757, "n": 1}
+{"input": "15 Werner Rd | Penrose | 81240", "matched": "15 WERNER RD, PENROSE, CO, 81240", "place": [], "cdp": ["Penrose CDP"], "county": ["Fremont County"], "x": -105.024433128373, "y": 38.431850545845, "n": 1}
+{"input": "682 County Road 395 | Wetmore | 81253", "matched": null, "err": null}
