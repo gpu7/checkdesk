@@ -1,0 +1,6 @@
+{"input": "2545 Rimrock Ave | Grand Junction | 81505", "matched": "2545 RIMROCK AVE, GRAND JUNCTION, CO, 81505", "place": ["Grand Junction city"], "cdp": [], "county": ["Mesa County"], "x": -108.581524710906, "y": 39.078250334476, "n": 1}
+{"input": "2881 North Ave | Grand Junction | 81501", "matched": "2881 NORTH AVE, GRAND JUNCTION, CO, 81501", "place": ["Grand Junction city"], "cdp": [], "county": ["Mesa County"], "x": -108.518881075626, "y": 39.077272762774, "n": 1}
+{"input": "541 Warrior Way | Grand Junction | 81504", "matched": "541 WARRIOR WAY, GRAND JUNCTION, CO, 81504", "place": ["Grand Junction city"], "cdp": [], "county": ["Mesa County"], "x": -108.473256043999, "y": 39.083890667224, "n": 1}
+{"input": "37 Stafford Ln | Delta | 81416", "matched": "37 STAFFORD LN, DELTA, CO, 81416", "place": ["Delta city"], "cdp": [], "county": ["Delta County"], "x": -108.050706210677, "y": 38.748646721039, "n": 1}
+{"input": "16750 S Townsend Ave | Montrose | 81401", "matched": null, "err": null}
+{"input": "1000 Airport Rd | Rifle | 81650", "matched": "1000 AIRPORT RD, RIFLE, CO, 81650", "place": ["Rifle city"], "cdp": [], "county": ["Garfield County"], "x": -107.764002492102, "y": 39.523737276355, "n": 1}
