@@ -1,0 +1,21 @@
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "6755 Prospector Ln, Parker, CO 80134", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "6755 Prospector Ln, Parker, CO 80134", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "6755 Prospector Lane, Parker, CO 80134", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "6755 Prospector Lane, Parker, CO 80134", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "4195 Douglas Ave, Sedalia, CO 80135", "matches": [{"matched": "4195 DOUGLAS AVE, SEDALIA, CO, 80135", "place": [], "cdp": ["Sedalia CDP"], "x": -104.96383842528, "y": 39.435756322643}]}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "4195 Douglas Ave, Sedalia, CO 80135", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "795 E Kiowa Ave, Elizabeth, CO 80107", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "795 E Kiowa Ave, Elizabeth, CO 80107", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "33151 E 16th Dr, Watkins, CO 80137", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "33151 E 16th Dr, Watkins, CO 80137", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "6698 S Iris St, Littleton, CO 80123", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "6698 S Iris St, Littleton, CO 80123", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "8200 Shaffer Pkwy, Littleton, CO 80127", "matches": [{"matched": "8200 SHAFFER PKWY, LITTLETON, CO, 80127", "place": [], "cdp": ["Ken Caryl CDP"], "x": -105.130171814644, "y": 39.572358608802}]}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "8200 Shaffer Pkwy, Littleton, CO 80127", "matches": []}
+{"input": "USPS 1376837 PARKER official locator point", "x": "-104.771892", "y": "39.522141", "benchmark": "Public_AR_Current", "place": ["Parker town"], "cdp": [], "county": ["Douglas County"]}
+{"input": "USPS 1381134 SEDALIA official locator point", "x": "-104.96369", "y": "39.435393", "benchmark": "Public_AR_Current", "place": [], "cdp": ["Sedalia CDP"], "county": ["Douglas County"]}
+{"input": "USPS 1362284 ELIZABETH official locator point", "x": "-104.591374", "y": "39.36058", "benchmark": "Public_AR_Current", "place": ["Elizabeth town"], "cdp": [], "county": ["Elbert County"]}
+{"input": "USPS 1386636 WATKINS official locator point", "x": "-104.598814", "y": "39.743593", "benchmark": "Public_AR_Current", "place": ["Aurora city"], "cdp": [], "county": ["Adams County"]}
+{"input": "USPS 1358798 COLUMBINE HILLS official locator point", "x": "-105.104854", "y": "39.596008", "benchmark": "Public_AR_Current", "place": [], "cdp": ["Ken Caryl CDP"], "county": ["Jefferson County"]}
+{"input": "USPS 1432798 KEN CARYL RANCH official locator point", "x": "-105.125419", "y": "39.568624", "benchmark": "Public_AR_Current", "place": [], "cdp": ["Ken Caryl CDP"], "county": ["Jefferson County"]}
+{"input": "USPS 1613887 LITTLETON CO KN CL RANCH SDC official locator point", "x": "-105.125492", "y": "39.568706", "benchmark": "Public_AR_Current", "place": [], "cdp": ["Ken Caryl CDP"], "county": ["Jefferson County"]}
