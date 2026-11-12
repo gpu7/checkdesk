@@ -1,0 +1,22 @@
+{"input": "1891 State Highway 7 | Erie | 80516", "matched": null, "err": null}
+{"input": "2900 Arapahoe Rd | Erie | 80026", "matched": "2900 ARAPAHOE RD, ERIE, CO, 80026", "place": ["Erie town"], "cdp": [], "county": ["Boulder County"], "x": -105.098906731394, "y": 40.014884827487, "n": 1}
+{"input": "5801 Silverstone Dr | Frederick | 80504", "matched": null, "err": null}
+{"input": "1375 E South Boulder Rd | Louisville | 80027", "matched": "1375 E SOUTH BOULDER RD, LOUISVILLE, CO, 80027", "place": ["Louisville city"], "cdp": [], "county": ["Boulder County"], "x": -105.127638888193, "y": 39.987005310458, "n": 1}
+{"input": "1171 W Dillon Rd | Louisville | 80027", "matched": "1171 W DILLON RD, LOUISVILLE, CO, 80027", "place": ["Louisville city"], "cdp": [], "county": ["Boulder County"], "x": -105.167537481124, "y": 39.962145510469, "n": 1}
+{"input": "2355 W 136Th Ave | Broomfield | 80023", "matched": "2355 W 136TH AVE, BROOMFIELD, CO, 80023", "place": ["Broomfield city"], "cdp": [], "county": ["Broomfield County"], "x": -105.015253144105, "y": 39.943185932131, "n": 1}
+{"input": "1150 Us Highway 287 | Broomfield | 80020", "matched": "1150 US HWY 287, BROOMFIELD, CO, 80020", "place": ["Broomfield city"], "cdp": [], "county": ["Broomfield County"], "x": -105.09056083545, "y": 39.932800632506, "n": 1}
+{"input": "12167 Sheridan Blvd | Broomfield | 80020", "matched": "12167 SHERIDAN BLVD, BROOMFIELD, CO, 80020", "place": ["Broomfield city"], "cdp": [], "county": ["Broomfield County"], "x": -105.053101164579, "y": 39.916954011961, "n": 1}
+{"input": "13700 Colorado Blvd | Thornton | 80602", "matched": "13700 COLORADO BLVD, THORNTON, CO, 80602", "place": ["Thornton city"], "cdp": [], "county": ["Adams County"], "x": -104.940188047699, "y": 39.944992094046, "n": 1}
+{"input": "13525 Quebec St | Thornton | 80602", "matched": "13525 QUEBEC ST, THORNTON, CO, 80602", "place": ["Thornton city"], "cdp": [], "county": ["Adams County"], "x": -104.9031857597, "y": 39.941729855166, "n": 1}
+{"input": "995 S Hover St | Longmont | 80501", "matched": "995 HOVER ST, LONGMONT, CO, 80501", "place": ["Longmont city"], "cdp": [], "county": ["Boulder County"], "x": -105.130976815958, "y": 40.175751281969, "n": 2}
+{"input": "1611 Pace St | Longmont | 80504", "matched": "1611 PACE ST, LONGMONT, CO, 80504", "place": ["Longmont city"], "cdp": [], "county": ["Boulder County"], "x": -105.074278226754, "y": 40.184786638403, "n": 1}
+{"input": "6550 Lookout Rd | Boulder | 80301", "matched": "6550 LOOKOUT RD, BOULDER, CO, 80301", "place": ["Boulder city"], "cdp": [], "county": ["Boulder County"], "x": -105.20086938361, "y": 40.07274308486, "n": 1}
+{"input": "6110 Firestone Blvd | Firestone | 80504", "matched": "6110 FIRESTONE TRL, FIRESTONE, CO, 80504", "place": ["Firestone town"], "cdp": [], "county": ["Weld County"], "x": -104.93542590709, "y": 40.158313606859, "n": 1}
+{"input": "745 Us Highway 287 | Lafayette | 80026", "matched": null, "err": null}
+{"input": "200 W 136th Ave | Westminster | 80234", "matched": "200 W 136TH AVE, WESTMINSTER, CO, 80234", "place": ["Westminster city"], "cdp": [], "county": ["Adams County"], "x": -104.996602616336, "y": 39.943057422851, "n": 1}
+{"input": "4651 W 121st Ave | Broomfield | 80020", "matched": "4651 W 121ST AVE, BROOMFIELD, CO, 80020", "place": ["Broomfield city"], "cdp": [], "county": ["Broomfield County"], "x": -105.046844343266, "y": 39.915236334624, "n": 1}
+{"input": "2285 E Ken Pratt Blvd | Longmont | 80504", "matched": "2285 KEN PRATT BLVD, LONGMONT, CO, 80501", "place": ["Longmont city"], "cdp": [], "county": ["Boulder County"], "x": -105.130636121559, "y": 40.141671720782, "n": 1}
+{"input": "7101 E 128th Ave | Brighton | 80602", "matched": "7101 E 128TH AVE, BRIGHTON, CO, 80602", "place": ["Thornton city"], "cdp": [], "county": ["Adams County"], "x": -104.907681280052, "y": 39.92859103626, "n": 1}
+{"input": "500 Summit Blvd | Broomfield | 80021", "matched": "500 SUMMIT BLVD, BROOMFIELD, CO, 80021", "place": ["Broomfield city"], "cdp": [], "county": ["Broomfield County"], "x": -105.13783959825, "y": 39.926593630152, "n": 1}
+{"input": "60 W Bromley Ln | Brighton | 80601", "matched": "60 W BROMLEY LN, BRIGHTON, CO, 80601", "place": ["Brighton city"], "cdp": [], "county": ["Adams County"], "x": -104.824181240507, "y": 39.972244744847, "n": 1}
+{"input": "2514 Main St | Longmont | 80504", "matched": null, "err": null}
