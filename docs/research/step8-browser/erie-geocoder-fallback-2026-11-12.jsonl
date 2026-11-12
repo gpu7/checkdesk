@@ -1,0 +1,96 @@
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "150 WELLS ST, ERIE, CO 80516", "matches": [{"matched": "150 WELLS ST, ERIE, CO, 80516", "place": ["Erie town"], "cdp": [], "x": -105.047096833216, "y": 40.050206246716}]}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "150 WELLS ST, ERIE, CO 80516", "matches": [{"matched": "150 WELLS ST, ERIE, CO, 80516", "place": ["Erie town"], "cdp": [], "x": -105.047182191622, "y": 40.050205072073}]}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "621 MITCHELL WAY, ERIE, CO 80516", "matches": [{"matched": "621 MITCHELL WAY, ERIE, CO, 80516", "place": ["Erie town"], "cdp": [], "x": -105.055140980718, "y": 40.034577594669}]}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "621 MITCHELL WAY, ERIE, CO 80516", "matches": [{"matched": "621 MITCHELL WAY, ERIE, CO, 80516", "place": ["Erie town"], "cdp": [], "x": -105.054916942622, "y": 40.034581683705}]}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "1891 State Highway 7, Erie, CO 80516", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "1891 State Highway 7, Erie, CO 80516", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "1891 Highway 7, Erie, CO 80516", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "1891 Highway 7, Erie, CO 80516", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "1891 E State Highway 7, Erie, CO 80516", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "1891 E State Highway 7, Erie, CO 80516", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "2900 Arapahoe Rd, Erie, CO 80026", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "2900 Arapahoe Rd, Erie, CO 80026", "matches": [{"matched": "2900 ARAPAHOE RD, ERIE, CO, 80026", "place": ["Erie town"], "cdp": [], "x": -105.098906731394, "y": 40.014884827487}]}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "745 US Highway 287, Lafayette, CO 80026", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "745 US Highway 287, Lafayette, CO 80026", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "5801 Silverstone Dr, Frederick, CO 80504", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "5801 Silverstone Dr, Frederick, CO 80504", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "2514 Main St, Longmont, CO 80504", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "2514 Main St, Longmont, CO 80504", "matches": []}
+{"id": "1546616", "name": "ERIE CARRIER ANNEX", "lat": "40.035478", "lon": "-105.051905", "place": ["Erie town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1362695", "name": "ERIE", "lat": "40.049879", "lon": "-105.047065", "place": ["Erie town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1369494", "name": "LAFAYETTE", "lat": "39.993195", "lon": "-105.090898", "place": ["Lafayette city"], "cdp": [], "county": ["Boulder County"]}
+{"id": "1369484", "name": "LAFAYETTE CARRIER ANNEX", "lat": "39.992675", "lon": "-105.091398", "place": ["Lafayette city"], "cdp": [], "county": ["Boulder County"]}
+{"id": "1360137", "name": "DACONO", "lat": "40.086441", "lon": "-104.929651", "place": ["Dacono city"], "cdp": [], "county": ["Weld County"]}
+{"id": "1364064", "name": "FREDERICK", "lat": "40.099362", "lon": "-104.938431", "place": ["Frederick town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1363406", "name": "FIRESTONE", "lat": "40.112977", "lon": "-104.939003", "place": ["Firestone town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1371024", "name": "LOUISVILLE", "lat": "39.96163", "lon": "-105.159983", "place": ["Louisville city"], "cdp": [], "county": ["Boulder County"]}
+{"id": "1375136", "name": "NIWOT", "lat": "40.103078", "lon": "-105.173149", "place": [], "cdp": ["Niwot CDP"], "county": ["Boulder County"]}
+{"id": "1356062", "name": "BROOMFIELD", "lat": "39.915479", "lon": "-105.068392", "place": ["Broomfield city"], "cdp": [], "county": ["Broomfield County"]}
+{"id": "1361915", "name": "EASTLAKE", "lat": "39.922264", "lon": "-104.958444", "place": ["Thornton city"], "cdp": [], "county": ["Adams County"]}
+{"id": "1370889", "name": "LONGMONT", "lat": "40.162489", "lon": "-105.104329", "place": ["Longmont city"], "cdp": [], "county": ["Boulder County"]}
+{"id": "1439617", "name": "NORTHGLENN", "lat": "39.91231", "lon": "-104.978533", "place": ["Northglenn city"], "cdp": [], "county": ["Adams County"]}
+{"id": "1385692", "name": "VALMONT", "lat": "40.028697", "lon": "-105.226451", "place": ["Boulder city"], "cdp": [], "county": ["Boulder County"]}
+{"id": "1612987", "name": "BOULDER CO SDC", "lat": "40.028752", "lon": "-105.226563", "place": ["Boulder city"], "cdp": [], "county": ["Boulder County"]}
+{"id": "1361605", "name": "BROOMFIELD EAGLE VIEW", "lat": "39.902597", "lon": "-105.097138", "place": ["Broomfield city"], "cdp": [], "county": ["Broomfield County"]}
+{"id": "1375562", "name": "NORTHVIEW", "lat": "39.899381", "lon": "-104.99803", "place": ["Northglenn city"], "cdp": [], "county": ["Adams County"]}
+{"id": "1439640", "name": "WESTMINSTER", "lat": "39.887251", "lon": "-105.026322", "place": ["Westminster city"], "cdp": [], "county": ["Adams County"]}
+{"id": "1366905", "name": "HIGH MAR", "lat": "39.986655", "lon": "-105.237146", "place": ["Boulder city"], "cdp": [], "county": ["Boulder County"]}
+{"id": "1355853", "name": "BRIGHTON", "lat": "39.9883", "lon": "-104.817812", "place": ["Brighton city"], "cdp": [], "county": ["Adams County"]}
+{"id": "1555032", "name": "BRIGHTON CARRIER ANNEX", "lat": "40.001787", "lon": "-104.812655", "place": ["Brighton city"], "cdp": [], "county": ["Weld County"]}
+{"id": "1366713", "name": "HENDERSON", "lat": "39.9182", "lon": "-104.867283", "place": [], "cdp": [], "county": ["Adams County"]}
+{"id": "1355494", "name": "BOULDER", "lat": "40.017889", "lon": "-105.276173", "place": ["Boulder city"], "cdp": [], "county": ["Boulder County"]}
+{"id": "1363805", "name": "FORT LUPTON", "lat": "40.083557", "lon": "-104.811945", "place": ["Fort Lupton city"], "cdp": [], "county": ["Weld County"]}
+{"id": "1367788", "name": "HYGIENE", "lat": "40.189394", "lon": "-105.17769", "place": [], "cdp": [], "county": ["Boulder County"]}
+{"id": "1372465", "name": "MEAD", "lat": "40.232938", "lon": "-104.999553", "place": ["Mead town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1367908", "name": "INDIAN TREE", "lat": "39.838259", "lon": "-105.084346", "place": ["Arvada city"], "cdp": [], "county": ["Jefferson County"]}
+{"id": "1362237", "name": "ELDORADO SPRINGS", "lat": "39.932916", "lon": "-105.273613", "place": [], "cdp": ["Eldorado Springs CDP"], "county": ["Boulder County"]}
+{"id": "1375398", "name": "NORTH PECOS", "lat": "39.83179", "lon": "-105.004186", "place": [], "cdp": ["Sherrelwood CDP"], "county": ["Adams County"]}
+{"id": "1366303", "name": "HARRIS PARK", "lat": "39.828185", "lon": "-105.035541", "place": ["Westminster city"], "cdp": [], "county": ["Adams County"]}
+{"id": "1361498", "name": "DUPONT", "lat": "39.843751", "lon": "-104.920893", "place": [], "cdp": ["Derby CDP"], "county": ["Adams County"]}
+{"id": "1354778", "name": "BERTHOUD", "lat": "40.304524", "lon": "-105.078662", "place": ["Berthoud town"], "cdp": [], "county": ["Larimer County"]}
+{"id": "1377758", "name": "PLATTEVILLE", "lat": "40.215148", "lon": "-104.823434", "place": ["Platteville town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1368496", "name": "JOHNSTOWN", "lat": "40.3327", "lon": "-104.906784", "place": ["Johnstown town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1371280", "name": "LYONS", "lat": "40.223202", "lon": "-105.268085", "place": ["Lyons town"], "cdp": [], "county": ["Boulder County"]}
+{"id": "1373182", "name": "MILLIKEN", "lat": "40.330349", "lon": "-104.85625", "place": ["Milliken town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1353434", "name": "ARVADA", "lat": "39.802921", "lon": "-105.086672", "place": ["Arvada city"], "cdp": [], "county": ["Jefferson County"]}
+{"id": "1439552", "name": "ADAMS CITY", "lat": "39.817761", "lon": "-104.934518", "place": ["Commerce City city"], "cdp": [], "county": ["Adams County"]}
+{"id": "1358845", "name": "COMMERCE CITY", "lat": "39.830335", "lon": "-104.911202", "place": ["Commerce City city"], "cdp": [], "county": ["Adams County"]}
+{"id": "1383640", "name": "STOCKYARDS", "lat": "39.785762", "lon": "-104.96629", "place": ["Denver city"], "cdp": [], "county": ["Denver County"]}
+{"id": "1384003", "name": "SUNNYSIDE", "lat": "39.779813", "lon": "-105.007509", "place": ["Denver city"], "cdp": [], "county": ["Denver County"]}
+{"id": "1439607", "name": "GMF FINANCE", "lat": "39.790248", "lon": "-104.900108", "place": ["Denver city"], "cdp": [], "county": ["Denver County"]}
+{"id": "1352628", "name": "ALCOTT", "lat": "39.767866", "lon": "-105.04363", "place": ["Denver city"], "cdp": [], "county": ["Denver County"]}
+{"id": "1387437", "name": "WHEAT RIDGE", "lat": "39.773418", "lon": "-105.079772", "place": ["Wheat Ridge city"], "cdp": [], "county": ["Jefferson County"]}
+{"id": "1376801", "name": "PARK HILL", "lat": "39.764435", "lon": "-104.924338", "place": ["Denver city"], "cdp": [], "county": ["Denver County"]}
+{"id": "1439599", "name": "DENVER", "lat": "39.751062", "lon": "-104.989149", "place": ["Denver city"], "cdp": [], "county": ["Denver County"]}
+{"id": "1373572", "name": "MONTBELLO", "lat": "39.782767", "lon": "-104.852142", "place": ["Denver city"], "cdp": [], "county": ["Denver County"]}
+{"id": "1439601", "name": "EDGEWATER", "lat": "39.747247", "lon": "-105.057411", "place": ["Edgewater city"], "cdp": [], "county": ["Jefferson County"]}
+{"id": "1373076", "name": "MILE HIGH", "lat": "39.73809", "lon": "-104.993452", "place": ["Denver city"], "cdp": [], "county": ["Denver County"]}
+{"id": "1356950", "name": "CAPITOL HILL ANNEX", "lat": "39.741063", "lon": "-104.973865", "place": ["Denver city"], "cdp": [], "county": ["Denver County"]}
+{"id": "1356951", "name": "CAPITOL HILL", "lat": "39.740978", "lon": "-104.972483", "place": ["Denver city"], "cdp": [], "county": ["Denver County"]}
+{"id": "1365079", "name": "DOWNTOWN GOLDEN", "lat": "39.755955", "lon": "-105.21986", "place": ["Golden city"], "cdp": [], "county": ["Jefferson County"]}
+{"id": "1578795", "name": "GOLDEN CO S&DC", "lat": "39.735304", "lon": "-105.19984", "place": ["Golden city"], "cdp": [], "county": ["Jefferson County"]}
+{"id": "1365086", "name": "GOLDEN", "lat": "39.735248", "lon": "-105.199747", "place": ["Golden city"], "cdp": [], "county": ["Jefferson County"]}
+{"id": "1439615", "name": "LAKEWOOD", "lat": "39.711977", "lon": "-105.118045", "place": ["Lakewood city"], "cdp": [], "county": ["Jefferson County"]}
+{"id": "1612989", "name": "LAKEWOOD CO SDC", "lat": "39.711976", "lon": "-105.118124", "place": ["Lakewood city"], "cdp": [], "county": ["Jefferson County"]}
+{"id": "1368257", "name": "JAMESTOWN", "lat": "40.115797", "lon": "-105.389041", "place": ["Jamestown town"], "cdp": [], "county": ["Boulder County"]}
+{"id": "1377563", "name": "PINECLIFFE", "lat": "39.932061", "lon": "-105.430664", "place": [], "cdp": [], "county": ["Boulder County"]}
+{"id": "1363520", "name": "FLETCHER", "lat": "39.741251", "lon": "-104.874862", "place": ["Aurora city"], "cdp": [], "county": ["Adams County"]}
+{"id": "1373577", "name": "MONTCLAIR", "lat": "39.733619", "lon": "-104.892675", "place": ["Denver city"], "cdp": [], "county": ["Denver County"]}
+{"id": "1352881", "name": "ALTURA", "lat": "39.741721", "lon": "-104.808078", "place": ["Aurora city"], "cdp": [], "county": ["Adams County"]}
+{"id": "1367567", "name": "HUDSON", "lat": "40.075205", "lon": "-104.643704", "place": ["Hudson town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1364775", "name": "GILCREST", "lat": "40.282897", "lon": "-104.777404", "place": ["Gilcrest town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1368769", "name": "KEENESBURG", "lat": "40.108295", "lon": "-104.519598", "place": ["Keenesburg town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1357807", "name": "CHERRY CREEK", "lat": "39.720022", "lon": "-104.957304", "place": ["Denver city"], "cdp": [], "county": ["Denver County"]}
+{"id": "1382145", "name": "SOUTH DENVER", "lat": "39.71272", "lon": "-104.987846", "place": ["Denver city"], "cdp": [], "county": ["Denver County"]}
+{"id": "1387409", "name": "WESTWOOD", "lat": "39.690681", "lon": "-105.042805", "place": ["Denver city"], "cdp": [], "county": ["Denver County"]}
+{"id": "1440283", "name": "GLENDALE", "lat": "39.698848", "lon": "-104.936966", "place": ["Glendale city"], "cdp": [], "county": ["Arapahoe County"]}
+{"id": "1385493", "name": "UNIVERSITY PARK", "lat": "39.679441", "lon": "-104.943465", "place": ["Denver city"], "cdp": [], "county": ["Denver County"]}
+{"id": "1367142", "name": "HOFFMAN HEIGHTS", "lat": "39.727374", "lon": "-104.846281", "place": ["Aurora city"], "cdp": [], "county": ["Arapahoe County"]}
+{"id": "1354325", "name": "BEAR VALLEY", "lat": "39.66576", "lon": "-105.07969", "place": ["Denver city"], "cdp": [], "county": ["Denver County"]}
+{"id": "1386885", "name": "WELLSHIRE", "lat": "39.679111", "lon": "-104.921766", "place": ["Denver city"], "cdp": [], "county": ["Denver County"]}
+{"id": "1362621", "name": "DOWNTOWN ENGLEWOOD", "lat": "39.656175", "lon": "-104.987229", "place": ["Englewood city"], "cdp": [], "county": ["Arapahoe County"]}
+{"store": "King Soopers 00129 VISTA RIDGE", "lat": 40.002236, "lng": -105.009925, "source_url": "https://www.kingsoopers.com/stores/grocery/co/erie/vista-ridge/620/00129", "point_source": "official store page JSON-LD geo, read 2026-11-12", "benchmark": "Public_AR_Current", "vintage": "Current_Current", "place": ["Erie town"], "cdp": [], "county": ["Weld County"]}
+{"store": "King Soopers 00138 Highway 287 and Arapahoe Road", "lat": 40.012189, "lng": -105.100416, "source_url": "https://www.kingsoopers.com/stores/grocery/co/erie/highway-287-and-arapahoe-road/620/00138", "point_source": "official store page JSON-LD geo, read 2026-11-12", "benchmark": "Public_AR_Current", "vintage": "Current_Current", "place": ["Erie town"], "cdp": [], "county": ["Boulder County"]}
+{"store": "King Soopers 00154 Frederick", "lat": 40.089792, "lng": -104.94377, "source_url": "https://www.kingsoopers.com/stores/grocery/co/frederick/frederick/620/00154", "point_source": "official store page JSON-LD geo, read 2026-11-12", "benchmark": "Public_AR_Current", "vintage": "Current_Current", "place": ["Frederick town"], "cdp": [], "county": ["Weld County"]}
+{"store": "Walmart 1045 Lafayette Supercenter", "lat": 40.005992, "lng": -105.105136, "source_url": "https://www.walmart.com/store/1045-lafayette-co", "point_source": "official store-page map point as recorded in step8-longmont.md (2026-11-12)", "benchmark": "Public_AR_Current", "vintage": "Current_Current", "place": ["Lafayette city"], "cdp": [], "county": ["Boulder County"]}
+{"store": "Walmart 5370 Longmont Main St Supercenter", "lat": 40.205153, "lng": -105.098807, "source_url": "https://www.walmart.com/store/5370-longmont-co", "point_source": "official store-page map point as recorded in step8-longmont.md (2026-11-12)", "benchmark": "Public_AR_Current", "vintage": "Current_Current", "place": ["Longmont city"], "cdp": [], "county": ["Boulder County"]}
