@@ -1,0 +1,25 @@
+{"input": "2995 55TH ST | Boulder | 80301", "matched": "2995 55TH ST, BOULDER, CO, 80301", "place": ["Boulder city"], "cdp": [], "county": ["Boulder County"], "x": -105.225454717382, "y": 40.029032573294, "n": 1}
+{"input": "2995 55TH ST | Boulder | 80301", "matched": "2995 55TH ST, BOULDER, CO, 80301", "place": ["Boulder city"], "cdp": [], "county": ["Boulder County"], "x": -105.225454717382, "y": 40.029032573294, "n": 1}
+{"input": "1905 15TH ST | Boulder | 80302", "matched": "1905 15TH ST, BOULDER, CO, 80302", "place": ["Boulder city"], "cdp": [], "county": ["Boulder County"], "x": -105.275796662481, "y": 40.017763853161, "n": 1}
+{"input": "4985 MOORHEAD AVE | Boulder | 80305", "matched": "4985 MOORHEAD AVE, BOULDER, CO, 80305", "place": ["Boulder city"], "cdp": [], "county": ["Boulder County"], "x": -105.237600476538, "y": 39.986191200785, "n": 1}
+{"input": "150 MURRAY ST | Niwot | 80544", "matched": "150 MURRAY ST, NIWOT, CO, 80544", "place": [], "cdp": ["Niwot CDP"], "county": ["Boulder County"], "x": -105.173180910882, "y": 40.103174009659, "n": 1}
+{"input": "566 S MCCASLIN BLVD | Superior | 80027", "matched": "566 S MCCASLIN BLVD, SUPERIOR, CO, 80027", "place": ["Louisville city"], "cdp": [], "county": ["Boulder County"], "x": -105.164208507346, "y": 39.961837731036, "n": 1}
+{"input": "3330 ELDORADO SPRINGS DR | Eldorado Springs | 80025", "matched": null, "err": null}
+{"input": "109 KIMBARK ST | Lafayette | 80026", "matched": "109 KIMBARK ST, LAFAYETTE, CO, 80026", "place": ["Lafayette city"], "cdp": [], "county": ["Boulder County"], "x": -105.090653517544, "y": 39.992364851337, "n": 1}
+{"input": "603 S PUBLIC RD | Lafayette | 80026", "matched": "603 S PUBLIC RD, LAFAYETTE, CO, 80026", "place": ["Lafayette city"], "cdp": [], "county": ["Boulder County"], "x": -105.090539700674, "y": 39.993308072926, "n": 1}
+{"input": "621 MITCHELL WAY | Erie | 80516", "matched": "621 MITCHELL WAY, ERIE, CO, 80516", "place": ["Erie town"], "cdp": [], "county": ["Weld County"], "x": -105.054916942622, "y": 40.034581683705, "n": 1}
+{"input": "150 WELLS ST | Erie | 80516", "matched": "150 WELLS ST, ERIE, CO, 80516", "place": ["Erie town"], "cdp": [], "county": ["Weld County"], "x": -105.047182191622, "y": 40.050205072073, "n": 1}
+{"input": "133 MAIN ST | Jamestown | 80455", "matched": "133 MAIN ST, JAMESTOWN, CO, 80455", "place": ["Jamestown town"], "cdp": [], "county": ["Boulder County"], "x": -105.388473829707, "y": 40.115762683615, "n": 1}
+{"input": "11830 N 75TH ST | Hygiene | 80533", "matched": null, "err": null}
+{"input": "201 COFFMAN ST | Longmont | 80501", "matched": "201 COFFMAN ST, LONGMONT, CO, 80501", "place": ["Longmont city"], "cdp": [], "county": ["Boulder County"], "x": -105.103909968602, "y": 40.161925284979, "n": 1}
+{"input": "8800 W 116TH CIR | Broomfield | 80021", "matched": null, "err": null}
+{"input": "280 E 1ST AVE | Broomfield | 80020", "matched": "280 E 1ST AVE, BROOMFIELD, CO, 80020", "place": ["Broomfield city"], "cdp": [], "county": ["Broomfield County"], "x": -105.068002546664, "y": 39.915923825281, "n": 1}
+{"input": "305 RAILROAD AVE | Lyons | 80540", "matched": "305 RAILROAD AVE, LYONS, CO, 80540", "place": ["Lyons town"], "cdp": [], "county": ["Boulder County"], "x": -105.267639021931, "y": 40.223470893011, "n": 1}
+{"input": "114 PINECLIFF RD | Pinecliffe | 80471", "matched": "114 PINECLIFFE RD, PINECLIFFE, CO, 80471", "place": [], "cdp": [], "county": ["Boulder County"], "x": -105.43025456053, "y": 39.932067648916, "n": 1}
+{"input": "1 COLUMBIA ST | Ward | 80481", "matched": "1 COLUMBIA ST, WARD, CO, 80481", "place": ["Ward town"], "cdp": [], "county": ["Boulder County"], "x": -105.50838292189, "y": 40.07187713312, "n": 1}
+{"input": "350 EAST ST | Nederland | 80466", "matched": null, "err": null}
+{"input": "143 MAIN ST | Rollinsville | 80474", "matched": "143 MAIN ST, ROLLINSVILLE, CO, 80474", "place": [], "cdp": ["Rollinsville CDP"], "county": ["Gilpin County"], "x": -105.500943459257, "y": 39.916537226054, "n": 1}
+{"input": "3051 W 105TH AVE | Westminster | 80031", "matched": null, "err": null}
+{"input": "7765 WADSWORTH BLVD | Arvada | 80003", "matched": "7765 WADSWORTH BLVD, ARVADA, CO, 80003", "place": ["Arvada city"], "cdp": [], "county": ["Jefferson County"], "x": -105.081817795425, "y": 39.838175851083, "n": 1}
+{"input": "850 W 112TH AVE | Northglenn | 80234", "matched": "850 W 112TH AVE, NORTHGLENN, CO, 80234", "place": ["Northglenn city"], "cdp": [], "county": ["Adams County"], "x": -104.997365011888, "y": 39.899670267582, "n": 1}
+{"input": "11887 WASHINGTON ST | Northglenn | 80233", "matched": "11887 WASHINGTON ST, NORTHGLENN, CO, 80233", "place": ["Northglenn city"], "cdp": [], "county": ["Adams County"], "x": -104.977988547113, "y": 39.911887659304, "n": 1}
