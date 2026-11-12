@@ -1,0 +1,17 @@
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "2514 Main St, Longmont, CO 80504", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "2514 Main St, Longmont, CO 80504", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "2514 N Main St, Longmont, CO 80501", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "2514 N Main St, Longmont, CO 80501", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "5801 Silverstone Dr, Frederick, CO 80504", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "5801 Silverstone Dr, Frederick, CO 80504", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "1891 State Highway 7, Erie, CO 80516", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "1891 State Highway 7, Erie, CO 80516", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "745 US Highway 287, Lafayette, CO 80026", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "745 US Highway 287, Lafayette, CO 80026", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "11830 N 75th St, Hygiene, CO 80533", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "11830 N 75th St, Hygiene, CO 80533", "matches": []}
+{"input": "Walmart 5370 official store-page point (2514 Main St, Longmont)", "x": -105.098807, "y": 40.205153, "benchmark": "Public_AR_Current", "place": ["Longmont city"], "cdp": [], "county": ["Boulder County"]}
+{"input": "Walmart 1045 official store-page point (745 US Highway 287, Lafayette)", "x": -105.105136, "y": 40.005992, "benchmark": "Public_AR_Current", "place": ["Lafayette city"], "cdp": [], "county": ["Boulder County"]}
+{"input": "USPS Hygiene 1367788 official locator point", "x": -105.17769, "y": 40.189394, "benchmark": "Public_AR_Current", "place": [], "cdp": [], "county": ["Boulder County"]}
+{"input": "King Soopers 00154 Frederick (5801 Silverstone Dr): OpenStreetMap point, supplementary only", "x": -104.9442011, "y": 40.0898221, "benchmark": "Public_AR_Current", "place": ["Frederick town"], "cdp": [], "county": ["Weld County"]}
+{"input": "King Soopers 00129 Vista Ridge (1891 State Highway 7, Erie): OpenStreetMap State Highway 7 segment point near Erie, supplementary only", "x": -105.0495819, "y": 40.0002704, "benchmark": "Public_AR_Current", "place": ["Erie town"], "cdp": [], "county": ["Weld County"]}
