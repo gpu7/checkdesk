@@ -1,0 +1,18 @@
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "4195 Douglas Ave, Sedalia, CO 80135", "matches": [{"matched": "4195 DOUGLAS AVE, SEDALIA, CO, 80135", "place": [], "cdp": ["Sedalia CDP"], "x": -104.96383842528, "y": 39.435756322643}]}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "4195 Douglas Ave, Sedalia, CO 80135", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "795 E Kiowa Ave, Elizabeth, CO 80107", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "795 E Kiowa Ave, Elizabeth, CO 80107", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "6755 Prospector Ln, Parker, CO 80134", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "6755 Prospector Ln, Parker, CO 80134", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "5550 E Woodmen Rd, Colorado Springs, CO 80920", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "5550 E Woodmen Rd, Colorado Springs, CO 80920", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "19600 E US Highway 24, Woodland Park, CO 80863", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "19600 E US Highway 24, Woodland Park, CO 80863", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "19600 US Highway 24, Woodland Park, CO 80863", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "19600 US Highway 24, Woodland Park, CO 80863", "matches": []}
+{"input": "Sedalia PO 1381134", "x": -104.96369, "y": 39.435393, "benchmark": "Public_AR_Current", "place": [], "cdp": ["Sedalia CDP"], "county": ["Douglas County"]}
+{"input": "Elizabeth PO 1362284", "x": -104.591374, "y": 39.36058, "benchmark": "Public_AR_Current", "place": ["Elizabeth town"], "cdp": [], "county": ["Elbert County"]}
+{"input": "Castle Rock PO 1357260", "x": -104.859644, "y": 39.36481, "benchmark": "Public_AR_Current", "place": ["Castle Rock town"], "cdp": [], "county": ["Douglas County"]}
+{"input": "Walmart 5123 official store-page map point", "x": -104.725382, "y": 38.942692, "benchmark": "Public_AR_Current", "place": ["Colorado Springs city"], "cdp": [], "county": ["El Paso County"]}
+{"input": "Walmart 3805 official store-page map point", "x": -105.038613, "y": 38.970532, "benchmark": "Public_AR_Current", "place": ["Woodland Park city"], "cdp": [], "county": ["Teller County"]}
+{"input": "King Soopers 00175 OpenStreetMap point (supplementary, non-official)", "x": -104.7625073, "y": 39.4592202, "benchmark": "Public_AR_Current", "place": [], "cdp": [], "county": ["Douglas County"]}
