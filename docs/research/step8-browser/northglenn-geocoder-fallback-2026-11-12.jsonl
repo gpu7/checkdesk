@@ -1,0 +1,75 @@
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "11887 WASHINGTON ST, NORTHGLENN, CO 80233", "matches": [{"matched": "11887 WASHINGTON ST, NORTHGLENN, CO, 80233", "place": ["Northglenn city"], "cdp": [], "x": -104.977986938655, "y": 39.911891179551}]}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "11887 WASHINGTON ST, NORTHGLENN, CO 80233", "matches": [{"matched": "11887 WASHINGTON ST, NORTHGLENN, CO, 80233", "place": ["Northglenn city"], "cdp": [], "x": -104.977988547113, "y": 39.911887659304}]}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "850 W 112TH AVE, NORTHGLENN, CO 80234", "matches": [{"matched": "850 W 112TH AVE, NORTHGLENN, CO, 80234", "place": ["Northglenn city"], "cdp": [], "x": -104.997393824764, "y": 39.89967226381}]}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "850 W 112TH AVE, NORTHGLENN, CO 80234", "matches": [{"matched": "850 W 112TH AVE, NORTHGLENN, CO, 80234", "place": ["Northglenn city"], "cdp": [], "x": -104.997365011888, "y": 39.899670267582}]}
+{"id": "1439617", "name": "NORTHGLENN", "lat": "39.91231", "lon": "-104.978533", "place": ["Northglenn city"], "cdp": [], "county": ["Adams County"]}
+{"id": "1361915", "name": "EASTLAKE", "lat": "39.922264", "lon": "-104.958444", "place": ["Thornton city"], "cdp": [], "county": ["Adams County"]}
+{"id": "1375562", "name": "NORTHVIEW", "lat": "39.899381", "lon": "-104.99803", "place": ["Northglenn city"], "cdp": [], "county": ["Adams County"]}
+{"id": "1439640", "name": "WESTMINSTER", "lat": "39.887251", "lon": "-105.026322", "place": ["Westminster city"], "cdp": [], "county": ["Adams County"]}
+{"id": "1361498", "name": "DUPONT", "lat": "39.843751", "lon": "-104.920893", "place": [], "cdp": ["Derby CDP"], "county": ["Adams County"]}
+{"id": "1366713", "name": "HENDERSON", "lat": "39.9182", "lon": "-104.867283", "place": [], "cdp": [], "county": ["Adams County"]}
+{"id": "1358845", "name": "COMMERCE CITY", "lat": "39.830335", "lon": "-104.911202", "place": ["Commerce City city"], "cdp": [], "county": ["Adams County"]}
+{"id": "1375398", "name": "NORTH PECOS", "lat": "39.83179", "lon": "-105.004186", "place": [], "cdp": ["Sherrelwood CDP"], "county": ["Adams County"]}
+{"id": "1439552", "name": "ADAMS CITY", "lat": "39.817761", "lon": "-104.934518", "place": ["Commerce City city"], "cdp": [], "county": ["Adams County"]}
+{"id": "1356062", "name": "BROOMFIELD", "lat": "39.915479", "lon": "-105.068392", "place": ["Broomfield city"], "cdp": [], "county": ["Broomfield County"]}
+{"id": "1366303", "name": "HARRIS PARK", "lat": "39.828185", "lon": "-105.035541", "place": ["Westminster city"], "cdp": [], "county": ["Adams County"]}
+{"id": "1361605", "name": "BROOMFIELD EAGLE VIEW", "lat": "39.902597", "lon": "-105.097138", "place": ["Broomfield city"], "cdp": [], "county": ["Broomfield County"]}
+{"id": "1383640", "name": "STOCKYARDS", "lat": "39.785762", "lon": "-104.96629", "place": ["Denver city"], "cdp": [], "county": ["Denver County"]}
+{"id": "1439607", "name": "GMF FINANCE", "lat": "39.790248", "lon": "-104.900108", "place": ["Denver city"], "cdp": [], "county": ["Denver County"]}
+{"id": "1367908", "name": "INDIAN TREE", "lat": "39.838259", "lon": "-105.084346", "place": ["Arvada city"], "cdp": [], "county": ["Jefferson County"]}
+{"id": "1384003", "name": "SUNNYSIDE", "lat": "39.779813", "lon": "-105.007509", "place": ["Denver city"], "cdp": [], "county": ["Denver County"]}
+{"id": "1376801", "name": "PARK HILL", "lat": "39.764435", "lon": "-104.924338", "place": ["Denver city"], "cdp": [], "county": ["Denver County"]}
+{"id": "1353434", "name": "ARVADA", "lat": "39.802921", "lon": "-105.086672", "place": ["Arvada city"], "cdp": [], "county": ["Jefferson County"]}
+{"id": "1355853", "name": "BRIGHTON", "lat": "39.9883", "lon": "-104.817812", "place": ["Brighton city"], "cdp": [], "county": ["Adams County"]}
+{"id": "1373572", "name": "MONTBELLO", "lat": "39.782767", "lon": "-104.852142", "place": ["Denver city"], "cdp": [], "county": ["Denver County"]}
+{"id": "1369484", "name": "LAFAYETTE CARRIER ANNEX", "lat": "39.992675", "lon": "-105.091398", "place": ["Lafayette city"], "cdp": [], "county": ["Boulder County"]}
+{"id": "1369494", "name": "LAFAYETTE", "lat": "39.993195", "lon": "-105.090898", "place": ["Lafayette city"], "cdp": [], "county": ["Boulder County"]}
+{"id": "1352628", "name": "ALCOTT", "lat": "39.767866", "lon": "-105.04363", "place": ["Denver city"], "cdp": [], "county": ["Denver County"]}
+{"id": "1439599", "name": "DENVER", "lat": "39.751062", "lon": "-104.989149", "place": ["Denver city"], "cdp": [], "county": ["Denver County"]}
+{"id": "1555032", "name": "BRIGHTON CARRIER ANNEX", "lat": "40.001787", "lon": "-104.812655", "place": ["Brighton city"], "cdp": [], "county": ["Weld County"]}
+{"id": "1387437", "name": "WHEAT RIDGE", "lat": "39.773418", "lon": "-105.079772", "place": ["Wheat Ridge city"], "cdp": [], "county": ["Jefferson County"]}
+{"id": "1546616", "name": "ERIE CARRIER ANNEX", "lat": "40.035478", "lon": "-105.051905", "place": ["Erie town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1356951", "name": "CAPITOL HILL", "lat": "39.740978", "lon": "-104.972483", "place": ["Denver city"], "cdp": [], "county": ["Denver County"]}
+{"id": "1356950", "name": "CAPITOL HILL ANNEX", "lat": "39.741063", "lon": "-104.973865", "place": ["Denver city"], "cdp": [], "county": ["Denver County"]}
+{"id": "1373076", "name": "MILE HIGH", "lat": "39.73809", "lon": "-104.993452", "place": ["Denver city"], "cdp": [], "county": ["Denver County"]}
+{"id": "1363520", "name": "FLETCHER", "lat": "39.741251", "lon": "-104.874862", "place": ["Aurora city"], "cdp": [], "county": ["Adams County"]}
+{"id": "1362695", "name": "ERIE", "lat": "40.049879", "lon": "-105.047065", "place": ["Erie town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1439601", "name": "EDGEWATER", "lat": "39.747247", "lon": "-105.057411", "place": ["Edgewater city"], "cdp": [], "county": ["Jefferson County"]}
+{"id": "1371024", "name": "LOUISVILLE", "lat": "39.96163", "lon": "-105.159983", "place": ["Louisville city"], "cdp": [], "county": ["Boulder County"]}
+{"id": "1373577", "name": "MONTCLAIR", "lat": "39.733619", "lon": "-104.892675", "place": ["Denver city"], "cdp": [], "county": ["Denver County"]}
+{"id": "1357807", "name": "CHERRY CREEK", "lat": "39.720022", "lon": "-104.957304", "place": ["Denver city"], "cdp": [], "county": ["Denver County"]}
+{"id": "1382145", "name": "SOUTH DENVER", "lat": "39.71272", "lon": "-104.987846", "place": ["Denver city"], "cdp": [], "county": ["Denver County"]}
+{"id": "1367142", "name": "HOFFMAN HEIGHTS", "lat": "39.727374", "lon": "-104.846281", "place": ["Aurora city"], "cdp": [], "county": ["Arapahoe County"]}
+{"id": "1360137", "name": "DACONO", "lat": "40.086441", "lon": "-104.929651", "place": ["Dacono city"], "cdp": [], "county": ["Weld County"]}
+{"id": "1352881", "name": "ALTURA", "lat": "39.741721", "lon": "-104.808078", "place": ["Aurora city"], "cdp": [], "county": ["Adams County"]}
+{"id": "1440283", "name": "GLENDALE", "lat": "39.698848", "lon": "-104.936966", "place": ["Glendale city"], "cdp": [], "county": ["Arapahoe County"]}
+{"id": "1364064", "name": "FREDERICK", "lat": "40.099362", "lon": "-104.938431", "place": ["Frederick town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1442456", "name": "BUCKINGHAM", "lat": "39.697086", "lon": "-104.863153", "place": ["Aurora city"], "cdp": [], "county": ["Arapahoe County"]}
+{"id": "1363406", "name": "FIRESTONE", "lat": "40.112977", "lon": "-104.939003", "place": ["Firestone town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1363805", "name": "FORT LUPTON", "lat": "40.083557", "lon": "-104.811945", "place": ["Fort Lupton city"], "cdp": [], "county": ["Weld County"]}
+{"id": "1366905", "name": "HIGH MAR", "lat": "39.986655", "lon": "-105.237146", "place": ["Boulder city"], "cdp": [], "county": ["Boulder County"]}
+{"id": "1385692", "name": "VALMONT", "lat": "40.028697", "lon": "-105.226451", "place": ["Boulder city"], "cdp": [], "county": ["Boulder County"]}
+{"id": "1612987", "name": "BOULDER CO SDC", "lat": "40.028752", "lon": "-105.226563", "place": ["Boulder city"], "cdp": [], "county": ["Boulder County"]}
+{"id": "1362237", "name": "ELDORADO SPRINGS", "lat": "39.932916", "lon": "-105.273613", "place": [], "cdp": ["Eldorado Springs CDP"], "county": ["Boulder County"]}
+{"id": "1387409", "name": "WESTWOOD", "lat": "39.690681", "lon": "-105.042805", "place": ["Denver city"], "cdp": [], "county": ["Denver County"]}
+{"id": "1439615", "name": "LAKEWOOD", "lat": "39.711977", "lon": "-105.118045", "place": ["Lakewood city"], "cdp": [], "county": ["Jefferson County"]}
+{"id": "1612989", "name": "LAKEWOOD CO SDC", "lat": "39.711976", "lon": "-105.118124", "place": ["Lakewood city"], "cdp": [], "county": ["Jefferson County"]}
+{"id": "1385493", "name": "UNIVERSITY PARK", "lat": "39.679441", "lon": "-104.943465", "place": ["Denver city"], "cdp": [], "county": ["Denver County"]}
+{"id": "1386885", "name": "WELLSHIRE", "lat": "39.679111", "lon": "-104.921766", "place": ["Denver city"], "cdp": [], "county": ["Denver County"]}
+{"id": "1354325", "name": "BEAR VALLEY", "lat": "39.66576", "lon": "-105.07969", "place": ["Denver city"], "cdp": [], "county": ["Denver County"]}
+{"id": "1362621", "name": "DOWNTOWN ENGLEWOOD", "lat": "39.656175", "lon": "-104.987229", "place": ["Englewood city"], "cdp": [], "county": ["Arapahoe County"]}
+{"id": "1365086", "name": "GOLDEN", "lat": "39.735248", "lon": "-105.199747", "place": ["Golden city"], "cdp": [], "county": ["Jefferson County"]}
+{"id": "1578795", "name": "GOLDEN CO S&DC", "lat": "39.735304", "lon": "-105.19984", "place": ["Golden city"], "cdp": [], "county": ["Jefferson County"]}
+{"id": "1365079", "name": "DOWNTOWN GOLDEN", "lat": "39.755955", "lon": "-105.21986", "place": ["Golden city"], "cdp": [], "county": ["Jefferson County"]}
+{"id": "1362625", "name": "ENGLEWOOD", "lat": "39.647967", "lon": "-104.998581", "place": ["Englewood city"], "cdp": [], "county": ["Arapahoe County"]}
+{"id": "1383866", "name": "SULLIVAN", "lat": "39.650254", "lon": "-104.888147", "place": ["Denver city"], "cdp": [], "county": ["Denver County"]}
+{"id": "1613885", "name": "AURORA CO SDC", "lat": "39.70576", "lon": "-104.791889", "place": ["Aurora city"], "cdp": [], "county": ["Arapahoe County"]}
+{"id": "1353711", "name": "AURORA", "lat": "39.705704", "lon": "-104.791888", "place": ["Aurora city"], "cdp": [], "county": ["Arapahoe County"]}
+{"id": "1364551", "name": "GATEWAY", "lat": "39.670381", "lon": "-104.82768", "place": ["Aurora city"], "cdp": [], "county": ["Arapahoe County"]}
+{"id": "1370671", "name": "LITTLETON", "lat": "39.612975", "lon": "-105.016656", "place": ["Littleton city"], "cdp": [], "county": ["Arapahoe County"]}
+{"id": "1373847", "name": "MORRISON", "lat": "39.651478", "lon": "-105.193198", "place": ["Morrison town"], "cdp": [], "county": ["Jefferson County"]}
+{"id": "1375136", "name": "NIWOT", "lat": "40.103078", "lon": "-105.173149", "place": [], "cdp": ["Niwot CDP"], "county": ["Boulder County"]}
+{"id": "1355494", "name": "BOULDER", "lat": "40.017889", "lon": "-105.276173", "place": ["Boulder city"], "cdp": [], "county": ["Boulder County"]}
+{"id": "1370889", "name": "LONGMONT", "lat": "40.162489", "lon": "-105.104329", "place": ["Longmont city"], "cdp": [], "county": ["Boulder County"]}
+{"id": "1439625", "name": "CENTENNIAL", "lat": "39.595741", "lon": "-104.963196", "place": ["Centennial city"], "cdp": [], "county": ["Arapahoe County"]}
+{"id": "1439554", "name": "GREENWOOD VILLAGE", "lat": "39.591823", "lon": "-104.87676", "place": ["Greenwood Village city"], "cdp": [], "county": ["Arapahoe County"]}
