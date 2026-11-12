@@ -1,0 +1,9 @@
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "2923 North Ave, Grand Junction, CO 81504", "matches": [{"matched": "2923 NORTH AVE, GRAND JUNCTION, CO, 81504", "place": [], "cdp": [], "x": -108.511609644835, "y": 39.077145192018}]}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "2923 North Ave, Grand Junction, CO 81504", "matches": [{"matched": "2923 NORTH AVE, GRAND JUNCTION, CO, 81504", "place": [], "cdp": [], "x": -108.511610616266, "y": 39.077149143381}]}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "16750 S Townsend Ave, Montrose, CO 81401", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "16750 S Townsend Ave, Montrose, CO 81401", "matches": []}
+{"label": "fruitvale-usps-point", "x": -108.510858, "y": 39.076688, "place": [], "cdp": [], "county": ["Mesa County"]}
+{"label": "fruitvale-census-match", "x": -108.511610616266, "y": 39.077149143381, "place": [], "cdp": [], "county": ["Mesa County"]}
+{"label": "gj-1365312-usps-point", "x": -108.566701, "y": 39.068991, "place": ["Grand Junction city"], "cdp": [], "county": ["Mesa County"]}
+{"label": "annex-1469994-usps-point", "x": -108.637236, "y": 39.110834, "place": ["Grand Junction city"], "cdp": [], "county": ["Mesa County"]}
+{"label": "walmart-1058-montrose-osm-point (supplementary, non-official)", "x": -107.8634439, "y": 38.4490024, "place": ["Montrose city"], "cdp": [], "county": ["Montrose County"]}

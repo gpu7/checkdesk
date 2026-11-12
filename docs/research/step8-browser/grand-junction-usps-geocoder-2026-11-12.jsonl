@@ -1,0 +1,8 @@
+{"input": "241 N 4TH ST | GRAND JUNCTION | 81501", "matched": "241 N 4TH ST, GRAND JUNCTION, CO, 81501", "place": ["Grand Junction city"], "cdp": [], "county": ["Mesa County"], "x": -108.566214355006, "y": 39.068720110522, "n": 1}
+{"input": "2923 NORTH AVE STE 4 | GRAND JUNCTION | 81504", "matched": "2923 NORTH AVE, GRAND JUNCTION, CO, 81504", "place": [], "cdp": [], "county": ["Mesa County"], "x": -108.511610616266, "y": 39.077149143381, "n": 1}
+{"input": "734 SCARLET ST | GRAND JUNCTION | 81505", "matched": "734 SCARLET DR, GRAND JUNCTION, CO, 81505", "place": ["Grand Junction city"], "cdp": [], "county": ["Mesa County"], "x": -108.63799002657, "y": 39.109852761116, "n": 1}
+{"input": "3252 F RD | CLIFTON | 81520", "matched": "3252 F RD, CLIFTON, CO, 81520", "place": [], "cdp": ["Clifton CDP"], "county": ["Mesa County"], "x": -108.449577546751, "y": 39.091844923863, "n": 1}
+{"input": "109 SHORT ST | WHITEWATER | 81527", "matched": "109 SHORT ST, WHITEWATER, CO, 81527", "place": [], "cdp": [], "county": ["Mesa County"], "x": -108.451853974259, "y": 38.98989202458, "n": 1}
+{"input": "201 W THIRD ST | PALISADE | 81526", "matched": "201 W THIRD ST, PALISADE, CO, 81526", "place": ["Palisade town"], "cdp": [], "county": ["Mesa County"], "x": -108.352166934411, "y": 39.110256770752, "n": 1}
+{"input": "113 N PARK SQ | FRUITA | 81521", "matched": "113 N PARK SQ, FRUITA, CO, 81521", "place": ["Fruita city"], "cdp": [], "county": ["Mesa County"], "x": -108.734101978688, "y": 39.159150247442, "n": 1}
+{"input": "1345 13 RD | LOMA | 81524", "matched": "1345 13 RD, LOMA, CO, 81524", "place": [], "cdp": ["Loma CDP"], "county": ["Mesa County"], "x": -108.812977134114, "y": 39.199009050475, "n": 1}
