@@ -1,0 +1,70 @@
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "215 6TH ST, WINDSOR, CO 80550", "matches": [{"matched": "215 6TH ST, WINDSOR, CO, 80550", "place": ["Windsor town"], "cdp": [], "x": -104.905814036687, "y": 40.479720090264}]}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "215 6TH ST, WINDSOR, CO 80550", "matches": [{"matched": "215 6TH ST, WINDSOR, CO, 80550", "place": ["Windsor town"], "cdp": [], "x": -104.905813471024, "y": 40.479718721177}]}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "1070 DIAMOND VALLEY DR, WINDSOR, CO 80550", "matches": [{"matched": "1070 DIAMOND VALLEY DR, WINDSOR, CO, 80550", "place": ["Windsor town"], "cdp": [], "x": -104.880616639564, "y": 40.46779408092}]}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "1070 DIAMOND VALLEY DR, WINDSOR, CO 80550", "matches": [{"matched": "1070 DIAMOND VALLEY DR, WINDSOR, CO, 80550", "place": ["Windsor town"], "cdp": [], "x": -104.880617279702, "y": 40.467664563359}]}
+{"id": "1387952", "name": "WINDSOR", "lat": "40.479372", "lon": "-104.905553", "place": ["Windsor town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1560051", "name": "WIN CARRIER ANNEX", "lat": "40.467959", "lon": "-104.883502", "place": ["Windsor town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1381248", "name": "SEVERANCE", "lat": "40.523996", "lon": "-104.850942", "place": ["Severance town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1384692", "name": "TIMNATH", "lat": "40.529413", "lon": "-104.981823", "place": ["Timnath town"], "cdp": [], "county": ["Larimer County"]}
+{"id": "1371037", "name": "LOVELAND", "lat": "40.421141", "lon": "-105.070626", "place": ["Loveland city"], "cdp": [], "county": ["Larimer County"]}
+{"id": "1363754", "name": "FORT COLLINS", "lat": "40.530916", "lon": "-105.073157", "place": ["Fort Collins city"], "cdp": [], "county": ["Larimer County"]}
+{"id": "1601572", "name": "FORT COLLINS CO SDC", "lat": "40.530805", "lon": "-105.073469", "place": ["Fort Collins city"], "cdp": [], "county": ["Larimer County"]}
+{"id": "1368496", "name": "JOHNSTOWN", "lat": "40.3327", "lon": "-104.906784", "place": ["Johnstown town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1365514", "name": "GREELEY", "lat": "40.422999", "lon": "-104.744049", "place": ["Greeley city"], "cdp": [], "county": ["Weld County"]}
+{"id": "1371038", "name": "VALENTINE", "lat": "40.39781", "lon": "-105.074845", "place": ["Loveland city"], "cdp": [], "county": ["Larimer County"]}
+{"id": "1373182", "name": "MILLIKEN", "lat": "40.330349", "lon": "-104.85625", "place": ["Milliken town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1361975", "name": "EATON", "lat": "40.527591", "lon": "-104.71252", "place": ["Eaton town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1371125", "name": "LUCERNE", "lat": "40.480889", "lon": "-104.697114", "place": [], "cdp": [], "county": ["Weld County"]}
+{"id": "1376040", "name": "OLD TOWN", "lat": "40.58352", "lon": "-105.081612", "place": ["Fort Collins city"], "cdp": [], "county": ["Larimer County"]}
+{"id": "1365513", "name": "DOWNTOWN GREELEY", "lat": "40.423043", "lon": "-104.696624", "place": ["Greeley city"], "cdp": [], "county": ["Weld County"]}
+{"id": "1353692", "name": "AULT", "lat": "40.583248", "lon": "-104.734303", "place": ["Ault town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1362838", "name": "EVANS", "lat": "40.381418", "lon": "-104.69635", "place": ["Evans city"], "cdp": [], "county": ["Weld County"]}
+{"id": "1369426", "name": "LA SALLE", "lat": "40.355112", "lon": "-104.698754", "place": ["La Salle town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1377450", "name": "PIERCE", "lat": "40.635286", "lon": "-104.755183", "place": ["Pierce town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1354778", "name": "BERTHOUD", "lat": "40.304524", "lon": "-105.078662", "place": ["Berthoud town"], "cdp": [], "county": ["Larimer County"]}
+{"id": "1364775", "name": "GILCREST", "lat": "40.282897", "lon": "-104.777404", "place": ["Gilcrest town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1372106", "name": "MASONVILLE", "lat": "40.482076", "lon": "-105.212808", "place": [], "cdp": [], "county": ["Larimer County"]}
+{"id": "1369871", "name": "LAPORTE", "lat": "40.626543", "lon": "-105.137552", "place": [], "cdp": ["Laporte CDP"], "county": ["Larimer County"]}
+{"id": "1354562", "name": "BELLVUE", "lat": "40.62928", "lon": "-105.175074", "place": [], "cdp": [], "county": ["Larimer County"]}
+{"id": "1386863", "name": "WELLINGTON", "lat": "40.703716", "lon": "-105.003763", "place": ["Wellington town"], "cdp": [], "county": ["Larimer County"]}
+{"id": "1368942", "name": "KERSEY", "lat": "40.387786", "lon": "-104.565045", "place": ["Kersey town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1364780", "name": "GILL", "lat": "40.454234", "lon": "-104.542681", "place": [], "cdp": [], "county": ["Weld County"]}
+{"id": "1439603", "name": "GALETON", "lat": "40.522026", "lon": "-104.585359", "place": [], "cdp": [], "county": ["Weld County"]}
+{"id": "1377758", "name": "PLATTEVILLE", "lat": "40.215148", "lon": "-104.823434", "place": ["Platteville town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1546616", "name": "ERIE CARRIER ANNEX", "lat": "40.035478", "lon": "-105.051905", "place": ["Erie town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1362695", "name": "ERIE", "lat": "40.049879", "lon": "-105.047065", "place": ["Erie town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1369494", "name": "LAFAYETTE", "lat": "39.993195", "lon": "-105.090898", "place": ["Lafayette city"], "cdp": [], "county": ["Boulder County"]}
+{"id": "1369484", "name": "LAFAYETTE CARRIER ANNEX", "lat": "39.992675", "lon": "-105.091398", "place": ["Lafayette city"], "cdp": [], "county": ["Boulder County"]}
+{"id": "1360137", "name": "DACONO", "lat": "40.086441", "lon": "-104.929651", "place": ["Dacono city"], "cdp": [], "county": ["Weld County"]}
+{"id": "1364064", "name": "FREDERICK", "lat": "40.099362", "lon": "-104.938431", "place": ["Frederick town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1363406", "name": "FIRESTONE", "lat": "40.112977", "lon": "-104.939003", "place": ["Firestone town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1371024", "name": "LOUISVILLE", "lat": "39.96163", "lon": "-105.159983", "place": ["Louisville city"], "cdp": [], "county": ["Boulder County"]}
+{"id": "1375136", "name": "NIWOT", "lat": "40.103078", "lon": "-105.173149", "place": [], "cdp": ["Niwot CDP"], "county": ["Boulder County"]}
+{"id": "1356062", "name": "BROOMFIELD", "lat": "39.915479", "lon": "-105.068392", "place": ["Broomfield city"], "cdp": [], "county": ["Broomfield County"]}
+{"id": "1361915", "name": "EASTLAKE", "lat": "39.922264", "lon": "-104.958444", "place": ["Thornton city"], "cdp": [], "county": ["Adams County"]}
+{"id": "1370889", "name": "LONGMONT", "lat": "40.162489", "lon": "-105.104329", "place": ["Longmont city"], "cdp": [], "county": ["Boulder County"]}
+{"id": "1439617", "name": "NORTHGLENN", "lat": "39.91231", "lon": "-104.978533", "place": ["Northglenn city"], "cdp": [], "county": ["Adams County"]}
+{"id": "1385692", "name": "VALMONT", "lat": "40.028697", "lon": "-105.226451", "place": ["Boulder city"], "cdp": [], "county": ["Boulder County"]}
+{"id": "1612987", "name": "BOULDER CO SDC", "lat": "40.028752", "lon": "-105.226563", "place": ["Boulder city"], "cdp": [], "county": ["Boulder County"]}
+{"id": "1361605", "name": "BROOMFIELD EAGLE VIEW", "lat": "39.902597", "lon": "-105.097138", "place": ["Broomfield city"], "cdp": [], "county": ["Broomfield County"]}
+{"id": "1375562", "name": "NORTHVIEW", "lat": "39.899381", "lon": "-104.99803", "place": ["Northglenn city"], "cdp": [], "county": ["Adams County"]}
+{"id": "1439640", "name": "WESTMINSTER", "lat": "39.887251", "lon": "-105.026322", "place": ["Westminster city"], "cdp": [], "county": ["Adams County"]}
+{"id": "1366905", "name": "HIGH MAR", "lat": "39.986655", "lon": "-105.237146", "place": ["Boulder city"], "cdp": [], "county": ["Boulder County"]}
+{"id": "1355853", "name": "BRIGHTON", "lat": "39.9883", "lon": "-104.817812", "place": ["Brighton city"], "cdp": [], "county": ["Adams County"]}
+{"id": "1555032", "name": "BRIGHTON CARRIER ANNEX", "lat": "40.001787", "lon": "-104.812655", "place": ["Brighton city"], "cdp": [], "county": ["Weld County"]}
+{"id": "1366713", "name": "HENDERSON", "lat": "39.9182", "lon": "-104.867283", "place": [], "cdp": [], "county": ["Adams County"]}
+{"id": "1355494", "name": "BOULDER", "lat": "40.017889", "lon": "-105.276173", "place": ["Boulder city"], "cdp": [], "county": ["Boulder County"]}
+{"id": "1363805", "name": "FORT LUPTON", "lat": "40.083557", "lon": "-104.811945", "place": ["Fort Lupton city"], "cdp": [], "county": ["Weld County"]}
+{"id": "1367788", "name": "HYGIENE", "lat": "40.189394", "lon": "-105.17769", "place": [], "cdp": [], "county": ["Boulder County"]}
+{"id": "1372465", "name": "MEAD", "lat": "40.232938", "lon": "-104.999553", "place": ["Mead town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1367908", "name": "INDIAN TREE", "lat": "39.838259", "lon": "-105.084346", "place": ["Arvada city"], "cdp": [], "county": ["Jefferson County"]}
+{"id": "1362237", "name": "ELDORADO SPRINGS", "lat": "39.932916", "lon": "-105.273613", "place": [], "cdp": ["Eldorado Springs CDP"], "county": ["Boulder County"]}
+{"id": "1375398", "name": "NORTH PECOS", "lat": "39.83179", "lon": "-105.004186", "place": [], "cdp": ["Sherrelwood CDP"], "county": ["Adams County"]}
+{"id": "1366303", "name": "HARRIS PARK", "lat": "39.828185", "lon": "-105.035541", "place": ["Westminster city"], "cdp": [], "county": ["Adams County"]}
+{"id": "1361498", "name": "DUPONT", "lat": "39.843751", "lon": "-104.920893", "place": [], "cdp": ["Derby CDP"], "county": ["Adams County"]}
+{"id": "1375675", "name": "NUNN", "lat": "40.703493", "lon": "-104.780572", "place": ["Nunn town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1361283", "name": "DRAKE", "lat": "40.432702", "lon": "-105.33967", "place": [], "cdp": [], "county": ["Larimer County"]}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "1520 Main St, Windsor, CO 80550", "matches": [{"matched": "1520 MAIN ST, WINDSOR, CO, 80550", "place": ["Windsor town"], "cdp": [], "x": -104.927322110273, "y": 40.47950128244}]}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "1520 Main St, Windsor, CO 80550", "matches": [{"matched": "1520 MAIN ST, WINDSOR, CO, 80550", "place": ["Windsor town"], "cdp": [], "x": -104.927226266696, "y": 40.479500994009}]}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "5801 Silverstone Dr, Frederick, CO 80504", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "5801 Silverstone Dr, Frederick, CO 80504", "matches": []}
