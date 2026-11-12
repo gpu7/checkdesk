@@ -1,0 +1,42 @@
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "3344 11th Ave, Evans, CO 80620", "matches": [{"matched": "3344 11TH AVE, EVANS, CO, 80620", "place": ["Evans city"], "cdp": [], "x": -104.696732595298, "y": 40.381886615834}]}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "3344 11th Ave, Evans, CO 80620", "matches": [{"matched": "3344 11TH AVE, EVANS, CO, 80620", "place": ["Evans city"], "cdp": [], "x": -104.696733184682, "y": 40.381889581152}]}
+{"id": "1362838", "name": "EVANS", "lat": "40.381418", "lon": "-104.69635", "place": ["Evans city"], "cdp": [], "county": ["Weld County"]}
+{"id": "1369426", "name": "LA SALLE", "lat": "40.355112", "lon": "-104.698754", "place": ["La Salle town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1365513", "name": "DOWNTOWN GREELEY", "lat": "40.423043", "lon": "-104.696624", "place": ["Greeley city"], "cdp": [], "county": ["Weld County"]}
+{"id": "1365514", "name": "GREELEY", "lat": "40.422999", "lon": "-104.744049", "place": ["Greeley city"], "cdp": [], "county": ["Weld County"]}
+{"id": "1371125", "name": "LUCERNE", "lat": "40.480889", "lon": "-104.697114", "place": [], "cdp": [], "county": ["Weld County"]}
+{"id": "1364775", "name": "GILCREST", "lat": "40.282897", "lon": "-104.777404", "place": ["Gilcrest town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1368942", "name": "KERSEY", "lat": "40.387786", "lon": "-104.565045", "place": ["Kersey town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1373182", "name": "MILLIKEN", "lat": "40.330349", "lon": "-104.85625", "place": ["Milliken town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1364780", "name": "GILL", "lat": "40.454234", "lon": "-104.542681", "place": [], "cdp": [], "county": ["Weld County"]}
+{"id": "1361975", "name": "EATON", "lat": "40.527591", "lon": "-104.71252", "place": ["Eaton town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1368496", "name": "JOHNSTOWN", "lat": "40.3327", "lon": "-104.906784", "place": ["Johnstown town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1560051", "name": "WIN CARRIER ANNEX", "lat": "40.467959", "lon": "-104.883502", "place": ["Windsor town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1439603", "name": "GALETON", "lat": "40.522026", "lon": "-104.585359", "place": [], "cdp": [], "county": ["Weld County"]}
+{"id": "1387952", "name": "WINDSOR", "lat": "40.479372", "lon": "-104.905553", "place": ["Windsor town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1381248", "name": "SEVERANCE", "lat": "40.523996", "lon": "-104.850942", "place": ["Severance town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1377758", "name": "PLATTEVILLE", "lat": "40.215148", "lon": "-104.823434", "place": ["Platteville town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1353692", "name": "AULT", "lat": "40.583248", "lon": "-104.734303", "place": ["Ault town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1384692", "name": "TIMNATH", "lat": "40.529413", "lon": "-104.981823", "place": ["Timnath town"], "cdp": [], "county": ["Larimer County"]}
+{"id": "1377450", "name": "PIERCE", "lat": "40.635286", "lon": "-104.755183", "place": ["Pierce town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1368769", "name": "KEENESBURG", "lat": "40.108295", "lon": "-104.519598", "place": ["Keenesburg town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1379769", "name": "ROGGEN", "lat": "40.168383", "lon": "-104.370489", "place": [], "cdp": [], "county": ["Weld County"]}
+{"id": "1367567", "name": "HUDSON", "lat": "40.075205", "lon": "-104.643704", "place": ["Hudson town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1371038", "name": "VALENTINE", "lat": "40.39781", "lon": "-105.074845", "place": ["Loveland city"], "cdp": [], "county": ["Larimer County"]}
+{"id": "1354778", "name": "BERTHOUD", "lat": "40.304524", "lon": "-105.078662", "place": ["Berthoud town"], "cdp": [], "county": ["Larimer County"]}
+{"id": "1371037", "name": "LOVELAND", "lat": "40.421141", "lon": "-105.070626", "place": ["Loveland city"], "cdp": [], "county": ["Larimer County"]}
+{"id": "1372465", "name": "MEAD", "lat": "40.232938", "lon": "-104.999553", "place": ["Mead town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1363754", "name": "FORT COLLINS", "lat": "40.530916", "lon": "-105.073157", "place": ["Fort Collins city"], "cdp": [], "county": ["Larimer County"]}
+{"id": "1601572", "name": "FORT COLLINS CO SDC", "lat": "40.530805", "lon": "-105.073469", "place": ["Fort Collins city"], "cdp": [], "county": ["Larimer County"]}
+{"id": "1363805", "name": "FORT LUPTON", "lat": "40.083557", "lon": "-104.811945", "place": ["Fort Lupton city"], "cdp": [], "county": ["Weld County"]}
+{"id": "1555032", "name": "BRIGHTON CARRIER ANNEX", "lat": "40.001787", "lon": "-104.812655", "place": ["Brighton city"], "cdp": [], "county": ["Weld County"]}
+{"id": "1360137", "name": "DACONO", "lat": "40.086441", "lon": "-104.929651", "place": ["Dacono city"], "cdp": [], "county": ["Weld County"]}
+{"id": "1355853", "name": "BRIGHTON", "lat": "39.9883", "lon": "-104.817812", "place": ["Brighton city"], "cdp": [], "county": ["Adams County"]}
+{"id": "1364064", "name": "FREDERICK", "lat": "40.099362", "lon": "-104.938431", "place": ["Frederick town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1363406", "name": "FIRESTONE", "lat": "40.112977", "lon": "-104.939003", "place": ["Firestone town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1366713", "name": "HENDERSON", "lat": "39.9182", "lon": "-104.867283", "place": [], "cdp": [], "county": ["Adams County"]}
+{"id": "1362695", "name": "ERIE", "lat": "40.049879", "lon": "-105.047065", "place": ["Erie town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1546616", "name": "ERIE CARRIER ANNEX", "lat": "40.035478", "lon": "-105.051905", "place": ["Erie town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1361915", "name": "EASTLAKE", "lat": "39.922264", "lon": "-104.958444", "place": ["Thornton city"], "cdp": [], "county": ["Adams County"]}
+{"id": "1375675", "name": "NUNN", "lat": "40.703493", "lon": "-104.780572", "place": ["Nunn town"], "cdp": [], "county": ["Weld County"]}
+{"id": "1386863", "name": "WELLINGTON", "lat": "40.703716", "lon": "-105.003763", "place": ["Wellington town"], "cdp": [], "county": ["Larimer County"]}

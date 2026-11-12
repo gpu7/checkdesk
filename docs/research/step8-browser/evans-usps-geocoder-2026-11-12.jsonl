@@ -1,0 +1,40 @@
+{"input": "3344 11TH AVE | EVANS | 80620", "matched": "3344 11TH AVE, EVANS, CO, 80620", "place": ["Evans city"], "cdp": [], "county": ["Weld County"], "x": -104.696733184682, "y": 40.381889581152, "n": 1}
+{"input": "524 N 2ND ST | LA SALLE | 80645", "matched": "524 N 2ND ST, LA SALLE, CO, 80645", "place": ["La Salle town"], "cdp": [], "county": ["Weld County"], "x": -104.699469162336, "y": 40.354923939247, "n": 1}
+{"input": "925 11TH AVE | GREELEY | 80631", "matched": "925 11TH AVE, GREELEY, CO, 80631", "place": ["Greeley city"], "cdp": [], "county": ["Weld County"], "x": -104.696304667217, "y": 40.423581591071, "n": 1}
+{"input": "930 39TH AVE | GREELEY | 80634", "matched": "930 39TH AVE, GREELEY, CO, 80634", "place": ["Greeley city"], "cdp": [], "county": ["Weld County"], "x": -104.744901280626, "y": 40.423024048422, "n": 1}
+{"input": "32969 COUNTY ROAD 39 | LUCERNE | 80646", "matched": null, "err": null}
+{"input": "301 MAIN ST | GILCREST | 80623", "matched": "301 MAIN ST, GILCREST, CO, 80623", "place": ["Gilcrest town"], "cdp": [], "county": ["Weld County"], "x": -104.777547623362, "y": 40.282736375838, "n": 1}
+{"input": "331 1ST ST | KERSEY | 80644", "matched": "331 1ST ST, KERSEY, CO, 80644", "place": ["Kersey town"], "cdp": [], "county": ["Weld County"], "x": -104.564451790255, "y": 40.388165657594, "n": 1}
+{"input": "1009 BROAD ST | MILLIKEN | 80543", "matched": "1009 BROAD ST, MILLIKEN, CO, 80543", "place": ["Milliken town"], "cdp": [], "county": ["Weld County"], "x": -104.856713418937, "y": 40.330219431537, "n": 1}
+{"input": "31302 3RD ST | GILL | 80624", "matched": "31302 3RD ST, GILL, CO, 80624", "place": [], "cdp": [], "county": ["Weld County"], "x": -104.542992255794, "y": 40.454079740866, "n": 1}
+{"input": "125 2ND ST | EATON | 80615", "matched": "125 2ND ST, EATON, CO, 80615", "place": ["Eaton town"], "cdp": [], "county": ["Weld County"], "x": -104.711771690835, "y": 40.527454234157, "n": 1}
+{"input": "121 CASTLE PINES AVE | JOHNSTOWN | 80534", "matched": "121 CASTLE PINES AVE, JOHNSTOWN, CO, 80534", "place": ["Johnstown town"], "cdp": [], "county": ["Weld County"], "x": -104.907467620793, "y": 40.331305592991, "n": 1}
+{"input": "1070 DIAMOND VALLEY DR STE 500 | WINDSOR | 80550", "matched": "1070 DIAMOND VALLEY DR, WINDSOR, CO, 80550", "place": ["Windsor town"], "cdp": [], "county": ["Weld County"], "x": -104.880617279702, "y": 40.467664563359, "n": 1}
+{"input": "24830 1ST ST | GALETON | 80622", "matched": "24830 1ST ST, GALETON, CO, 80622", "place": [], "cdp": [], "county": ["Weld County"], "x": -104.58530280232, "y": 40.522212667605, "n": 1}
+{"input": "215 6TH ST | WINDSOR | 80550", "matched": "215 6TH ST, WINDSOR, CO, 80550", "place": ["Windsor town"], "cdp": [], "county": ["Weld County"], "x": -104.905813471024, "y": 40.479718721177, "n": 1}
+{"input": "320 1ST ST | SEVERANCE | 80546", "matched": "320 1ST ST, SEVERANCE, CO, 80615", "place": ["Eaton town"], "cdp": [], "county": ["Weld County"], "x": -104.714716855437, "y": 40.525966932357, "n": 3}
+{"input": "400 MARION ST | PLATTEVILLE | 80651", "matched": "400 MARION AVE, PLATTEVILLE, CO, 80651", "place": ["Platteville town"], "cdp": [], "county": ["Weld County"], "x": -104.82331029116, "y": 40.214973300545, "n": 1}
+{"input": "122 1ST AVE | AULT | 80610", "matched": "122 1ST AVE, AULT, CO, 80610", "place": ["Ault town"], "cdp": [], "county": ["Weld County"], "x": -104.734333249254, "y": 40.582627047772, "n": 1}
+{"input": "4128 MAIN ST | TIMNATH | 80547", "matched": "4128 MAIN ST, TIMNATH, CO, 80547", "place": ["Timnath town"], "cdp": [], "county": ["Larimer County"], "x": -104.982224562496, "y": 40.529535874148, "n": 1}
+{"input": "500 2ND ST | PIERCE | 80650", "matched": "500 2ND ST, PIERCE, CO, 80650", "place": ["Pierce town"], "cdp": [], "county": ["Weld County"], "x": -104.755247700554, "y": 40.63539430548, "n": 1}
+{"input": "90 S MAIN ST | KEENESBURG | 80643", "matched": "90 MAIN ST, KEENESBURG, CO, 80643", "place": ["Keenesburg town"], "cdp": [], "county": ["Weld County"], "x": -104.51978825239, "y": 40.108220154408, "n": 1}
+{"input": "413 FRONT ST | ROGGEN | 80652", "matched": "413 FRONT ST, ROGGEN, CO, 80652", "place": [], "cdp": [], "county": ["Weld County"], "x": -104.371448734629, "y": 40.168255562603, "n": 1}
+{"input": "738 CEDAR ST | HUDSON | 80642", "matched": "738 CEDAR ST, HUDSON, CO, 80642", "place": ["Hudson town"], "cdp": [], "county": ["Weld County"], "x": -104.643935605804, "y": 40.075004847656, "n": 1}
+{"input": "601 CLEVELAND AVE | LOVELAND | 80537", "matched": "601 CLEVELAND AVE, LOVELAND, CO, 80537", "place": ["Loveland city"], "cdp": [], "county": ["Larimer County"], "x": -105.07458863904, "y": 40.397604734379, "n": 1}
+{"input": "425 3RD ST | BERTHOUD | 80513", "matched": "425 N 3RD ST, BERTHOUD, CO, 80513", "place": ["Berthoud town"], "cdp": [], "county": ["Larimer County"], "x": -105.078435112232, "y": 40.304410093189, "n": 1}
+{"input": "446 E 29TH ST | LOVELAND | 80538", "matched": "446 E 29TH ST, LOVELAND, CO, 80538", "place": ["Loveland city"], "cdp": [], "county": ["Larimer County"], "x": -105.070429642512, "y": 40.421683623272, "n": 1}
+{"input": "350 WELKER AVE | MEAD | 80542", "matched": "350 WELKER AVE, MEAD, CO, 80542", "place": ["Mead town"], "cdp": [], "county": ["Weld County"], "x": -104.999189122476, "y": 40.233195635291, "n": 1}
+{"input": "301 BOARDWALK DR | FORT COLLINS | 80525", "matched": "301 E BOARDWALK DR, FORT COLLINS, CO, 80525", "place": ["Fort Collins city"], "cdp": [], "county": ["Larimer County"], "x": -105.073711102054, "y": 40.531990337636, "n": 1}
+{"input": "301 BOARDWALK DR | FORT COLLINS | 80525", "matched": "301 E BOARDWALK DR, FORT COLLINS, CO, 80525", "place": ["Fort Collins city"], "cdp": [], "county": ["Larimer County"], "x": -105.073711102054, "y": 40.531990337636, "n": 1}
+{"input": "533 4TH ST | FORT LUPTON | 80621", "matched": "533 4TH ST, FORT LUPTON, CO, 80621", "place": ["Fort Lupton city"], "cdp": [], "county": ["Weld County"], "x": -104.812504245649, "y": 40.083294330337, "n": 1}
+{"input": "729 BASELINE PL | BRIGHTON | 80603", "matched": null, "err": null}
+{"input": "650 GLEN CREIGHTON DR | DACONO | 80514", "matched": "650 GLEN CREIGHTON DR, DACONO, CO, 80514", "place": ["Dacono city"], "cdp": [], "county": ["Weld County"], "x": -104.930131249374, "y": 40.086050993522, "n": 1}
+{"input": "90 N 4TH AVE | BRIGHTON | 80601", "matched": "90 N 4TH AVE, BRIGHTON, CO, 80601", "place": ["Brighton city"], "cdp": [], "county": ["Adams County"], "x": -104.818075763824, "y": 39.988713968758, "n": 1}
+{"input": "411 OAK ST | FREDERICK | 80530", "matched": "411 OAK ST, FREDERICK, CO, 80530", "place": ["Frederick town"], "cdp": [], "county": ["Weld County"], "x": -104.938287614574, "y": 40.099401403618, "n": 1}
+{"input": "478 1ST ST | FIRESTONE | 80520", "matched": "478 1ST ST, FIRESTONE, CO, 80520", "place": ["Firestone town"], "cdp": [], "county": ["Weld County"], "x": -104.939191306692, "y": 40.112948762876, "n": 1}
+{"input": "12210 BRIGHTON RD | HENDERSON | 80640", "matched": "12210 BRIGHTON RD, HENDERSON, CO, 80640", "place": [], "cdp": [], "county": ["Adams County"], "x": -104.867683353124, "y": 39.918045546291, "n": 1}
+{"input": "150 WELLS ST | ERIE | 80516", "matched": "150 WELLS ST, ERIE, CO, 80516", "place": ["Erie town"], "cdp": [], "county": ["Weld County"], "x": -105.047182191622, "y": 40.050205072073, "n": 1}
+{"input": "621 MITCHELL WAY | ERIE | 80516", "matched": "621 MITCHELL WAY, ERIE, CO, 80516", "place": ["Erie town"], "cdp": [], "county": ["Weld County"], "x": -105.054916942622, "y": 40.034581683705, "n": 1}
+{"input": "12470 YORK ST | EASTLAKE | 80614", "matched": null, "err": null}
+{"input": "397 LOGAN AVE | NUNN | 80648", "matched": "397 LOGAN AVE, NUNN, CO, 80648", "place": ["Nunn town"], "cdp": [], "county": ["Weld County"], "x": -104.780430988695, "y": 40.70343115309, "n": 1}
+{"input": "3829 W CLEVELAND AVE | WELLINGTON | 80549", "matched": "3829 CLEVELAND AVE, WELLINGTON, CO, 80549", "place": ["Wellington town"], "cdp": [], "county": ["Larimer County"], "x": -105.004541673348, "y": 40.703889974435, "n": 1}
