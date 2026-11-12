@@ -1,0 +1,16 @@
+banner,store_name,store_number,address,printed_city,state,zip,phone,official_url,http_status,hours,service_tags_as_shown,prints_johnstown,opened_full_page,notes,date
+Walmart Supercenter,Loveland W 65th St Supercenter,1008,250 W 65th St,Loveland,CO,80538,970-667-3331,https://www.walmart.com/store/1008-loveland-co,200,Mon - Sun | 6am - 11pm,Money Services (Store Features > Services),no,yes,Nearby geocode-priority (W 65th St at I-25 side); Walmart EV Charging Station listed; no Fuel Station tag,2026-11-12
+Walmart Supercenter,Loveland N Denver Ave Supercenter,953,1325 Denver Ave,Loveland,CO,80537,970-669-4579,https://www.walmart.com/store/953-loveland-co,200,Mon - Sun | 6am - 11pm,Money Services (Store Features > Services),no,yes,Walmart Fuel Station is a feature of this Supercenter (not a row); nearby but farther,2026-11-12
+King Soopers,Windsor,620/00104,1520 Main St,Windsor,CO,80550,970-674-2830,https://www.kingsoopers.com/stores/grocery/co/windsor/windsor/620/00104,200,Sun - Sat: 6 AM - 11 PM,Money Orders; Money Services (Account Funding also listed - not tracked; Fuel Center feature),no,yes,Locator 9.15 mi from 80534 search,2026-11-12
+King Soopers,Firestone,620/00105,6110 Firestone Blvd,Firestone,CO,80504,303-682-4160,https://www.kingsoopers.com/stores/grocery/co/firestone/firestone/620/00105,200,Sun - Sat: 6 AM - 11 PM,Money Orders; Money Services (Account Funding also listed - not tracked; Fuel Center feature),no,yes,Locator 13.13 mi,2026-11-12
+King Soopers,Eagle Drive Loveland,620/00074,1275 Eagle Dr,Loveland,CO,80537,970-663-4125,https://www.kingsoopers.com/stores/grocery/co/loveland/eagle-drive-loveland/620/00074,200,Sun - Sat: 6 AM - 11 PM,Money Orders; Money Services (Account Funding also listed - not tracked; Fuel Center feature),no,yes,Locator 8.89 mi,2026-11-12
+King Soopers,North Gate Village,620/00117,6922 W 10Th St,Greeley,CO,80634,970-392-4140,https://www.kingsoopers.com/stores/grocery/co/greeley/north-gate-village/620/00117,not loaded (timeout),,,no,no,Locator-only; 8.97 mi,2026-11-12
+King Soopers,29th Street Loveland,620/00044,253 E 29Th St,Loveland,CO,80538,970-669-6222,https://www.kingsoopers.com/stores/grocery/co/loveland/29th-street-loveland/620/00044,not loaded (timeout),,,no,no,Locator-only; 9.05 mi,2026-11-12
+King Soopers,Westlake,620/00011,2100 35Th Ave,Greeley,CO,80634,970-339-1700,,,,,no,no,Locator-only; 11.32 mi,2026-11-12
+King Soopers,University Square,620/00032,2712 11Th Ave,Greeley,CO,80631,970-353-9660,,,,,no,no,Locator-only; 13.03 mi,2026-11-12
+King Soopers,Pace Street,620/00102,1611 Pace St,Longmont,CO,80504,303-776-7570,,,,,no,no,Locator-only; 13.45 mi,2026-11-12
+King Soopers,North Main,620/00042,2255 Main St,Longmont,CO,80501,303-772-7950,,,,,no,no,Locator-only; 13.67 mi,2026-11-12
+Walmart Supercenter,Greeley 47th Ave Supercenter,,920 47th Ave,Greeley,CO,80634,970-353-4231,,,,,no,no,Directory-only,2026-11-12
+Walmart Supercenter,Greeley S 23rd Ave Supercenter,,3103 S 23rd Ave,Greeley,CO,80631,970-330-1452,,,,,no,no,Directory-only,2026-11-12
+Walmart Supercenter,Longmont Main St Supercenter,5370,2514 Main St,Longmont,CO,80504,303-774-7513,,,,,no,no,Directory-only (store # from nearby list),2026-11-12
+Walmart Supercenter,Longmont E Ken Pratt Blvd Supercenter,,2285 E Ken Pratt Blvd,Longmont,CO,80504,303-678-0803,,,,,no,no,Directory-only,2026-11-12
