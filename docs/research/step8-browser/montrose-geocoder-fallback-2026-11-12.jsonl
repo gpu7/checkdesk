@@ -1,0 +1,111 @@
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "321 S 1ST ST, MONTROSE, CO 81401", "matches": [{"matched": "321 S 1ST ST, MONTROSE, CO, 81401", "place": ["Montrose city"], "cdp": [], "x": -107.876679570967, "y": 38.478202595488}]}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "321 S 1ST ST, MONTROSE, CO 81401", "matches": [{"matched": "321 S 1ST ST, MONTROSE, CO, 81401", "place": ["Montrose city"], "cdp": [], "x": -107.876679232217, "y": 38.478204485655}]}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "3025 WOODGATE RD, MONTROSE, CO 81401", "matches": [{"matched": "3025 WOODGATE RD, MONTROSE, CO, 81401", "place": ["Montrose city"], "cdp": [], "x": -107.864050056026, "y": 38.454041619016}]}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "3025 WOODGATE RD, MONTROSE, CO 81401", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "9340 HIGHWAY 65, CORY, CO 81414", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "9340 HIGHWAY 65, CORY, CO 81414", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "8587 3100 RD, LAZEAR, CO 81420", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "8587 3100 RD, LAZEAR, CO 81420", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "485 CLINTON ST, RIDGWAY, CO 81432", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "485 CLINTON ST, RIDGWAY, CO 81432", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "82111 E US HIGHWAY 50, CIMARRON, CO 81220", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "82111 E US HIGHWAY 50, CIMARRON, CO 81220", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "500 COUNTY ROAD 742, ALMONT, CO 81210", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "500 COUNTY ROAD 742, ALMONT, CO 81210", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "51387 US HIGHWAY 50, PARLIN, CO 81239", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "51387 US HIGHWAY 50, PARLIN, CO 81239", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "616 COUNTY ROAD 28, POWDERHORN, CO 81243", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "616 COUNTY ROAD 28, POWDERHORN, CO 81243", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "21395 6.0 RD, PARADOX, CO 81429", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "21395 6.0 RD, PARADOX, CO 81429", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "419 MAIN ST, PITKIN, CO 81241", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "419 MAIN ST, PITKIN, CO 81241", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "18794 HIGHWAY 491, LEWIS, CO 81327", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "18794 HIGHWAY 491, LEWIS, CO 81327", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "22009 COUNTY ROAD 18, YELLOW JACKET, CO 81335", "matches": [{"matched": "22009 RD 18, YELLOW JACKET, CO, 81335", "place": [], "cdp": [], "x": -108.719079626638, "y": 37.529900908886}]}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "22009 COUNTY ROAD 18, YELLOW JACKET, CO 81335", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "110 HIGHWAY 491, DOVE CREEK, CO 81324", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "110 HIGHWAY 491, DOVE CREEK, CO 81324", "matches": []}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1373677", "name": "MONTROSE", "lat": "38.47857", "lon": "-107.876618", "place": ["Montrose city"], "cdp": [], "county": ["Montrose County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1373668", "name": "MONTROSE ANNEX", "lat": "38.451995", "lon": "-107.86379", "place": ["Montrose city"], "cdp": [], "county": ["Montrose County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1375997", "name": "OLATHE", "lat": "38.607473", "lon": "-107.97937", "place": ["Olathe town"], "cdp": [], "county": ["Montrose County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1360641", "name": "DELTA", "lat": "38.741963", "lon": "-108.069153", "place": ["Delta city"], "cdp": [], "county": ["Delta County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1353727", "name": "AUSTIN", "lat": "38.78122", "lon": "-107.952306", "place": ["Orchard City town"], "cdp": [], "county": ["Delta County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1359343", "name": "CORY", "lat": "38.788965", "lon": "-107.989159", "place": ["Orchard City town"], "cdp": [], "county": ["Delta County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1362011", "name": "ECKERT", "lat": "38.836312", "lon": "-107.966305", "place": ["Orchard City town"], "cdp": [], "county": ["Delta County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1357401", "name": "CEDAREDGE", "lat": "38.90005", "lon": "-107.92513", "place": ["Cedaredge town"], "cdp": [], "county": ["Delta County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1370017", "name": "LAZEAR", "lat": "38.779438", "lon": "-107.781833", "place": [], "cdp": ["Lazear CDP"], "county": ["Delta County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1379328", "name": "RIDGWAY", "lat": "38.152611", "lon": "-107.756148", "place": ["Ridgway town"], "cdp": [], "county": ["Ouray County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1376452", "name": "OURAY", "lat": "38.023347", "lon": "-107.671812", "place": ["Ouray city"], "cdp": [], "county": ["Ouray County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1384390", "name": "TELLURIDE", "lat": "37.935947", "lon": "-107.808775", "place": ["Telluride town"], "cdp": [], "county": ["San Miguel County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1381703", "name": "SILVERTON", "lat": "37.812205", "lon": "-107.664886", "place": ["Silverton town"], "cdp": [], "county": ["San Juan County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1358060", "name": "CIMARRON", "lat": "38.443355", "lon": "-107.557452", "place": [], "cdp": [], "county": ["Montrose County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1359758", "name": "CRAWFORD", "lat": "38.703185", "lon": "-107.607478", "place": ["Crawford town"], "cdp": [], "county": ["Delta County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1367461", "name": "HOTCHKISS", "lat": "38.798792", "lon": "-107.720788", "place": ["Hotchkiss town"], "cdp": [], "county": ["Delta County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1376738", "name": "PAONIA", "lat": "38.866437", "lon": "-107.597608", "place": ["Paonia town"], "cdp": [], "county": ["Delta County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1382033", "name": "SOMERSET", "lat": "38.926162", "lon": "-107.470134", "place": [], "cdp": ["Somerset CDP"], "county": ["Gunnison County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1365863", "name": "GUNNISON", "lat": "38.545849", "lon": "-106.927877", "place": ["Gunnison city"], "cdp": [], "county": ["Gunnison County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1352794", "name": "ALMONT", "lat": "38.666229", "lon": "-106.837605", "place": [], "cdp": [], "county": ["Gunnison County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1376876", "name": "PARLIN", "lat": "38.502995", "lon": "-106.728633", "place": [], "cdp": [], "county": ["Gunnison County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1377691", "name": "PLACERVILLE", "lat": "38.017317", "lon": "-108.053526", "place": [], "cdp": ["Placerville CDP"], "county": ["San Miguel County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1376191", "name": "OPHIR", "lat": "37.859035", "lon": "-107.864929", "place": [], "cdp": [], "county": ["San Miguel County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1375663", "name": "NUCLA", "lat": "38.269019", "lon": "-108.546651", "place": ["Nucla town"], "cdp": [], "county": ["Montrose County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1374469", "name": "NATURITA", "lat": "38.217194", "lon": "-108.571244", "place": ["Naturita town"], "cdp": [], "county": ["Montrose County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1379005", "name": "REDVALE", "lat": "38.17433", "lon": "-108.417822", "place": [], "cdp": ["Redvale CDP"], "county": ["Montrose County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1378272", "name": "POWDERHORN", "lat": "38.276703", "lon": "-107.129955", "place": [], "cdp": [], "county": ["Gunnison County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1375629", "name": "NORWOOD", "lat": "38.13102", "lon": "-108.289991", "place": ["Norwood town"], "cdp": [], "county": ["San Miguel County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1387591", "name": "WHITEWATER", "lat": "38.989934", "lon": "-108.451977", "place": [], "cdp": [], "county": ["Mesa County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1439602", "name": "FRUITVALE", "lat": "39.076688", "lon": "-108.510858", "place": [], "cdp": [], "county": ["Mesa County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1358375", "name": "CLIFTON", "lat": "39.091989", "lon": "-108.44987", "place": [], "cdp": ["Clifton CDP"], "county": ["Mesa County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1365312", "name": "GRAND JUNCTION", "lat": "39.068991", "lon": "-108.566701", "place": ["Grand Junction city"], "cdp": [], "county": ["Mesa County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1376630", "name": "PALISADE", "lat": "39.110133", "lon": "-108.352323", "place": ["Palisade town"], "cdp": [], "county": ["Mesa County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1469994", "name": "GRAND JUNCTION CARRIER ANNEX", "lat": "39.110834", "lon": "-108.637236", "place": ["Grand Junction city"], "cdp": [], "county": ["Mesa County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1359808", "name": "CRESTED BUTTE", "lat": "38.869895", "lon": "-106.986676", "place": ["Crested Butte town"], "cdp": [], "county": ["Gunnison County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1369554", "name": "LAKE CITY", "lat": "38.035012", "lon": "-107.313212", "place": ["Lake City town"], "cdp": [], "county": ["Hinsdale County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1373476", "name": "MOLINA", "lat": "39.188413", "lon": "-108.060213", "place": [], "cdp": [], "county": ["Mesa County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1372815", "name": "MESA", "lat": "39.166415", "lon": "-108.138716", "place": [], "cdp": [], "county": ["Mesa County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1358647", "name": "COLLBRAN", "lat": "39.239396", "lon": "-107.960679", "place": ["Collbran town"], "cdp": [], "county": ["Mesa County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1360414", "name": "DE BEQUE", "lat": "39.332839", "lon": "-108.213954", "place": ["De Beque town"], "cdp": [], "county": ["Mesa County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1439618", "name": "PARADOX", "lat": "38.372237", "lon": "-108.962461", "place": [], "cdp": [], "county": ["Montrose County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1354412", "name": "BEDROCK", "lat": "38.316969", "lon": "-108.893478", "place": [], "cdp": [], "county": ["Montrose County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1377652", "name": "PITKIN", "lat": "38.608531", "lon": "-106.519148", "place": ["Pitkin town"], "cdp": [], "county": ["Gunnison County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1379283", "name": "RICO", "lat": "37.691687", "lon": "-108.031273", "place": ["Rico town"], "cdp": [], "county": ["Dolores County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1364542", "name": "GATEWAY", "lat": "38.68356", "lon": "-108.97358", "place": [], "cdp": [], "county": ["Mesa County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1361002", "name": "DOLORES", "lat": "37.473935", "lon": "-108.497174", "place": ["Dolores town"], "cdp": [], "county": ["Montezuma County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1370318", "name": "LEWIS", "lat": "37.483668", "lon": "-108.662103", "place": [], "cdp": ["Lewis CDP"], "county": ["Montezuma County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1359329", "name": "CORTEZ", "lat": "37.347829", "lon": "-108.5841", "place": ["Cortez city"], "cdp": [], "county": ["Montezuma County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1388454", "name": "YELLOW JACKET", "lat": "37.529877", "lon": "-108.719315", "place": [], "cdp": [], "county": ["Montezuma County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1371626", "name": "MANCOS", "lat": "37.34708", "lon": "-108.291433", "place": ["Mancos town"], "cdp": [], "county": ["Montezuma County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1362154", "name": "EGNAR", "lat": "37.903138", "lon": "-108.94089", "place": [], "cdp": [], "county": ["San Miguel County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1361090", "name": "DOVE CREEK", "lat": "37.763723", "lon": "-108.904782", "place": ["Dove Creek town"], "cdp": [], "county": ["Dolores County"]}
+{"kind": "coordinates", "source": "official USPS locator map point", "id": "1380821", "name": "SARGENTS", "lat": "38.404429", "lon": "-106.414752", "place": [], "cdp": [], "county": ["Saguache County"]}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "16750 Townsend Ave, Montrose, CO 81401", "matches": [], "err": null, "store_id": "1058"}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "16750 S Townsend Avenue, Montrose, CO 81401", "matches": [], "err": null, "store_id": "1058"}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "16750 South Townsend Ave, Montrose, CO 81401", "matches": [], "err": null, "store_id": "1058"}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "16750 S Townsend, Montrose, CO 81401", "matches": [], "err": null, "store_id": "1058"}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "16750 S US Highway 550, Montrose, CO 81401", "matches": [], "err": null, "store_id": "1058"}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "16750 S Hwy 550, Montrose, CO 81401", "matches": [], "err": null, "store_id": "1058"}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "16750 Highway 550, Montrose, CO 81401", "matches": [], "err": null, "store_id": "1058"}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "16750 US Highway 550, Montrose, CO 81401", "matches": [], "err": null, "store_id": "1058"}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "16750 S Townsend Ave, Montrose, CO 81403", "matches": [], "err": null, "store_id": "1058"}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "16750 Townsend Ave, Montrose, CO 81403", "matches": [], "err": null, "store_id": "1058"}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "16750 South Townsend Avenue, Montrose, CO 81401", "matches": [], "err": null, "store_id": "1058"}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "16750 S. Townsend Ave, Montrose, CO 81401", "matches": [], "err": null, "store_id": "1058"}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "16750 Townsend Avenue, Montrose, CO 81401", "matches": [], "err": null, "store_id": "1058"}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "16750 S Townsend Ave., Montrose, CO 81401", "matches": [], "err": null, "store_id": "1058"}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "16750 S Townsend Ave, Montrose, CO 81401", "matches": [], "err": null, "store_id": "1058"}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "16750 Townsend Ave, Montrose, CO 81401", "matches": [], "err": null, "store_id": "1058"}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "16750 South Townsend Ave, Montrose, CO 81401", "matches": [], "err": null, "store_id": "1058"}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "16750 S Townsend Avenue, Montrose, CO 81401", "matches": [], "err": null, "store_id": "1058"}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "16750 S Townsend, Montrose, CO 81401", "matches": [], "err": null, "store_id": "1058"}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "16750 S US Highway 550, Montrose, CO 81401", "matches": [], "err": null, "store_id": "1058"}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "16750 S Hwy 550, Montrose, CO 81401", "matches": [], "err": null, "store_id": "1058"}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "16750 Highway 550, Montrose, CO 81401", "matches": [], "err": null, "store_id": "1058"}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "16750 US Highway 550, Montrose, CO 81401", "matches": [], "err": null, "store_id": "1058"}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "16750 S Townsend Ave, Montrose, CO 81403", "matches": [], "err": null, "store_id": "1058"}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "16750 Townsend Ave, Montrose, CO 81403", "matches": [], "err": null, "store_id": "1058"}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "16750 South Townsend Avenue, Montrose, CO 81401", "matches": [], "err": null, "store_id": "1058"}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "16750 S. Townsend Ave, Montrose, CO 81401", "matches": [], "err": null, "store_id": "1058"}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "16750 Townsend Avenue, Montrose, CO 81401", "matches": [], "err": null, "store_id": "1058"}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "16750 S Townsend Ave., Montrose, CO 81401", "matches": [], "err": null, "store_id": "1058"}
+{"kind": "coordinates", "label": "walmart-1058-official-store-page", "x": -107.863399, "y": 38.449068, "benchmark": "Public_AR_Current", "vintage": "Current_Current", "place": ["Montrose city"], "cdp": [], "county": ["Montrose County"], "err": null, "source": "official Walmart store page https://www.walmart.com/store/1058-montrose-co geoPoint (latitude 38.449068, longitude -107.863399), fetched 2026-11-12; not collected from OpenStreetMap"}

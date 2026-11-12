@@ -1,0 +1,53 @@
+{"input": "321 S 1ST ST|MONTROSE|81401", "matched": "321 S 1ST ST, MONTROSE, CO, 81401", "place": ["Montrose city"], "cdp": [], "county": ["Montrose County"], "x": -107.876679232217, "y": 38.478204485655, "n": 1}
+{"input": "3025 WOODGATE RD|MONTROSE|81401", "matched": null, "err": null}
+{"input": "215 N US HIGHWAY 50 BUSINESS LOOP|OLATHE|81425", "matched": "215 N HWY 50 BUSINESS LP, OLATHE, CO, 81425", "place": ["Olathe town"], "cdp": [], "county": ["Montrose County"], "x": -107.980581695539, "y": 38.610646507396, "n": 1}
+{"input": "360 MEEKER ST|DELTA|81416", "matched": "360 MEEKER ST, DELTA, CO, 81416", "place": ["Delta city"], "cdp": [], "county": ["Delta County"], "x": -108.069402362117, "y": 38.742202685384, "n": 1}
+{"input": "22009 CANAL ST|AUSTIN|81410", "matched": "22009 CANAL ST, AUSTIN, CO, 81410", "place": ["Orchard City town"], "cdp": [], "county": ["Delta County"], "x": -107.952256900293, "y": 38.781217456064, "n": 1}
+{"input": "9340 HIGHWAY 65|CORY|81414", "matched": null, "err": null}
+{"input": "12570 HIGHWAY 65|ECKERT|81418", "matched": "12570 STATE HWY 65, ECKERT, CO, 81418", "place": ["Orchard City town"], "cdp": [], "county": ["Delta County"], "x": -107.966857693236, "y": 38.836389453782, "n": 1}
+{"input": "155 SW 2ND ST|CEDAREDGE|81413", "matched": "155 SW 2ND ST, CEDAREDGE, CO, 81413", "place": ["Cedaredge town"], "cdp": [], "county": ["Delta County"], "x": -107.925359313331, "y": 38.900117860394, "n": 1}
+{"input": "8587 3100 RD|LAZEAR|81420", "matched": null, "err": null}
+{"input": "485 CLINTON ST|RIDGWAY|81432", "matched": null, "err": null}
+{"input": "620 MAIN ST|OURAY|81427", "matched": "620 MAIN ST, OURAY, CO, 81427", "place": ["Ouray city"], "cdp": [], "county": ["Ouray County"], "x": -107.671575068674, "y": 38.023037996677, "n": 1}
+{"input": "150 S WILLOW ST|TELLURIDE|81435", "matched": "150 S WILLOW ST, TELLURIDE, CO, 81435", "place": ["Telluride town"], "cdp": [], "county": ["San Miguel County"], "x": -107.80891937584, "y": 37.936199567638, "n": 1}
+{"input": "138 W 12TH ST|SILVERTON|81433", "matched": "138 W 12TH ST, SILVERTON, CO, 81433", "place": ["Silverton town"], "cdp": [], "county": ["San Juan County"], "x": -107.66470780907, "y": 37.811879410913, "n": 1}
+{"input": "82111 E US HIGHWAY 50|CIMARRON|81220", "matched": null, "err": null}
+{"input": "295 HIGHWAY 92|CRAWFORD|81415", "matched": "295 STATE HWY 92, CRAWFORD, CO, 81415", "place": ["Crawford town"], "cdp": [], "county": ["Delta County"], "x": -107.607604307755, "y": 38.703079877391, "n": 1}
+{"input": "103 E BRIDGE ST|HOTCHKISS|81419", "matched": "103 E BRIDGE ST, HOTCHKISS, CO, 81419", "place": ["Hotchkiss town"], "cdp": [], "county": ["Delta County"], "x": -107.720866254477, "y": 38.798890708402, "n": 1}
+{"input": "125 GRAND AVE|PAONIA|81428", "matched": "125 GRAND AVE, PAONIA, CO, 81428", "place": ["Paonia town"], "cdp": [], "county": ["Delta County"], "x": -107.597785799099, "y": 38.866038642417, "n": 1}
+{"input": "3722 HIGHWAY 133|SOMERSET|81434", "matched": "3722 STATE HWY 133, SOMERSET, CO, 81434", "place": [], "cdp": ["Somerset CDP"], "county": ["Gunnison County"], "x": -107.469985026515, "y": 38.926201530685, "n": 1}
+{"input": "200 N WISCONSIN ST|GUNNISON|81230", "matched": "200 N WISCONSIN ST, GUNNISON, CO, 81230", "place": ["Gunnison city"], "cdp": [], "county": ["Gunnison County"], "x": -106.928141716143, "y": 38.545582285543, "n": 1}
+{"input": "500 COUNTY ROAD 742|ALMONT|81210", "matched": null, "err": null}
+{"input": "51387 US HIGHWAY 50|PARLIN|81239", "matched": null, "err": null}
+{"input": "300 FRONT ST|PLACERVILLE|81430", "matched": "300 FRONT ST, PLACERVILLE, CO, 81430", "place": [], "cdp": ["Placerville CDP"], "county": ["San Miguel County"], "x": -108.053631671999, "y": 38.01749967372, "n": 1}
+{"input": "431 OPHIR RD|OPHIR|81426", "matched": "431 OPHIR RD, OPHIR, CO, 81426", "place": [], "cdp": [], "county": ["San Miguel County"], "x": -107.86735960166, "y": 37.859095184883, "n": 1}
+{"input": "145 W 5TH AVE|NUCLA|81424", "matched": "145 W 5TH AVE, NUCLA, CO, 81424", "place": ["Nucla town"], "cdp": [], "county": ["Montrose County"], "x": -108.547143609742, "y": 38.268877283738, "n": 1}
+{"input": "211 W MAIN ST|NATURITA|81422", "matched": "211 W MAIN ST, NATURITA, CO, 81422", "place": ["Naturita town"], "cdp": [], "county": ["Montrose County"], "x": -108.570955434502, "y": 38.217354585591, "n": 1}
+{"input": "35017 3575 RD|REDVALE|81431", "matched": "35017 3575 RD, REDVALE, CO, 81431", "place": [], "cdp": ["Redvale CDP"], "county": ["Montrose County"], "x": -108.417575554588, "y": 38.174398847782, "n": 1}
+{"input": "616 COUNTY ROAD 28|POWDERHORN|81243", "matched": null, "err": null}
+{"input": "1555 GRAND AVE|NORWOOD|81423", "matched": "1555 GRAND AVE, NORWOOD, CO, 81423", "place": ["Norwood town"], "cdp": [], "county": ["San Miguel County"], "x": -108.290120415169, "y": 38.130798296219, "n": 1}
+{"input": "109 SHORT ST|WHITEWATER|81527", "matched": "109 SHORT ST, WHITEWATER, CO, 81527", "place": [], "cdp": [], "county": ["Mesa County"], "x": -108.451853974259, "y": 38.98989202458, "n": 1}
+{"input": "2923 NORTH AVE STE 4|GRAND JUNCTION|81504", "matched": "2923 NORTH AVE, GRAND JUNCTION, CO, 81504", "place": [], "cdp": [], "county": ["Mesa County"], "x": -108.511610616266, "y": 39.077149143381, "n": 1}
+{"input": "3252 F RD|CLIFTON|81520", "matched": "3252 F RD, CLIFTON, CO, 81520", "place": [], "cdp": ["Clifton CDP"], "county": ["Mesa County"], "x": -108.449577546751, "y": 39.091844923863, "n": 1}
+{"input": "241 N 4TH ST|GRAND JUNCTION|81501", "matched": "241 N 4TH ST, GRAND JUNCTION, CO, 81501", "place": ["Grand Junction city"], "cdp": [], "county": ["Mesa County"], "x": -108.566214355006, "y": 39.068720110522, "n": 1}
+{"input": "201 W THIRD ST|PALISADE|81526", "matched": "201 W THIRD ST, PALISADE, CO, 81526", "place": ["Palisade town"], "cdp": [], "county": ["Mesa County"], "x": -108.352166934411, "y": 39.110256770752, "n": 1}
+{"input": "734 SCARLET ST|GRAND JUNCTION|81505", "matched": "734 SCARLET DR, GRAND JUNCTION, CO, 81505", "place": ["Grand Junction city"], "cdp": [], "county": ["Mesa County"], "x": -108.63799002657, "y": 39.109852761116, "n": 1}
+{"input": "217 ELK AVE|CRESTED BUTTE|81224", "matched": "217 ELK AVE, CRESTED BUTTE, CO, 81224", "place": ["Crested Butte town"], "cdp": [], "county": ["Gunnison County"], "x": -106.987152323748, "y": 38.86981422026, "n": 1}
+{"input": "803 GUNNISON AVE|LAKE CITY|81235", "matched": "803 GUNNISON ST, LAKE CITY, CO, 81235", "place": ["Lake City town"], "cdp": [], "county": ["Hinsdale County"], "x": -107.312841507665, "y": 38.035032006088, "n": 1}
+{"input": "53169 KE RD|MOLINA|81646", "matched": "53169 KE RD, MOLINA, CO, 81646", "place": [], "cdp": [], "county": ["Mesa County"], "x": -108.063251517489, "y": 39.187408362339, "n": 1}
+{"input": "49012 KE RD|MESA|81643", "matched": "49012 KE RD, MESA, CO, 81643", "place": [], "cdp": [], "county": ["Mesa County"], "x": -108.138583686586, "y": 39.166315982343, "n": 1}
+{"input": "110 MAIN ST|COLLBRAN|81624", "matched": "110 MAIN ST, COLLBRAN, CO, 81624", "place": ["Collbran town"], "cdp": [], "county": ["Mesa County"], "x": -107.960895478017, "y": 39.238863600406, "n": 1}
+{"input": "347 MINTER AVE|DE BEQUE|81630", "matched": "347 MINTER AVE, DE BEQUE, CO, 81630", "place": ["De Beque town"], "cdp": [], "county": ["Mesa County"], "x": -108.213833796604, "y": 39.33279381101, "n": 1}
+{"input": "21395 6.0 RD|PARADOX|81429", "matched": null, "err": null}
+{"input": "9538 HIGHWAY 90|BEDROCK|81411", "matched": "9538 STATE HWY 90, BEDROCK, CO, 81411", "place": [], "cdp": [], "county": ["Montrose County"], "x": -108.897454762328, "y": 38.320002859359, "n": 1}
+{"input": "419 MAIN ST|PITKIN|81241", "matched": null, "err": null}
+{"input": "28 S GLASGOW AVE|RICO|81332", "matched": "28 S GLASGOW AVE, RICO, CO, 81332", "place": ["Rico town"], "cdp": [], "county": ["Dolores County"], "x": -108.031391648861, "y": 37.691630458575, "n": 1}
+{"input": "42700 HIGHWAY 141|GATEWAY|81522", "matched": "42700 STATE HWY 141, GATEWAY, CO, 81522", "place": [], "cdp": [], "county": ["Mesa County"], "x": -108.973138752835, "y": 38.683121449986, "n": 1}
+{"input": "1000 RAILROAD AVE N|DOLORES|81323", "matched": "1000 RAILROAD AVE, DOLORES, CO, 81323", "place": ["Dolores town"], "cdp": [], "county": ["Montezuma County"], "x": -108.497521590903, "y": 37.474173397574, "n": 1}
+{"input": "18794 HIGHWAY 491|LEWIS|81327", "matched": null, "err": null}
+{"input": "35 S BEECH ST|CORTEZ|81321", "matched": "35 S BEECH ST, CORTEZ, CO, 81321", "place": ["Cortez city"], "cdp": [], "county": ["Montezuma County"], "x": -108.583897425723, "y": 37.348257916038, "n": 1}
+{"input": "22009 COUNTY ROAD 18|YELLOW JACKET|81335", "matched": null, "err": null}
+{"input": "291 N WALNUT ST|MANCOS|81328", "matched": "291 S WALNUT ST, MANCOS, CO, 81328", "place": ["Mancos town"], "cdp": [], "county": ["Montezuma County"], "x": -108.291033266414, "y": 37.34280651858, "n": 1}
+{"input": "8715 HIGHWAY 141|EGNAR|81325", "matched": "8715 STATE HWY 141, EGNAR, CO, 81325", "place": [], "cdp": [], "county": ["San Miguel County"], "x": -108.940812280196, "y": 37.902110744323, "n": 1}
+{"input": "110 HIGHWAY 491|DOVE CREEK|81324", "matched": null, "err": null}
+{"input": "174 MEANS AVE|SARGENTS|81248", "matched": "174 MEANS AVE, SARGENTS, CO, 81248", "place": [], "cdp": [], "county": ["Saguache County"], "x": -106.414977421278, "y": 38.403926506774, "n": 1}
