@@ -1,0 +1,27 @@
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "8800 W 116th Cir, Broomfield, CO 80021", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "8800 W 116th Cir, Broomfield, CO 80021", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "3051 W 105th Ave, Westminster, CO 80031", "matches": [{"matched": "3051 W 105TH AVE, WESTMINSTER, CO, 80031", "place": ["Westminster city"], "cdp": [], "x": -105.026364206017, "y": 39.886871858984}]}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "3051 W 105th Ave, Westminster, CO 80031", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "12470 York St, Eastlake, CO 80614", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "12470 York St, Eastlake, CO 80614", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "3330 Eldorado Springs Dr, Eldorado Springs, CO 80025", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "3330 Eldorado Springs Dr, Eldorado Springs, CO 80025", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "729 Baseline Pl, Brighton, CO 80603", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "729 Baseline Pl, Brighton, CO 80603", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "10799 W Alameda Ave, Lakewood, CO 80226", "matches": [{"matched": "10799 W ALAMEDA PKWY, LAKEWOOD, CO, 80228", "place": ["Lakewood city"], "cdp": [], "x": -105.116699986459, "y": 39.711038729932}]}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "10799 W Alameda Ave, Lakewood, CO 80226", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "1891 State Highway 7, Erie, CO 80516", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "1891 State Highway 7, Erie, CO 80516", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "745 US Highway 287, Lafayette, CO 80026", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "745 US Highway 287, Lafayette, CO 80026", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "745 US Hwy 287, Lafayette, CO 80026", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "745 US Hwy 287, Lafayette, CO 80026", "matches": []}
+{"label": "Broomfield Eagle View 1361605", "source": "official USPS locator point", "x": -105.097138, "y": 39.902597, "benchmark": "Public_AR_Current", "place": ["Broomfield city"], "cdp": [], "county": ["Broomfield County"]}
+{"label": "Broomfield 1356062", "source": "official USPS locator point", "x": -105.068392, "y": 39.915479, "benchmark": "Public_AR_Current", "place": ["Broomfield city"], "cdp": [], "county": ["Broomfield County"]}
+{"label": "Westminster 1439640", "source": "official USPS locator point", "x": -105.026322, "y": 39.887251, "benchmark": "Public_AR_Current", "place": ["Westminster city"], "cdp": [], "county": ["Adams County"]}
+{"label": "Eastlake 1361915", "source": "official USPS locator point", "x": -104.958444, "y": 39.922264, "benchmark": "Public_AR_Current", "place": ["Thornton city"], "cdp": [], "county": ["Adams County"]}
+{"label": "Eldorado Springs 1362237", "source": "official USPS locator point", "x": -105.273613, "y": 39.932916, "benchmark": "Public_AR_Current", "place": [], "cdp": ["Eldorado Springs CDP"], "county": ["Boulder County"]}
+{"label": "Brighton Carrier Annex 1555032", "source": "official USPS locator point", "x": -104.812655, "y": 40.001787, "benchmark": "Public_AR_Current", "place": ["Brighton city"], "cdp": [], "county": ["Weld County"]}
+{"label": "Lakewood 1439615", "source": "official USPS locator point", "x": -105.118045, "y": 39.711977, "benchmark": "Public_AR_Current", "place": ["Lakewood city"], "cdp": [], "county": ["Jefferson County"]}
+{"label": "Lakewood Co Sdc 1612989", "source": "official USPS locator point", "x": -105.118124, "y": 39.711976, "benchmark": "Public_AR_Current", "place": ["Lakewood city"], "cdp": [], "county": ["Jefferson County"]}
+{"label": "King Soopers 00129 VISTA RIDGE Erie (OSM, supplementary)", "source": "OpenStreetMap point (non-official, supplementary)", "x": -105.0099449, "y": 40.0023911, "benchmark": "Public_AR_Current", "place": ["Erie town"], "cdp": [], "county": ["Weld County"]}

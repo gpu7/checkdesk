@@ -1,0 +1,52 @@
+{"input": "280 E 1ST AVE | Broomfield | 80020", "matched": "280 E 1ST AVE, BROOMFIELD, CO, 80020", "place": ["Broomfield city"], "cdp": [], "county": ["Broomfield County"], "x": -105.068002546664, "y": 39.915923825281, "n": 1}
+{"input": "8800 W 116TH CIR | Broomfield | 80021", "matched": null, "err": null}
+{"input": "3051 W 105TH AVE | Westminster | 80031", "matched": null, "err": null}
+{"input": "850 W 112TH AVE | Northglenn | 80234", "matched": "850 W 112TH AVE, NORTHGLENN, CO, 80234", "place": ["Northglenn city"], "cdp": [], "county": ["Adams County"], "x": -104.997365011888, "y": 39.899670267582, "n": 1}
+{"input": "11887 WASHINGTON ST | Northglenn | 80233", "matched": "11887 WASHINGTON ST, NORTHGLENN, CO, 80233", "place": ["Northglenn city"], "cdp": [], "county": ["Adams County"], "x": -104.977988547113, "y": 39.911887659304, "n": 1}
+{"input": "109 KIMBARK ST | Lafayette | 80026", "matched": "109 KIMBARK ST, LAFAYETTE, CO, 80026", "place": ["Lafayette city"], "cdp": [], "county": ["Boulder County"], "x": -105.090653517544, "y": 39.992364851337, "n": 1}
+{"input": "603 S PUBLIC RD | Lafayette | 80026", "matched": "603 S PUBLIC RD, LAFAYETTE, CO, 80026", "place": ["Lafayette city"], "cdp": [], "county": ["Boulder County"], "x": -105.090539700674, "y": 39.993308072926, "n": 1}
+{"input": "12470 YORK ST | Eastlake | 80614", "matched": null, "err": null}
+{"input": "566 S MCCASLIN BLVD | Superior | 80027", "matched": "566 S MCCASLIN BLVD, SUPERIOR, CO, 80027", "place": ["Louisville city"], "cdp": [], "county": ["Boulder County"], "x": -105.164208507346, "y": 39.961837731036, "n": 1}
+{"input": "7765 WADSWORTH BLVD | Arvada | 80003", "matched": "7765 WADSWORTH BLVD, ARVADA, CO, 80003", "place": ["Arvada city"], "cdp": [], "county": ["Jefferson County"], "x": -105.081817795425, "y": 39.838175851083, "n": 1}
+{"input": "7262 MEADE ST | Westminster | 80030", "matched": "7262 MEADE ST, WESTMINSTER, CO, 80030", "place": ["Westminster city"], "cdp": [], "county": ["Adams County"], "x": -105.035796674926, "y": 39.828408959248, "n": 1}
+{"input": "1411 CORTEZ ST | Denver | 80221", "matched": "1411 CORTEZ ST, DENVER, CO, 80221", "place": [], "cdp": ["Sherrelwood CDP"], "county": ["Adams County"], "x": -105.004437051316, "y": 39.830774855477, "n": 1}
+{"input": "621 MITCHELL WAY | Erie | 80516", "matched": "621 MITCHELL WAY, ERIE, CO, 80516", "place": ["Erie town"], "cdp": [], "county": ["Weld County"], "x": -105.054916942622, "y": 40.034581683705, "n": 1}
+{"input": "5885 ALLISON ST | Arvada | 80004", "matched": "5885 ALLISON ST, ARVADA, CO, 80004", "place": ["Arvada city"], "cdp": [], "county": ["Jefferson County"], "x": -105.086187160711, "y": 39.803238305772, "n": 1}
+{"input": "150 WELLS ST | Erie | 80516", "matched": "150 WELLS ST, ERIE, CO, 80516", "place": ["Erie town"], "cdp": [], "county": ["Weld County"], "x": -105.047182191622, "y": 40.050205072073, "n": 1}
+{"input": "8096 BRIGHTON RD | Commerce City | 80022", "matched": "8096 BRIGHTON RD, COMMERCE CITY, CO, 80022", "place": [], "cdp": ["Derby CDP"], "county": ["Adams County"], "x": -104.920963056369, "y": 39.843787332563, "n": 1}
+{"input": "6655 BRIGHTON BLVD | Commerce City | 80022", "matched": "6655 BRIGHTON BLVD, COMMERCE CITY, CO, 80022", "place": ["Commerce City city"], "cdp": [], "county": ["Adams County"], "x": -104.933531934891, "y": 39.818476589697, "n": 1}
+{"input": "4985 MOORHEAD AVE | Boulder | 80305", "matched": "4985 MOORHEAD AVE, BOULDER, CO, 80305", "place": ["Boulder city"], "cdp": [], "county": ["Boulder County"], "x": -105.237600476538, "y": 39.986191200785, "n": 1}
+{"input": "7351 MAGNOLIA ST | Commerce City | 80022", "matched": "7351 MAGNOLIA ST, COMMERCE CITY, CO, 80022", "place": ["Commerce City city"], "cdp": [], "county": ["Adams County"], "x": -104.910789145087, "y": 39.83054436338, "n": 1}
+{"input": "12210 BRIGHTON RD | Henderson | 80640", "matched": "12210 BRIGHTON RD, HENDERSON, CO, 80640", "place": [], "cdp": [], "county": ["Adams County"], "x": -104.867683353124, "y": 39.918045546291, "n": 1}
+{"input": "1636 W 46TH AVE | Denver | 80211", "matched": "1636 W 46TH AVE, DENVER, CO, 80211", "place": ["Denver city"], "cdp": [], "county": ["Denver County"], "x": -105.005699725481, "y": 39.780096955827, "n": 1}
+{"input": "4210 WADSWORTH BLVD | Wheat Ridge | 80033", "matched": "4210 WADSWORTH BLVD, WHEAT RIDGE, CO, 80033", "place": ["Wheat Ridge city"], "cdp": [], "county": ["Jefferson County"], "x": -105.081324376433, "y": 39.773158705029, "n": 1}
+{"input": "4910 BRIGHTON BLVD | Denver | 80216", "matched": "4910 BRIGHTON BLVD, DENVER, CO, 80216", "place": ["Denver city"], "cdp": [], "county": ["Denver County"], "x": -104.966610329949, "y": 39.785541098273, "n": 1}
+{"input": "3700 TENNYSON ST | Denver | 80212", "matched": "3700 TENNYSON ST, DENVER, CO, 80212", "place": ["Denver city"], "cdp": [], "county": ["Denver County"], "x": -105.043937418378, "y": 39.767619299878, "n": 1}
+{"input": "3330 ELDORADO SPRINGS DR | Eldorado Springs | 80025", "matched": null, "err": null}
+{"input": "2995 55TH ST | Boulder | 80301", "matched": "2995 55TH ST, BOULDER, CO, 80301", "place": ["Boulder city"], "cdp": [], "county": ["Boulder County"], "x": -105.225454717382, "y": 40.029032573294, "n": 1}
+{"input": "2995 55TH ST | Boulder | 80301", "matched": "2995 55TH ST, BOULDER, CO, 80301", "place": ["Boulder city"], "cdp": [], "county": ["Boulder County"], "x": -105.225454717382, "y": 40.029032573294, "n": 1}
+{"input": "1990 DEPEW ST | Lakewood | 80214", "matched": "1990 DEPEW ST, LAKEWOOD, CO, 80214", "place": ["Edgewater city"], "cdp": [], "county": ["Jefferson County"], "x": -105.057817606599, "y": 39.747160389063, "n": 1}
+{"input": "951 20TH ST | Denver | 80202", "matched": "951 20TH ST, DENVER, CO, 80202", "place": ["Denver city"], "cdp": [], "county": ["Denver County"], "x": -104.989492624919, "y": 39.750643192104, "n": 1}
+{"input": "7550 E 53RD PL | Denver | 80217", "matched": "7550 E 53RD PL, DENVER, CO, 80216", "place": ["Denver city"], "cdp": [], "county": ["Denver County"], "x": -104.899845228335, "y": 39.793334703037, "n": 2}
+{"input": "1905 15TH ST | Boulder | 80302", "matched": "1905 15TH ST, BOULDER, CO, 80302", "place": ["Boulder city"], "cdp": [], "county": ["Boulder County"], "x": -105.275796662481, "y": 40.017763853161, "n": 1}
+{"input": "650 GLEN CREIGHTON DR | Dacono | 80514", "matched": "650 GLEN CREIGHTON DR, DACONO, CO, 80514", "place": ["Dacono city"], "cdp": [], "county": ["Weld County"], "x": -104.930131249374, "y": 40.086050993522, "n": 1}
+{"input": "3355 HUDSON ST | Denver | 80207", "matched": "3355 HUDSON ST, DENVER, CO, 80207", "place": ["Denver city"], "cdp": [], "county": ["Denver County"], "x": -104.924104379435, "y": 39.76431307224, "n": 1}
+{"input": "450 W 14TH AVE | Denver | 80204", "matched": "450 W 14TH AVE, DENVER, CO, 80204", "place": ["Denver city"], "cdp": [], "county": ["Denver County"], "x": -104.993533043838, "y": 39.738392724804, "n": 1}
+{"input": "1551 N DOWNING ST | Denver | 80218", "matched": "1551 DOWNING ST, DENVER, CO, 80218", "place": ["Denver city"], "cdp": [], "county": ["Denver County"], "x": -104.973475823181, "y": 39.740856984654, "n": 1}
+{"input": "1541 N MARION ST | Denver | 80218", "matched": "1541 MARION ST, DENVER, CO, 80218", "place": ["Denver city"], "cdp": [], "county": ["Denver County"], "x": -104.972218801222, "y": 39.740694333051, "n": 1}
+{"input": "90 N 4TH AVE | Brighton | 80601", "matched": "90 N 4TH AVE, BRIGHTON, CO, 80601", "place": ["Brighton city"], "cdp": [], "county": ["Adams County"], "x": -104.818075763824, "y": 39.988713968758, "n": 1}
+{"input": "150 MURRAY ST | Niwot | 80544", "matched": "150 MURRAY ST, NIWOT, CO, 80544", "place": [], "cdp": ["Niwot CDP"], "county": ["Boulder County"], "x": -105.173180910882, "y": 40.103174009659, "n": 1}
+{"input": "411 OAK ST | Frederick | 80530", "matched": "411 OAK ST, FREDERICK, CO, 80530", "place": ["Frederick town"], "cdp": [], "county": ["Weld County"], "x": -104.938287614574, "y": 40.099401403618, "n": 1}
+{"input": "729 BASELINE PL | Brighton | 80603", "matched": null, "err": null}
+{"input": "619 12TH ST | Golden | 80401", "matched": "619 12TH ST, GOLDEN, CO, 80401", "place": ["Golden city"], "cdp": [], "county": ["Jefferson County"], "x": -105.2193795896, "y": 39.756399182639, "n": 1}
+{"input": "478 1ST ST | Firestone | 80520", "matched": "478 1ST ST, FIRESTONE, CO, 80520", "place": ["Firestone town"], "cdp": [], "county": ["Weld County"], "x": -104.939191306692, "y": 40.112948762876, "n": 1}
+{"input": "4710 NOME ST | Denver | 80239", "matched": "4710 NOME ST, DENVER, CO, 80239", "place": ["Denver city"], "cdp": [], "county": ["Denver County"], "x": -104.852560995462, "y": 39.782625085931, "n": 1}
+{"input": "1100 JOHNSON RD | Golden | 80401", "matched": "1100 JOHNSON RD, GOLDEN, CO, 80401", "place": ["Golden city"], "cdp": [], "county": ["Jefferson County"], "x": -105.201107175733, "y": 39.734201176874, "n": 1}
+{"input": "1100 JOHNSON RD | Golden | 80401", "matched": "1100 JOHNSON RD, GOLDEN, CO, 80401", "place": ["Golden city"], "cdp": [], "county": ["Jefferson County"], "x": -105.201107175733, "y": 39.734201176874, "n": 1}
+{"input": "10799 W ALAMEDA AVE | Lakewood | 80226", "matched": null, "err": null}
+{"input": "10799 W ALAMEDA AVE | Lakewood | 80226", "matched": null, "err": null}
+{"input": "225 S BROADWAY | Denver | 80209", "matched": "225 S BROADWAY, DENVER, CO, 80209", "place": ["Denver city"], "cdp": [], "county": ["Denver County"], "x": -104.987619838377, "y": 39.712580138182, "n": 1}
+{"input": "201 COLUMBINE ST STE 150 | Denver | 80206", "matched": "201 COLUMBINE ST, DENVER, CO, 80206", "place": ["Denver city"], "cdp": [], "county": ["Denver County"], "x": -104.957137201938, "y": 39.719459274718, "n": 1}
+{"input": "4259 W FLORIDA AVE | Denver | 80219", "matched": "4259 W FLORIDA AVE, DENVER, CO, 80219", "place": ["Denver city"], "cdp": [], "county": ["Denver County"], "x": -105.042046340363, "y": 39.689536320051, "n": 1}
+{"input": "533 4TH ST | Fort Lupton | 80621", "matched": "533 4TH ST, FORT LUPTON, CO, 80621", "place": ["Fort Lupton city"], "cdp": [], "county": ["Weld County"], "x": -104.812504245649, "y": 40.083294330337, "n": 1}
+{"input": "201 COFFMAN ST | Longmont | 80501", "matched": "201 COFFMAN ST, LONGMONT, CO, 80501", "place": ["Longmont city"], "cdp": [], "county": ["Boulder County"], "x": -105.103909968602, "y": 40.161925284979, "n": 1}
