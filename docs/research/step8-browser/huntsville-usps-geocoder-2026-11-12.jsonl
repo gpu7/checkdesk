@@ -1,0 +1,52 @@
+{"input": "615 CLINTON AVE W | HUNTSVILLE | 35801", "matched": "615 CLINTON AVE W, HUNTSVILLE, AL, 35801", "place": ["Huntsville city"], "cdp": [], "county": ["Madison County"], "x": -86.593531762719, "y": 34.727517865208, "n": 1}
+{"input": "3605 GOVERNORS DR SW | HUNTSVILLE | 35805", "matched": "3605 GOVERNORS DR SW, HUNTSVILLE, AL, 35805", "place": ["Huntsville city"], "cdp": [], "county": ["Madison County"], "x": -86.615840106696, "y": 34.72006503056, "n": 1}
+{"input": "2501 MASTIN LAKE RD NW | HUNTSVILLE | 35810", "matched": "2501 MASTIN LAKE RD NW, HUNTSVILLE, AL, 35810", "place": ["Huntsville city"], "cdp": [], "county": ["Madison County"], "x": -86.595815042719, "y": 34.771978230652, "n": 1}
+{"input": "100 DRAKE DR | NORMAL | 35762", "matched": null, "err": null}
+{"input": "3710 AEROBEE RD | HUNTSVILLE | 35808", "matched": null, "err": null}
+{"input": "645 WYNN DR NW | HUNTSVILLE | 35816", "matched": "645 WYNN DR NW, HUNTSVILLE, AL, 35816", "place": ["Huntsville city"], "cdp": [], "county": ["Madison County"], "x": -86.653119044749, "y": 34.736654646159, "n": 1}
+{"input": "8401 WHITESBURG DR SE | HUNTSVILLE | 35802", "matched": "8401 WHITESBURG WAY, HUNTSVILLE, AL, 35802", "place": ["Huntsville city"], "cdp": [], "county": ["Madison County"], "x": -86.564514678495, "y": 34.651734567077, "n": 1}
+{"input": "370 RYLAND PIKE | RYLAND | 35767", "matched": null, "err": null}
+{"input": "121 BROWNSBORO RD | BROWNSBORO | 35741", "matched": "121 BROWNSBORO RD, BROWNSBORO, AL, 35741", "place": [], "cdp": [], "county": ["Madison County"], "x": -86.450279414443, "y": 34.746938498054, "n": 1}
+{"input": "11639 HIGHWAY 231 431 N | MERIDIANVILLE | 35759", "matched": "11639 US HWY 231, MERIDIANVILLE, AL, 35759", "place": [], "cdp": ["Meridianville CDP"], "county": ["Madison County"], "x": -86.571463042308, "y": 34.848656436726, "n": 1}
+{"input": "56 HUGHES RD | MADISON | 35758", "matched": "56 HUGHES RD, MADISON, AL, 35758", "place": ["Madison city"], "cdp": [], "county": ["Madison County"], "x": -86.735337622284, "y": 34.690662875768, "n": 1}
+{"input": "8396 HIGHWAY 431 S | OWENS CROSS ROADS | 35763", "matched": null, "err": null}
+{"input": "3408 WALL TRIANA HWY | HUNTSVILLE | 35813", "matched": "3408 WALL TRIANA HWY, HUNTSVILLE, AL, 35813", "place": ["Huntsville city"], "cdp": [], "county": ["Madison County"], "x": -86.752217584285, "y": 34.667348843229, "n": 1}
+{"input": "3408 WALL TRIANA HWY | HUNTSVILLE | 35813", "matched": "3408 WALL TRIANA HWY, HUNTSVILLE, AL, 35813", "place": ["Huntsville city"], "cdp": [], "county": ["Madison County"], "x": -86.752217584285, "y": 34.667348843229, "n": 1}
+{"input": "3408 WALL TRIANA HWY | HUNTSVILLE | 35813", "matched": "3408 WALL TRIANA HWY, HUNTSVILLE, AL, 35813", "place": ["Huntsville city"], "cdp": [], "county": ["Madison County"], "x": -86.752217584285, "y": 34.667348843229, "n": 1}
+{"input": "6051 HIGHWAY 72 E | GURLEY | 35748", "matched": "6051 US HWY 72, GURLEY, AL, 35748", "place": ["Gurley town"], "cdp": [], "county": ["Madison County"], "x": -86.383751799707, "y": 34.699680969559, "n": 1}
+{"input": "1108 OLD RAILROAD BED RD | CAPSHAW | 35742", "matched": null, "err": null}
+{"input": "1795 HIGHWAY 231 | LACEYS SPRING | 35754", "matched": "1795 US HWY 231, LACEYS SPRING, AL, 35754", "place": [], "cdp": [], "county": ["Morgan County"], "x": -86.58972342244, "y": 34.528512437913, "n": 1}
+{"input": "9157 WALL TRIANA HWY | HARVEST | 35749", "matched": "9157 WALL TRIANA HWY, HARVEST, AL, 35749", "place": [], "cdp": ["Harvest CDP"], "county": ["Madison County"], "x": -86.748967981341, "y": 34.858863200703, "n": 1}
+{"input": "14297 HIGHWAY 231 431 N | HAZEL GREEN | 35750", "matched": "14297 US HWY 231, HAZEL GREEN, AL, 35750", "place": [], "cdp": ["Hazel Green CDP"], "county": ["Madison County"], "x": -86.571915367624, "y": 34.936146798726, "n": 1}
+{"input": "136 TONEY RD | TONEY | 35773", "matched": "136 TONEY RD, TONEY, AL, 35773", "place": [], "cdp": [], "county": ["Madison County"], "x": -86.714905397178, "y": 34.901878013107, "n": 1}
+{"input": "3227 US HIGHWAY 72 | PAINT ROCK | 35764", "matched": "3227 US HWY 72, PAINT ROCK, AL, 35764", "place": ["Paint Rock town"], "cdp": [], "county": ["Jackson County"], "x": -86.328822430333, "y": 34.660548858898, "n": 1}
+{"input": "5464 MAIN DR | NEW HOPE | 35760", "matched": "5464 MAIN DR, NEW HOPE, AL, 35760", "place": ["New Hope city"], "cdp": [], "county": ["Madison County"], "x": -86.394250989683, "y": 34.537829946698, "n": 1}
+{"input": "7071 HIGHWAY 36 E | VALHERMOSO SPRINGS | 35775", "matched": null, "err": null}
+{"input": "24989 GARRETT RD | BELLE MINA | 35615", "matched": "24989 GARRETT RD, BELLE MINA, AL, 35615", "place": [], "cdp": [], "county": ["Limestone County"], "x": -86.879819676826, "y": 34.656839995501, "n": 1}
+{"input": "24995 LAUDERDALE ST | MOORESVILLE | 35649", "matched": "24995 LAUDERDALE ST, MOORESVILLE, AL, 35649", "place": ["Mooresville town"], "cdp": [], "county": ["Limestone County"], "x": -86.880499871814, "y": 34.626459031531, "n": 1}
+{"input": "5516 WINCHESTER RD | NEW MARKET | 35761", "matched": "5516 WINCHESTER RD, NEW MARKET, AL, 35761", "place": [], "cdp": ["New Market CDP"], "county": ["Madison County"], "x": -86.427737484731, "y": 34.910524340507, "n": 1}
+{"input": "20236 HUNTSVILLE BROWNSFERRY RD | TANNER | 35671", "matched": "20236 HUNTSVILLE BROWNSFERRY RD, TANNER, AL, 35671", "place": [], "cdp": [], "county": ["Limestone County"], "x": -86.961263230755, "y": 34.731193654192, "n": 1}
+{"input": "400 WELL ST NE | DECATUR | 35601", "matched": null, "err": null}
+{"input": "3696 HIGHWAY 67 S | SOMERVILLE | 35670", "matched": "3696 STATE RTE 67, SOMERVILLE, AL, 35670", "place": ["Somerville town"], "cdp": [], "county": ["Morgan County"], "x": -86.801915413892, "y": 34.472136269309, "n": 2}
+{"input": "1110 W MARKET ST | ATHENS | 35611", "matched": "1110 MARKET ST W, ATHENS, AL, 35611", "place": ["Athens city"], "cdp": [], "county": ["Limestone County"], "x": -86.982269191377, "y": 34.805062394497, "n": 1}
+{"input": "26050 MAIN ST | ARDMORE | 38449", "matched": "26050 MAIN ST, ARDMORE, TN, 38449", "place": ["Ardmore city"], "cdp": [], "county": ["Giles County"], "x": -86.85451985031, "y": 34.994641588038, "n": 1}
+{"input": "25540 LEVIE DAVIS DR | ELKMONT | 35620", "matched": "25540 LEVIE DAVIS DR, ELKMONT, AL, 35620", "place": ["Elkmont town"], "cdp": [], "county": ["Limestone County"], "x": -86.980124900314, "y": 34.929439295605, "n": 1}
+{"input": "1111 OLD RAILROAD BED RD | TAFT | 38488", "matched": "1111 OLD RAILROAD BED RD, TAFT, TN, 38488", "place": [], "cdp": ["Taft CDP"], "county": ["Lincoln County"], "x": -86.718149937183, "y": 35.020833652142, "n": 1}
+{"input": "30056 AL HIGHWAY 35 | WOODVILLE | 35776", "matched": "30056 STATE RTE 35, WOODVILLE, AL, 35776", "place": ["Woodville town"], "cdp": [], "county": ["Jackson County"], "x": -86.272949523637, "y": 34.625758697109, "n": 1}
+{"input": "5319 MAIN ST | GRANT | 35747", "matched": "5319 MAIN ST, GRANT, AL, 35747", "place": ["Grant town"], "cdp": [], "county": ["Marshall County"], "x": -86.252616051352, "y": 34.525008454731, "n": 1}
+{"input": "3935 UNION GROVE RD | UNION GROVE | 35175", "matched": "3935 UNION GROVE RD, UNION GROVE, AL, 35175", "place": ["Union Grove town"], "cdp": [], "county": ["Marshall County"], "x": -86.449317309704, "y": 34.402444993996, "n": 1}
+{"input": "1021 BLOUNT AVE | GUNTERSVILLE | 35976", "matched": "1021 BLOUNT AVE, GUNTERSVILLE, AL, 35976", "place": ["Guntersville city"], "cdp": [], "county": ["Marshall County"], "x": -86.29777358496, "y": 34.350965022661, "n": 1}
+{"input": "14575 AL HIGHWAY 65 | PRINCETON | 35766", "matched": "14575 STATE RTE 65, PRINCETON, AL, 35766", "place": [], "cdp": [], "county": ["Jackson County"], "x": -86.24288586186, "y": 34.842920711618, "n": 1}
+{"input": "68 OLD HUNTLAND RD | ELORA | 37328", "matched": "68 OLD HUNTLAND RD, ELORA, TN, 37328", "place": [], "cdp": [], "county": ["Lincoln County"], "x": -86.356650180409, "y": 35.013385226608, "n": 1}
+{"input": "241 FLINTVILLE RD | FLINTVILLE | 37335", "matched": "241 FLINTVILLE RD, FLINTVILLE, TN, 37335", "place": [], "cdp": ["Flintville CDP"], "county": ["Lincoln County"], "x": -86.420221965943, "y": 35.062499540929, "n": 1}
+{"input": "104 ALABAMA ST | HUNTLAND | 37345", "matched": "104 ALABAMA ST, HUNTLAND, TN, 37345", "place": ["Huntland town"], "cdp": [], "county": ["Franklin County"], "x": -86.268421707534, "y": 35.050416141556, "n": 1}
+{"input": "170 MAIN ST | ELKTON | 38455", "matched": "170 MAIN ST, ELKTON, TN, 38455", "place": ["Elkton city"], "cdp": [], "county": ["Giles County"], "x": -86.889021819292, "y": 35.052140018785, "n": 1}
+{"input": "36 TEAL HOLLOW RD | KELSO | 37348", "matched": "36 TEAL HOLLOW RD, KELSO, TN, 37348", "place": [], "cdp": [], "county": ["Lincoln County"], "x": -86.466935921034, "y": 35.124964914716, "n": 1}
+{"input": "226 COLLEGE ST E | FAYETTEVILLE | 37334", "matched": "226 COLLEGE ST E, FAYETTEVILLE, TN, 37334", "place": ["Fayetteville city"], "cdp": [], "county": ["Lincoln County"], "x": -86.568839253446, "y": 35.152114002908, "n": 1}
+{"input": "564 FRONT ST | HILLSBORO | 35643", "matched": "564 FRONT ST, HILLSBORO, AL, 35643", "place": ["Hillsboro town"], "cdp": [], "county": ["Lawrence County"], "x": -87.192421746071, "y": 34.639852907848, "n": 1}
+{"input": "1290 OLD HIGHWAY 24 | TRINITY | 35673", "matched": "1290 OLD HWY 24, TRINITY, AL, 35673", "place": ["Trinity city"], "cdp": [], "county": ["Morgan County"], "x": -87.08857800272, "y": 34.589728653699, "n": 1}
+{"input": "400 MAIN ST | PROSPECT | 38477", "matched": "400 MAIN ST, PROSPECT, TN, 38477", "place": [], "cdp": ["Prospect CDP"], "county": ["Giles County"], "x": -86.999271135683, "y": 35.026923338838, "n": 1}
+{"input": "4456 HIGHWAY 55 E | EVA | 35621", "matched": null, "err": null}
+{"input": "201 CEDAR ST NW | HARTSELLE | 35640", "matched": "201 CEDAR ST NW, HARTSELLE, AL, 35640", "place": ["Hartselle city"], "cdp": [], "county": ["Morgan County"], "x": -86.938662425644, "y": 34.443360320856, "n": 1}
+{"input": "4539 HIGHWAY 31 SW | FALKVILLE | 35622", "matched": "4539 US HWY 31 S, FALKVILLE, AL, 35622", "place": ["Falkville town"], "cdp": [], "county": ["Morgan County"], "x": -86.910049479606, "y": 34.372939850315, "n": 1}
+{"input": "819 N MAIN ST | ARAB | 35016", "matched": "819 N MAIN ST, ARAB, AL, 35016", "place": ["Arab city"], "cdp": [], "county": ["Marshall County"], "x": -86.498161670054, "y": 34.328639699859, "n": 1}
