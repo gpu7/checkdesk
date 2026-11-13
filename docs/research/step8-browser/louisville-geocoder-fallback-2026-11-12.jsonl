@@ -1,0 +1,27 @@
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "566 S MCCASLIN BLVD, SUPERIOR, CO 80027", "matches": [{"matched": "566 S MCCASLIN BLVD, SUPERIOR, CO, 80027", "place": ["Louisville city"], "cdp": [], "x": -105.164208270237, "y": 39.961835088612}]}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "566 S MCCASLIN BLVD, SUPERIOR, CO 80027", "matches": [{"matched": "566 S MCCASLIN BLVD, SUPERIOR, CO, 80027", "place": ["Louisville city"], "cdp": [], "x": -105.164208507346, "y": 39.961837731036}]}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "8800 W 116TH CIR, BROOMFIELD, CO 80021", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "8800 W 116TH CIR, BROOMFIELD, CO 80021", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "3330 ELDORADO SPRINGS DR, ELDORADO SPRINGS, CO 80025", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "3330 ELDORADO SPRINGS DR, ELDORADO SPRINGS, CO 80025", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "3051 W 105TH AVE, WESTMINSTER, CO 80031", "matches": [{"matched": "3051 W 105TH AVE, WESTMINSTER, CO, 80031", "place": ["Westminster city"], "cdp": [], "x": -105.026364206017, "y": 39.886871858984}]}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "3051 W 105TH AVE, WESTMINSTER, CO 80031", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "12470 YORK ST, EASTLAKE, CO 80614", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "12470 YORK ST, EASTLAKE, CO 80614", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "11830 N 75TH ST, HYGIENE, CO 80533", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "11830 N 75TH ST, HYGIENE, CO 80533", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "729 BASELINE PL, BRIGHTON, CO 80603", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "729 BASELINE PL, BRIGHTON, CO 80603", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "10799 W ALAMEDA AVE, LAKEWOOD, CO 80226", "matches": [{"matched": "10799 W ALAMEDA PKWY, LAKEWOOD, CO, 80228", "place": ["Lakewood city"], "cdp": [], "x": -105.116699986459, "y": 39.711038729932}]}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "10799 W ALAMEDA AVE, LAKEWOOD, CO 80226", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "350 EAST ST, NEDERLAND, CO 80466", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "350 EAST ST, NEDERLAND, CO 80466", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "7340 BLACK HAWK BLVD, BLACK HAWK, CO 80422", "matches": []}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "7340 BLACK HAWK BLVD, BLACK HAWK, CO 80422", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "1375 E South Boulder Rd, Louisville, CO 80027", "matches": [{"matched": "1375 E SOUTH BOULDER RD, LOUISVILLE, CO, 80027", "place": ["Louisville city"], "cdp": [], "county": ["Boulder County"], "x": -105.127637343233, "y": 39.987005852389}]}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "1171 W Dillon Rd, Louisville, CO 80027", "matches": [{"matched": "1171 W DILLON RD, LOUISVILLE, CO, 80027", "place": ["Louisville city"], "cdp": [], "county": ["Boulder County"], "x": -105.163911237917, "y": 39.961322146675}]}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "500 Summit Blvd, Broomfield, CO 80021", "matches": [{"matched": "500 SUMMIT BLVD, BROOMFIELD, CO, 80021", "place": ["Broomfield city"], "cdp": [], "county": ["Broomfield County"], "x": -105.137408646113, "y": 39.926770085247}]}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "1150 US Highway 287, Broomfield, CO 80020", "matches": [{"matched": "1150 US HWY 287, BROOMFIELD, CO, 80020", "place": ["Broomfield city"], "cdp": [], "county": ["Broomfield County"], "x": -105.090550446721, "y": 39.931828012731}]}
+{"benchmark": "Public_AR_Current", "vintage": "Current_Current", "input": "745 US Highway 287, Lafayette, CO 80026", "matches": []}
+{"benchmark": "Public_AR_Census2020", "vintage": "Census2020_Census2020", "input": "745 US Highway 287, Lafayette, CO 80026", "matches": []}
+{"id": "1371024", "name": "LOUISVILLE", "source": "official_usps_locator_map_point", "lat": "39.96163", "lon": "-105.159983", "place": ["Louisville city"], "cdp": [], "county": ["Boulder County"]}
