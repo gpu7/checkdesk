@@ -1,0 +1,19 @@
+# Step 8: Stamford, CT (2026-11-15, America/Denver)
+
+**Rows:** 4 (four Post Offices). Second city of the Connecticut batch (Bridgeport, Stamford, New Haven, Hartford, Waterbury; one city at a time). Stamford is an incorporated city, coextensive with Stamford town, in the Western Connecticut Planning Region (Census "Stamford city", GEOID 0973000; planning region GEOID 09190). Only addresses inside Stamford city whose official printed city is Stamford are listed. Greenwich, Darien, New Canaan, and Norwalk are separate municipalities and are not listed here. No businesses were contacted. This PR is USPS only; Walmart rows are omitted because the official walmart.com store locator was unavailable.
+
+**Counts:** 4 locations; 4 money order; 0 check cashing; 0 bill pay; 0 prepaid reload. Labels on the hub: 0 Open evenings, 3 Open weekends (Summer Atlantic, West Ave, and Bulls Head). The money-orders page lists 4. The after-hours page lists 3 (0 evening and 3 weekends). No check-cashing or bill-pay page (zero listings). Holds: none. In-city, not listed: the Stamford Post Office (1473583) and West Ave Carrier Unit (1488835) at 427 West Ave (no BUSINESS block, no money-order tags), and Stamford CT SDC (1601560, 24 Camp Ave; BUSINESS hours including a 17:30 weekday close and Saturday hours, no money-order tags). The SDC address did not match after street-name retries; the official map point is in Stamford city. Glenbrook prints Stamford and is listed.
+
+Hours are copied as published and are local Stamford time (Eastern Time). `last_verified` is 2026-11-15 on every row. `verification_status` is `verified_official_locator` on every row.
+
+## Method
+
+- **USPS:** official USPS Location Finder API (`tools.usps.com`, `requestType` po). Official Stamford ZIPs came from ZIP-Codes.com search.asp (the `ct-stamford` city-page slug is not a collision). City page and search.asp have the same 14 unique ZIPs, all listed Stamford. Neighborhood slugs `ct-glenbrook`, `ct-springdale`, and `ct-ridgeway` collided with the Stamford city page. Pass 1: 5 and 15 miles around 37 ZIPs (74 queries, 131 unique records, 7 printed Stamford). Pass 2 added 1, 2, 3, 10, and 20 mile widenings around 27 official and edge ZIPs (135 queries, 118 added records far from Stamford city, no new printed-Stamford offices). Total 249 records (`step8-browser/stamford-usps-locator-2026-11-15.jsonl`). Official location pages were fetched for all 249 records (all HTTP 200 on the first try); each page's embedded `poDetail` matched the API record. Full notes: `step8-browser/stamford-usps-2026-11-15.md`.
+- **Walmart:** not collected.
+- **City limits:** U.S. Census Bureau Geocoder, address and coordinates endpoints, Public_AR_Current / Current_Current and Public_AR_Census2020 / Census2020_Census2020, Incorporated Places + CDPs + Counties, matching Stamford city GEOID 0973000 only. All 249 addresses and official locator map points on both benchmarks (`step8-browser/stamford-usps-geocoder-2026-11-15.jsonl`). OpenStreetMap was not used. No listed office needed the map-point fallback. Street-name retries for Stamford CT SDC (24 Camp Ave) did not produce an address match; that office is not listed because it has no money-order tags.
+- Fees reuse existing rows in `data/providers/fees.csv`. Coordinates for USPS rows are in the notes column (lat/lng columns stay blank).
+
+## Site changes in this PR
+
+- New `data/locations/stamford.csv` and `/stamford/`, `/stamford/money-orders/`, and `/stamford/after-hours/` pages.
+- Stamford added under the existing Connecticut heading on the home "Start here" list and on `/cities/`, after Bridgeport. Home and `/cities/` meta descriptions now say "Bridgeport and Stamford, Connecticut". No other city CSV or page changed except those meta and list lines. Colorado pages and the Bridgeport pages are otherwise unchanged. Hours are labeled Eastern Time.
