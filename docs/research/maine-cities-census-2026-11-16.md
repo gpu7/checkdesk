@@ -1,0 +1,62 @@
+# Maine: five largest incorporated places (Census Vintage 2025)
+
+Prepared 2026-11-16 (America/Denver). Same file and method as Alabama, Alaska, Arizona, Arkansas, California, Connecticut, Delaware, Florida, Georgia, Hawaii (CDP exception was one-time only), Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, and Louisiana. Standing instruction is to research and ship these five, largest first, one PR each, Post Offices only. Maine uses incorporated places (SUMLEV 162) and excludes CDPs. Maine towns that are not also incorporated places are also excluded; see Quirks (same method as Connecticut). There are no SUMLEV 170 or 172 consolidated-city rows in this state file, and none of the five is a consolidated government. Hours on the city pages are Eastern Time for all five (see Time zones below). Grouping is alphabetical: Maine after Louisiana. Do not start Maryland from this run.
+
+## Source
+
+**U.S. Census Bureau, Population Division, Vintage 2025 Population Estimates Program (PEP).**
+
+- **Table:** *Annual Estimates of the Resident Population for Incorporated Places in Maine: April 1, 2020 to July 1, 2025* (**SUB-IP-EST2025-POP-23**)
+- **Figure used for ranking:** July 1, 2025 resident population estimate (`POPESTIMATE2025`)
+- **Universe:** Incorporated places only. Census summary level **SUMLEV = 162**. The machine-readable state file has **23** such places, matching the official Excel table (23 place rows). Census-designated places (CDPs) are not in this file and are excluded. All 23 SUMLEV 162 rows are cities, and all are FUNCSTAT A.
+- **Geographic boundaries:** January 1, 2025
+- **Release Date:** May 2026 (printed in the Excel table)
+- **Official Excel table:** https://www2.census.gov/programs-surveys/popest/tables/2020-2025/cities/totals/SUB-IP-EST2025-POP-23.xlsx
+- **Machine-readable state file (same vintage and figures):** https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/cities/totals/sub-est2025_23.csv
+- **Dataset landing page:** https://www.census.gov/data/datasets/time-series/demo/popest/2020s-total-cities-and-towns.html
+- **File layout (defines SUMLEV 162 = incorporated place):** https://www2.census.gov/programs-surveys/popest/technical-documentation/file-layouts/2020-2025/SUB-EST2025.pdf
+
+**Suggested Citation:** U.S. Census Bureau, Population Division, “Annual Estimates of the Resident Population for Incorporated Places in Maine: April 1, 2020 to July 1, 2025 (SUB-IP-EST2025-POP-23),” Release Date: May 2026.
+
+July 1, 2025 totals in the Excel table were cross-checked against the CSV for every place in the ranking below, and for all 23 SUMLEV 162 rows and all seven estimate columns (`ESTIMATESBASE2020` through `POPESTIMATE2025`); they match (23 of 23; 161 of 161 values). The CSV is UTF-8 (no BOM and no non-ASCII characters). Local copies: `/tmp/me-census/sub-est2025_23.csv`, `/tmp/me-census/SUB-IP-EST2025-POP-23.xlsx`, and `/workspace/step8me/`.
+
+The state total (SUMLEV 040) in the same CSV is **1,414,874**. Maine has 16 counties (SUMLEV 050), all FUNCSTAT A. This state file has no SUMLEV 170 or 172 consolidated-city rows.
+
+Census functional-status codes used below are from the Census Bureau list *Functional Status Codes and Definitions* (https://www.census.gov/library/reference/code-lists/functional-status-codes.html): **A** is an active government providing primary general-purpose functions. Local copy: `/workspace/step8me/FunctionalStatusCodes.pdf`.
+
+## Five largest incorporated places (SUMLEV 162, POPESTIMATE2025)
+
+| Maine rank | Place (Census NAME) | July 1, 2025 population | PLACE FIPS | Notes |
+|---:|---|---:|---|---|
+| 1 | Portland city | 69,911 | 60545 | Incorporated city, entirely in Cumberland County (county total 317,222; GEOID 23005; FUNCSTAT A). The SUMLEV 162 place used for ranking and city-limits checks is “Portland city” (GEOID 2360545, FUNCSTAT A, 69,911). The one SUMLEV 157 county part is Cumberland 69,911, which equals the SUMLEV 162 place total. Census does not publish a “Portland city (balance)” label and does not publish a SUMLEV 170 row for this government (the Maine file has no SUMLEV 170 rows). Two other incorporated places remain in Cumberland County and must not be folded into a Portland list: South Portland city (27,007), which is itself in this five and has its own pages, and Westbrook city (21,565). Nearby Cumberland County towns that often use a Portland mailing address or sit next to the city (including Scarborough, Falmouth, Cape Elizabeth, Gorham, and Windham) are not SUMLEV 162 places and must not be folded in either. Check Desk has no existing `/portland/` or `/portland-me/` page; the slug is `/portland/`. Portland, Oregon is a later Census place and is not an existing Check Desk page, so a state-suffix slug is not needed now (if a collision with an existing page had existed, the slug would have been `/portland-me/`). Check Desk pages use the name Portland. Hours are Eastern Time. |
+| 2 | Lewiston city | 38,866 | 38740 | Incorporated city, entirely in Androscoggin County (county total 116,487; GEOID 23001; FUNCSTAT A). The SUMLEV 162 place used for ranking and city-limits checks is “Lewiston city” (GEOID 2338740, FUNCSTAT A, 38,866). The one SUMLEV 157 county part is Androscoggin 38,866, which equals the SUMLEV 162 place total. The other incorporated place in Androscoggin County is Auburn city (25,441), which is itself in this five. Lewiston and Auburn are adjacent twin cities and must be kept on separate lists; do not fold Auburn offices into Lewiston, or Lewiston offices into Auburn. Nearby Androscoggin County towns (including Lisbon, Turner, Poland, and Sabattus) are not SUMLEV 162 places and must not be folded in. Check Desk has no existing `/lewiston/` page; the slug is `/lewiston/`. Check Desk pages use the name Lewiston. Hours are Eastern Time. |
+| 3 | Bangor city | 32,518 | 02795 | Incorporated city, entirely in Penobscot County (county total 157,967; GEOID 23019; FUNCSTAT A). The SUMLEV 162 place used for ranking and city-limits checks is “Bangor city” (GEOID 2302795, FUNCSTAT A, 32,518). The one SUMLEV 157 county part is Penobscot 32,518, which equals the SUMLEV 162 place total. Two other incorporated places remain in Penobscot County and must not be folded into a Bangor list: Brewer city (9,636) and Old Town city (7,589). Nearby Penobscot County towns (including Orono, Hampden, and Hermon) are not SUMLEV 162 places and must not be folded in either. Check Desk has no existing `/bangor/` page; the slug is `/bangor/`. Check Desk pages use the name Bangor. Hours are Eastern Time. |
+| 4 | South Portland city | 27,007 | 71990 | Incorporated city, entirely in Cumberland County (county total 317,222; GEOID 23005; FUNCSTAT A). The SUMLEV 162 place used for ranking and city-limits checks is “South Portland city” (GEOID 2371990, FUNCSTAT A, 27,007). The one SUMLEV 157 county part is Cumberland 27,007, which equals the SUMLEV 162 place total. South Portland is a separate municipality from Portland and must not be folded into the Portland list, or Portland offices into South Portland. Westbrook city (21,565) and the Cumberland County towns named under Portland stay off this list as well. Check Desk has no existing `/south-portland/` page; the slug is `/south-portland/`. Check Desk pages use the name South Portland. Hours are Eastern Time. |
+| 5 | Auburn city | 25,441 | 02060 | Incorporated city, entirely in Androscoggin County (county total 116,487; GEOID 23001; FUNCSTAT A). The SUMLEV 162 place used for ranking and city-limits checks is “Auburn city” (GEOID 2302060, FUNCSTAT A, 25,441). The one SUMLEV 157 county part is Androscoggin 25,441, which equals the SUMLEV 162 place total. The other incorporated place in Androscoggin County is Lewiston city (38,866), which is itself in this five; keep the twin cities on separate lists. Nearby Androscoggin County towns stay off this list. Check Desk has no existing `/auburn/` or `/auburn-me/` page; the slug is `/auburn/`. Check Desk pages use the name Auburn. Hours are Eastern Time. |
+
+Just outside this five: Sanford city 22,663 (GEOID 2365725), in York County. The gap from Auburn to Sanford is **2,778**. Next after Sanford are Biddeford city 22,399, Westbrook city 21,565, and Saco city 21,159.
+
+**No near tie at the cutoff.** Auburn is well ahead of Sanford. The order inside the five is also unambiguous (the smallest gap inside the five is South Portland to Auburn, 1,566).
+
+## Quirks
+
+- **Use SUMLEV 162 incorporated places only, not the town (MCD) ranking.** Maine is partitioned into minor civil divisions (SUMLEV 061; 529 rows in this file): cities, towns, plantations, and unorganized territories. Towns are incorporated municipalities in Maine law, but most have **no** SUMLEV 162 row in this Census vintage. Those towns are excluded from this ranking, the same way Connecticut towns that are not also incorporated places were excluded. The largest such towns are Scarborough town (24,547) and Brunswick town (23,055), both in Cumberland County. Scarborough is still smaller than Auburn (25,441), so even a combined city-and-town list would have the same top five, but towns without a SUMLEV 162 row stay out of scope.
+- **City and coextensive county subdivision.** Each of the 23 cities is also represented as a county subdivision. For all five places in this ranking, the file carries a SUMLEV 162 “X city” row (FUNCSTAT A), a SUMLEV 061 “X city” row (FUNCSTAT F) with the same population, and a SUMLEV 071 place-part row (FUNCSTAT A) equal to the whole-place total, in one county. Ranking and city-limits checks use the SUMLEV 162 place, not the MCD row. Check Desk pages use the city name (Portland, not “Portland city” as a legal-style label in running text except where the Census NAME is quoted). Do not double-count the city and the MCD.
+- **Only 23 incorporated places, all cities, all FUNCSTAT A.** The official Excel table has 23 place rows, matching the CSV. There are no boroughs, villages, or “city (balance)” rows in this file.
+- **No SUMLEV 170 or 172 rows.** The Maine Vintage 2025 state file has none. None of the five is a consolidated city-county government.
+- **Lewiston and Auburn, and Portland and South Portland, are separate places.** Both pairs are in this five. Do not merge either pair.
+- **CDPs are excluded.** This SUB-IP / sub-est file is incorporated places only; no CDP names appear. Those CDPs are out of scope, consistent with earlier states.
+- **Whole place, not county parts.** Ranking uses the SUMLEV 162 whole-place total, consistent with earlier states. Every SUMLEV 162 row has COUNTY = 000. Each of the five has a single SUMLEV 157 part equal to the whole-place total, in one county, as noted in the table.
+- **Augusta is not in this five.** Augusta city (19,155; GEOID 2302100) is 10th in this ranking, in Kennebec County. Check Desk already has `/augusta/` for Augusta, Georgia. If Augusta, Maine is ever added later, it would need a state-suffix slug (`/augusta-me/`). Do not edit `/augusta/` in this run.
+
+## Time zones
+
+All of Maine is in the eastern standard time zone under **49 CFR 71.4**, which states that the eastern zone “includes all of the State of Maine.” The Atlantic standard time zone in **49 CFR 71.3** “does not include any part of the State of Maine.” The Eastern–Central boundary in **49 CFR 71.5** does not enter Maine. None of the five cities sits on a zone boundary. Therefore Portland, Lewiston, Bangor, South Portland, and Auburn are all labeled **Eastern Time**.
+
+Local copy of the official part 71 XML: `/workspace/step8me/CFR-2025-title49-vol1-part71.xml` (govinfo, CFR 2025 title 49 vol. 1, dated 2025-10-01).
+
+## Name collisions
+
+Portland, Lewiston, Bangor, South Portland, and Auburn should be treated as the Maine Census places above (GEOID 23 + PLACE FIPS). Portland, Maine, is not Portland, Oregon (no existing Check Desk `/portland/` page; the Maine slug is `/portland/`). South Portland is not Portland. Lewiston, Maine, is not Lewiston, Idaho (no existing `/lewiston/` page). Auburn, Maine, is not Auburn, Alabama or Auburn, Washington (no existing `/auburn/` page). Augusta, Maine, is not in this five and is not Augusta, Georgia (`/augusta/`). Westbrook, Brewer, Old Town, Sanford, Biddeford, and Saco are also outside this five.
+
+Ship order: Portland, Lewiston, Bangor, South Portland, Auburn. Post Offices only. Hours labeled Eastern Time for all five. No state-suffix slug is required for this five.
