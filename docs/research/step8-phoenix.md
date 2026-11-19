@@ -1,3 +1,13 @@
+# Phoenix, AZ — community-named office added 2026-11-19
+
+The Laveen Post Office is now listed on the Phoenix pages, under the rule approved 2026-11-19: the official page prints a community name, both the current and 2020 Census address files place the address inside Phoenix city (GEOID 0455000), money-order tags are present (Domestic Money Orders), and the displayed city stays the official printed USPS city. Official map points return Maricopa County only, with no incorporated place, on both the current and 2020 files; that caveat does not fail the listing standard and is documented in the row notes and on the Phoenix pages. The original Phoenix-printed rows are unchanged.
+
+Added office (printed city in parentheses): Laveen (Laveen). Laveen is a community inside Phoenix city, not a separately incorporated place.
+
+The Phoenix list is now 17 Post Offices, all with money orders (one Open evenings, unchanged: Phoenix on Van Buren Street until 5:30 p.m.; fifteen Open weekends, Saturday only, including Laveen 10:00 a.m. to 12:30 p.m.). Hours stay Arizona Time. The Laveen Annex stays held (no money-order tags and no retail hours). Five Phoenix-printed no-money-order offices remain held.
+
+The body below is the original 2026-11-14 memo and is superseded for listed and hold counts.
+
 # Step 8: Phoenix, AZ (2026-11-14, America/Denver)
 
 **Rows:** 16 (sixteen Post Offices). First city of the approved Arizona batch (Phoenix, Tucson, Mesa, Gilbert, Chandler; one city at a time). Phoenix is an incorporated city in Maricopa County (Census "Phoenix city", GEOID 0455000; county Maricopa County, GEOID 04013), not a consolidated city-county. Only addresses inside Phoenix city whose official printed city is Phoenix are listed. No businesses were contacted. Brands in scope for non-Colorado states: USPS and Walmart Supercenters only. This PR is USPS only; Walmart rows are omitted because the official walmart.com store locator was unavailable.
