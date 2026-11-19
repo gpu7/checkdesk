@@ -1,3 +1,13 @@
+# Juneau, AK — community-named office added 2026-11-19
+
+The Douglas Post Office is now listed on the Juneau pages, under the rule approved 2026-11-19: the official page prints a community name, both the current and 2020 Census address files place the address inside Juneau city and borough (GEOID 0236400), money-order tags are present, and the displayed city stays the official printed USPS city. Official map points also fall in the city and borough on both files. The original Juneau-printed rows are unchanged.
+
+Added office (printed city in parentheses): Douglas (Douglas). Douglas is a community inside the city and borough, not a separate incorporated place.
+
+The Juneau list is now 4 Post Offices, all with money orders (three Open evenings: Mendenhall until 6:00 p.m., Auke Bay and Douglas until 5:30 p.m.; three Open weekends, Saturday only). Federal Station remains weekday-only and is not on the evenings-and-weekends list. Hours stay Alaska Time. No neighborhood or community-named holds remain for this city.
+
+The body below is the original 2026-11-14 memo and is superseded for listed and hold counts.
+
 # Step 8: Juneau, AK (2026-11-14, America/Denver)
 
 **Rows:** 3 (all Post Offices). Second city of the approved Alaska batch (Anchorage, Juneau, Fairbanks, Wasilla, Sitka; one city at a time). Juneau is a consolidated city-borough (Census "Juneau city and borough", GEOID 0236400; county-equivalent Juneau City and Borough, GEOID 02110). Only addresses inside the city and borough whose official printed city is Juneau are listed. No businesses were contacted. Brands in scope for non-Colorado states: USPS and Walmart Supercenters only. This PR is USPS only; Walmart rows are omitted because the official walmart.com store locator was unavailable.
