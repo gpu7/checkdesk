@@ -1,3 +1,13 @@
+# Memphis, TN — community-named office added 2026-11-19
+
+The Cordova Post Office is now listed on the Memphis pages, under the rule approved 2026-11-19: the official page prints a community name, both the current and 2020 Census address files place the address inside Memphis city (GEOID 4748000), money-order tags are present, and the displayed city stays the official printed USPS city. Official map points also fall in Memphis city on both files. The original Memphis-printed rows are unchanged.
+
+Added office (printed city in parentheses): Cordova (Cordova). Cordova is a community inside Memphis city, not a separately incorporated place.
+
+The Memphis list is now 19 Post Offices, all with money orders (four Open evenings: Crosstown, Raleigh, and Cordova until 5:30 p.m., Hacks Cross until 6:00 p.m.; twelve Open weekends, Saturday only, including Cordova 9:00 a.m. to 2:00 p.m.). Hours stay Central Time. Four holds remain (Bartlett in Bartlett city; Memphis at 555 S B B King Blvd, address no-match and no money-order tags; Desoto and East/Lamar Carrier Annex, no money-order tags).
+
+The body below is the original 2026-11-18 memo and is superseded for listed and hold counts.
+
 # Memphis, Tennessee USPS research (2026-11-18, America/Denver)
 
 Second Tennessee state city in the Census ranking (Vintage 2025, SUMLEV 162, POPESTIMATE2025). Census place is Memphis city, GEOID 4748000, population 609,647. Official listed pages print Memphis, TN. This is Memphis, Tennessee, in Shelby County, at /memphis/. This is not Bartlett, not Collierville, not Germantown, not Arlington, not Lakeland, and not Millington. The Cordova office prints Cordova, Tennessee, and stays off this list. Offices in West Memphis, Arkansas, and in Southaven, Horn Lake, Olive Branch, and other Mississippi places stay off this list. Hours are Central Time (The central zone under 49 CFR 71.6(a) is west of the Tennessee stretch of the Eastern-Central boundary in 49 CFR 71.5(d) and east of the boundary in 49 CFR 71.7. Davidson, Shelby, and Montgomery Counties all lie west of that 71.5(d) line, so Nashville, Memphis, and Clarksville are in the Central zone. None of the five is a municipality on the boundary line under 49 CFR 71.5(h). The Central-Mountain boundary in 49 CFR 71.7 does not enter Tennessee.). OpenStreetMap was not used. Raw data: `/workspace/step8tn/`. Classification: `/workspace/checkdesk/research/tennessee-geocode-classify-2026-11-18.md`.
