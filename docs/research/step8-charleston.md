@@ -1,3 +1,13 @@
+# Charleston, SC — community-named office added 2026-11-19
+
+The Johns Island Post Office is now listed on the Charleston, SC pages, under the rule approved 2026-11-19: the official page prints a community name, both the current and 2020 Census address files place the address inside Charleston city (GEOID 4513330), money-order tags are present, and the displayed city stays the official printed USPS city. Official map points also fall in Charleston city on both files, in Charleston County. The original Charleston-printed rows are unchanged. Charleston, WV and North Charleston pages were not changed.
+
+Added office (printed city in parentheses): Johns Island (Johns Island). Johns Island is a community inside Charleston city, not a separately incorporated place.
+
+The Charleston, SC list is now 6 Post Offices, all with money orders (none Open evenings; five Open weekends, Saturday only; the Charleston Post Office remains closed Saturday and Sunday and is not on the evenings-and-weekends list). Hours stay Eastern Time. No neighborhood or community-named holds remain for this city.
+
+The body below is the original 2026-11-18 memo and is superseded for listed and hold counts.
+
 # Charleston, South Carolina USPS research (2026-11-18, America/Denver)
 
 First South Carolina state city in the Census ranking (Vintage 2025, SUMLEV 162, POPESTIMATE2025). Census place is Charleston city, GEOID 4513330, population 159,423. Official listed pages print Charleston, SC. This is Charleston, South Carolina, in Charleston and Berkeley Counties, at /charleston/. This is not North Charleston, not Mount Pleasant, not the Town of James Island, not Folly Beach, not Isle of Palms, not Sullivan's Island, and not Johns Island. The listed James Island Post Office prints Charleston, South Carolina, and geocodes inside Charleston city, so it is listed here. North Charleston and Mount Pleasant stay on separate lists. Offices in North Carolina and Georgia stay off this list. Hours are Eastern Time (All five South Carolina cities are in the Eastern zone under 49 CFR 71.4, that part of the United States west of 67°30′ W. longitude and east of the boundary in § 71.5. Section 71.5 does not enter South Carolina.). OpenStreetMap was not used. Raw data: `/workspace/step8sc/`. Classification: `/workspace/checkdesk/research/south-carolina-geocode-classify-2026-11-18.md`.
