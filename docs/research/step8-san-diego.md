@@ -1,3 +1,15 @@
+# San Diego, CA — neighborhood-named offices added 2026-11-19
+
+Three neighborhood-named Post Offices are now listed on the San Diego pages, under the rule approved 2026-11-19: the official page prints a community name, both the current and 2020 Census address files place the address inside San Diego city (GEOID 0666000), money-order tags are present, and the displayed city stays the official printed USPS city. All three also have official map points in San Diego city on both files, and all three are in San Diego County. The original twenty-seven San Diego-printed rows are unchanged, including the two documented map-point fallbacks.
+
+Added offices (printed city in parentheses): La Jolla (La Jolla); La Jolla Village (La Jolla); and San Ysidro (San Ysidro). La Jolla and San Ysidro are communities inside San Diego city, not separate incorporated places.
+
+The San Diego list is now 30 Post Offices, all with money orders (1 Open evenings, Carmel Mountain Postal Store; 26 Open weekends, Saturday only). Hours stay Pacific Time. La Jolla Village has no evening and no weekend retail hours, so it does not appear on the after-hours page.
+
+Holds that remain: NAS North Island (prints San Diego; official map point in Coronado city); 11 San Diego-printed in-city records with no money-order tags (including La Jolla Annex UC, which prints San Diego).
+
+The body below is the original 2026-11-15 memo and is superseded for listed and hold counts.
+
 # Step 8: San Diego, CA (2026-11-15, America/Denver)
 
 **Rows:** 27 (27 Post Offices). Second city of the California batch (Los Angeles, San Diego, San Jose, San Francisco, Fresno; one city at a time). San Diego is an incorporated city in San Diego County (Census "San Diego city", GEOID 0666000; county San Diego County, GEOID 06073), not a consolidated city-county. Only addresses inside San Diego city whose official printed city is San Diego are listed. No businesses were contacted. Brands in scope for non-Colorado states: USPS and Walmart Supercenters only. This PR is USPS only; Walmart rows are omitted because the official walmart.com store locator was unavailable.
