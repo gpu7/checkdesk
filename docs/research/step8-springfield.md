@@ -1,3 +1,13 @@
+# Springfield, MA — community-named office added 2026-11-19
+
+The Indian Orchard Post Office is now listed on the Springfield, Massachusetts pages, under the rule approved 2026-11-19: the official page prints a community name, both the current and 2020 Census address files place the address inside Springfield city (GEOID 2567000), money-order tags are present, and the displayed city stays the official printed USPS city. Official map points also fall in Springfield city on both files. The original Springfield-printed rows are unchanged.
+
+Added office (printed city in parentheses): Indian Orchard (Indian Orchard). Indian Orchard is a community inside Springfield city, not a separately incorporated place.
+
+The Springfield, Massachusetts list is now 6 Post Offices, all with money orders (none Open evenings; four Open weekends, Saturday only, including Indian Orchard 9:00 a.m. to 1:00 p.m.). Indian Orchard weekday retail closes at 4:00 p.m., so it is not labeled Open evenings. Hours stay Eastern Time. Two Springfield-printed offices at 1883 Main St remain held for no money-order tags. Springfield, Missouri was not changed.
+
+The body below is the original 2026-11-17 memo and is superseded for listed and hold counts.
+
 # Springfield, Massachusetts USPS research (2026-11-17, America/Denver)
 
 Third Massachusetts city (ship order: Boston, Worcester, Springfield, Cambridge, Lowell). Post Offices only. Hours labeled Eastern Time (49 CFR 71.4). Census place is Springfield city, GEOID 2567000, Vintage 2025 population 154,702, in Hampden County (GEOID 25013). This is Springfield, Massachusetts, not Springfield, Illinois, Springfield, Missouri, Springfield, Vermont, or another Springfield, and not West Springfield, Longmeadow, Chicopee, or Holyoke. OpenStreetMap was not used.
