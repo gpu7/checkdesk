@@ -1,3 +1,13 @@
+# Portland, ME — community-named office added 2026-11-19
+
+The Cliff Island Post Office is now listed on the Portland, Maine pages, under the rule approved 2026-11-19: the official page prints a community name, both the current and 2020 Census address files place the address inside Portland city (GEOID 2360545), money-order tags are present, and the displayed city stays the official printed USPS city. Official map points also fall in Portland city on both files. The original Portland-printed rows are unchanged.
+
+Added office (printed city in parentheses): Cliff Island (Cliff Island). Cliff Island is a community inside Portland city, not a separately incorporated place. The official address is 11 Sunset Rd Unit 1; both Census address files matched 11 SUNSET RD, CLIFF ISLAND, ME, 04019.
+
+The Portland, Maine list is now 3 Post Offices, all with money orders (one Open evenings, unchanged: Downtown Station until 5:30 p.m.; three Open weekends, Saturday only, including Cliff Island 8:30 a.m. to 12:15 p.m.). Cliff Island weekday retail closes at 4:45 p.m. after a 1:00–2:00 p.m. midday closure, so it is not labeled Open evenings. Hours stay Eastern Time. Peaks Island stays held (no money-order tags). Two Portland-printed offices remain held for no money-order tags. Portland, Oregon and South Portland were not changed.
+
+The body below is the original 2026-11-16 memo and is superseded for listed and hold counts.
+
 # Portland, Maine USPS research (2026-11-16, America/Denver)
 
 First Maine city (ship order: Portland, Lewiston, Bangor, South Portland, Auburn). Post Offices only. Hours labeled Eastern Time (49 CFR 71.4). Census place is Portland city, GEOID 2360545, Vintage 2025 population 69,911, in Cumberland County (GEOID 23005). This is Portland, Maine, not Portland, Oregon, and not South Portland, Westbrook, Falmouth, or Cape Elizabeth. OpenStreetMap was not used.
