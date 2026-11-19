@@ -1,3 +1,13 @@
+# East Providence, RI — village-named offices added 2026-11-19
+
+Two village-named Post Offices are now listed on the East Providence pages, under the rule approved 2026-11-19: the official page prints a village name, both the current and 2020 Census address files place the address inside East Providence city (GEOID 4422960), money-order tags are present, and the displayed city stays the official printed USPS city. Both also have official map points in East Providence city on both files, and both are in Providence County. The original East Providence-printed row is unchanged.
+
+Added offices (printed city in parentheses): Riverside (Riverside); and Rumford (Rumford). Riverside and Rumford are villages inside East Providence city, not separate incorporated places.
+
+The East Providence list is now 3 Post Offices, all with money orders (none Open evenings; all three Open weekends, Saturday only). Hours stay Eastern Time. No neighborhood or village-named holds remain for this city.
+
+The body below is the original 2026-11-18 memo and is superseded for listed and hold counts.
+
 # East Providence, Rhode Island USPS research (2026-11-18, America/Denver)
 
 Fifth Rhode Island state city in the Census ranking (Vintage 2025, SUMLEV 162, POPESTIMATE2025). Census place is East Providence city, GEOID 4422960, population 48,249. Official listed pages print East Providence, RI. This is East Providence, Rhode Island, in Providence County, at /east-providence/. This is not Providence, not Riverside, not Rumford, not Barrington, and not Pawtucket. Providence, Cranston, Warwick, and Pawtucket stay on separate lists. Offices in Massachusetts and Connecticut stay off this list. Hours are Eastern Time (All five Rhode Island cities are in the Eastern zone under 49 CFR 71.4, that part of the United States west of 67°30′ W. longitude and east of the boundary in § 71.5. Section 71.5 does not mention Rhode Island and does not enter the state.). OpenStreetMap was not used. Raw data: `/workspace/step8ri/`. Classification: `/workspace/checkdesk/research/rhode-island-geocode-classify-2026-11-18.md`.
