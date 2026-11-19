@@ -1,3 +1,15 @@
+# Anchorage, AK — neighborhood-named offices added 2026-11-19
+
+Three neighborhood-named Post Offices are now listed on the Anchorage pages, under the rule approved 2026-11-19: the official page prints a community or installation name, both the current and 2020 Census address files place the address inside Anchorage municipality (GEOID 0203000), money-order tags are present, and the displayed city stays the official printed USPS city. All three also have official map points in Anchorage municipality on both files. The original ten Anchorage-printed rows are unchanged.
+
+Added offices (printed city in parentheses): Eagle River (Eagle River); Girdwood (Girdwood); and Fort Richardson (JBER). Fort Richardson is on Joint Base Elmendorf-Richardson, which may limit public access.
+
+The Anchorage list is now 13 Post Offices, all with money orders (11 Open evenings, 7 Open weekends, Saturday plus the Anchorage Main Office on Sunday). Hours stay Alaska Time.
+
+Chugiak (1358023, 22255 Dogsled Ct, prints Chugiak) stays held: the current address file and both official map points are in Anchorage municipality, but the 2020 address file did not match. Map-point fallback is not used when the printed city disagrees.
+
+The body below is the original 2026-11-13/14 memo and is superseded for listed and hold counts.
+
 # Step 8: Anchorage, AK (2026-11-13 research, shipped 2026-11-14, America/Denver)
 
 **Rows:** 10 (all Post Offices). First city of the approved Alaska batch (Anchorage, Juneau, Fairbanks, Wasilla, Sitka; one city at a time). Anchorage is a consolidated city-borough (Census "Anchorage municipality", GEOID 0203000; county-equivalent Anchorage Municipality, GEOID 02020). Only addresses inside the municipality whose official printed city is Anchorage are listed. No businesses were contacted. Brands in scope for non-Colorado states: USPS and Walmart Supercenters only. This PR is USPS only; Walmart rows are omitted because the official walmart.com store locator was unavailable.
