@@ -1,3 +1,13 @@
+# San Jose, CA — community-named office added 2026-11-19
+
+The Alviso Post Office is now listed on the San Jose pages, under the rule approved 2026-11-19: the official page prints a community name, both the current and 2020 Census address files place the address inside San Jose city (GEOID 0668000), money-order tags are present, and the displayed city stays the official printed USPS city. Official map points also fall in San Jose city on both files. The original San Jose-printed rows are unchanged and keep their original order.
+
+Added office (printed city in parentheses): Alviso (Alviso). Alviso is a community inside San Jose city, not a separately incorporated place.
+
+The San Jose list is now 10 Post Offices, all with money orders (one Open evenings, unchanged: Willow Glen until 5:30 p.m.; seven Open weekends, Saturday only, unchanged). Alviso weekday retail closes at 4:00 p.m. after a 12:00–1:00 p.m. midday closure and is closed Saturday and Sunday, so it is not on the evenings-and-weekends list. Hours stay Pacific Time. New Almaden stays held (address and map point are in unincorporated Santa Clara County). Nine San Jose-printed no-money-order records remain held.
+
+The body below is the original 2026-11-15 memo and is superseded for listed and hold counts.
+
 # Step 8: San Jose, CA (2026-11-15, America/Denver)
 
 **Rows:** 9 (nine Post Offices). Third city of the California batch (Los Angeles, San Diego, San Jose, San Francisco, Fresno; one city at a time). San Jose is an incorporated city in Santa Clara County (Census "San Jose city", GEOID 0668000; county Santa Clara County, GEOID 06085), not a consolidated city-county. Only addresses inside San Jose city whose official printed city is San Jose are listed. No businesses were contacted. This PR is USPS only; Walmart rows are omitted because the official walmart.com store locator was unavailable.
