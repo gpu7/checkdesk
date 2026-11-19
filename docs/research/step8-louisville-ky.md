@@ -1,3 +1,13 @@
+# Louisville, KY — community-named offices added 2026-11-19
+
+Two community-named Post Offices are now listed on the Louisville, KY pages, under the rule approved 2026-11-19: the official page prints a community name, both the current and 2020 Census address files place the address inside Louisville/Jefferson County metro government (balance) (GEOID 2148006), money-order tags are present, and the displayed city stays the official printed USPS city. Both also have official map points in GEOID 2148006 on both files, and both are in Jefferson County. The original Louisville-printed rows are unchanged. Louisville, Colorado pages were not changed.
+
+Added offices (printed city in parentheses): Fairdale (Fairdale); and Fisherville (Fisherville). Fairdale and Fisherville are communities inside the PEP/ACS balance, not separate incorporated places.
+
+The Louisville, KY list is now 10 Post Offices, all with money orders (one Open evenings: Okolona until 6:00 p.m.; eight Open weekends, Saturday only; Downtown Louisville and Iroquois remain closed Saturday and Sunday and are not on the evenings-and-weekends list). Hours stay Eastern Time. Eastwood, Harrods Creek, and Masonic Home stay held because both Census address files did not place the address inside the balance (map-point fallback is not used when the printed city disagrees). Eight Louisville-printed no-money-order offices and six offices in other Jefferson County municipalities also remain held.
+
+The body below is the original 2026-11-16 memo and is superseded for listed and hold counts.
+
 # Step 8: Louisville, KY (2026-11-16, America/Denver)
 
 First Kentucky city in the standing 50-state run (ship order: Louisville, Lexington, Bowling Green, Owensboro, Covington). Census place used for ranking and city-limits checks is Louisville/Jefferson County metro government (balance) (GEOID 2148006), July 1, 2025 population 641,962, in Jefferson County (GEOID 21111). The list uses the SUMLEV 162 balance, not the Jefferson County or SUMLEV 170 consolidated-city total (795,222). Hours labeled Eastern Time (49 CFR 71.4, 71.5; Jefferson County is east of the Eastern–Central boundary). This is Louisville, Kentucky, not Louisville, Colorado (`/louisville/`), and not Jeffersontown, St. Matthews, Shively city, Lyndon, Middletown, Anchorage, or the other remaining Jefferson County municipalities. The slug is `/louisville-ky/` so it does not collide with Louisville, CO (precedent: `/aurora-il/` and `/kansas-city-ks/`). The existing Louisville, CO pages and `data/locations/louisville.csv` were not edited.
