@@ -1,3 +1,13 @@
+# Greensboro, NC — community-named office added 2026-11-19
+
+The Colfax Post Office is now listed on the Greensboro pages, under the rule approved 2026-11-19: the official page prints a community name, both the current and 2020 Census address files place the address inside Greensboro city (GEOID 3728000), money-order tags are present, and the displayed city stays the official printed USPS city. Official map points also fall in Greensboro city on both files, in Guilford County. The original Greensboro-printed rows are unchanged. No after-hours page was added, because none of the listed offices has evening or weekend hours.
+
+Added office (printed city in parentheses): Colfax (Colfax). Colfax is a community inside Greensboro city, not a separately incorporated place.
+
+The Greensboro list is now 4 Post Offices, all with money orders (none Open evenings; none Open weekends). Hours stay Eastern Time. Four Seasons remains held on geocode and money-order grounds. Seven Greensboro-printed no-money-order offices also remain held. No neighborhood or community-named holds remain for this city.
+
+The body below is the original 2026-11-17 memo and is superseded for listed and hold counts.
+
 # Greensboro, North Carolina USPS research (2026-11-17, America/Denver)
 
 Third North Carolina state city in the Census ranking (Vintage 2025, SUMLEV 162, POPESTIMATE2025). Census place is Greensboro city, GEOID 3728000, population 308,667, in Guilford County (GEOID 37081). Official listed pages print Greensboro, NC. This is not High Point, not Summerfield, not Oak Ridge, and not Colfax. Hours are Eastern Time (49 CFR 71.4; the Eastern–Central boundary in 49 CFR 71.5 does not enter North Carolina). OpenStreetMap was not used. Raw data: `/workspace/step8nc/`. Classification: `/workspace/checkdesk/research/north-carolina-geocode-classify-2026-11-17.md`.
