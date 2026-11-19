@@ -1,0 +1,30 @@
+# Newport News, Virginia USPS research (2026-11-18, America/Denver)
+
+Fifth Virginia state city in the Census ranking (Vintage 2025, SUMLEV 162, POPESTIMATE2025). Census place is Newport News city, GEOID 5156000, population 183,230. Official listed pages print Newport News, VA. This is Newport News, Virginia, an independent city, at /newport-news/. This is not Hampton, not Norfolk, not Newport, Rhode Island, and not Newport, Kentucky. Fort Eustis stays off this list because its official page prints Fort Eustis, not Newport News. Hours are Eastern Time (The eastern zone under 49 CFR 71.4 is west of 67°30′ W. longitude and east of the boundary line described in 49 CFR 71.5, and includes all of the State of Maine, but does not include any part of the Commonwealth of Puerto Rico. Section 71.5 describes the Eastern-Central boundary through Michigan, Indiana, Kentucky, and Tennessee, and then along the Tennessee-Georgia, Alabama-Georgia, and Florida-Georgia lines; it does not mention Virginia and does not enter the state. None of the five cities sits on a zone boundary.). OpenStreetMap was not used. Raw data: `/workspace/step8va/`. Classification: `/workspace/checkdesk/research/virginia-geocode-classify-2026-11-18.md`.
+
+Locator passes and official pages are the shared Virginia sweep (292 offices, all geocoded on the current and 2020 Census files, 0 errors). Classification still uses printed city and Census geocode, not the ZIP list. The five cities are independent cities (county equivalents). OpenStreetMap was not used.
+
+## Listed (7)
+
+- Denbigh (1450883, 14104 WARWICK BLVD, NEWPORT NEWS 23602). Lists money orders. Official page prints Newport News, VA. All four Census legs are in Newport News city. BUSINESS hours: weekdays 9:00 a.m. to 4:30 p.m., Saturday 9:00 a.m. to 12:00 p.m., Sunday closed. Labeled Open weekends.
+- Lee Hall (1370100, 17415 WARWICK BLVD, NEWPORT NEWS 23603). Lists money orders. Official page prints Newport News, VA. All four Census legs are in Newport News city. BUSINESS hours: weekdays 12:00 p.m. to 4:00 p.m., Saturday closed, Sunday closed. Not labeled Open evenings or Open weekends.
+- Newport News (1375026, 101 25TH ST, NEWPORT NEWS 23607). Lists money orders. Official page prints Newport News, VA. All four Census legs are in Newport News city. BUSINESS hours: weekdays 8:30 a.m. to 4:30 p.m., Saturday closed, Sunday closed. Not labeled Open evenings or Open weekends.
+- Oyster Point (1376529, 739 THIMBLE SHOALS BLVD STE 501, NEWPORT NEWS 23606). Lists money orders. Official page prints Newport News, VA. All four Census legs are in Newport News city. BUSINESS hours: weekdays 9:00 a.m. to 5:00 p.m., Saturday closed, Sunday closed. Not labeled Open evenings or Open weekends.
+- Parkview (1376867, 636 79TH ST, NEWPORT NEWS 23605). Lists money orders. Official page prints Newport News, VA. All four Census legs are in Newport News city. BUSINESS hours: weekdays 8:30 a.m. to 4:30 p.m., Saturday 10:00 a.m. to 12:00 p.m., Sunday closed. Labeled Open weekends.
+- Patrick Henry (1376935, 685 TURNBERRY BLVD, NEWPORT NEWS 23608). Lists money orders. Official page prints Newport News, VA. All four Census legs are in Newport News city. BUSINESS hours: weekdays 9:30 a.m. to 4:30 p.m., Saturday 9:00 a.m. to 12:00 p.m., Sunday closed. Labeled Open weekends.
+- Warwick (1386472, 10830 WARWICK BLVD, NEWPORT NEWS 23601). Lists money orders. Official page prints Newport News, VA. All four Census legs are in Newport News city. BUSINESS hours: weekdays 9:30 a.m. to 4:30 p.m., Saturday 10:00 a.m. to 12:00 p.m., Sunday closed. Labeled Open weekends.
+
+## Held (3)
+
+- Fort Eustis (1363769, 1321 VICTORY BLVD, FORT EUSTIS 23604). Official page prints Fort Eustis, VA, not Newport News, and lists money orders. The current and 2020 address files did not match; both official map-point legs are in Newport News city. Held because the printed city is Fort Eustis. Map-point fallback is not used, because the printed city does not match.
+- Hidenwood (1540357, 25 HIDENWOOD SHOPPING CTR, NEWPORT NEWS 23606). Official page prints Newport News, VA. The current and 2020 address files did not match; both official map-point legs are in Newport News city. Held because the Census geocoder does not place both the address and the official map point fully inside the city, and because the official page does not list money orders. Map-point fallback is not used, because the office has no money-order tags.
+- Hidenwood Annex (1555293, 759 J CLYDE MORRIS BLVD, NEWPORT NEWS 23601). Official page prints Newport News, VA. All four Census legs are in Newport News city. Held because the official page does not list money orders.
+
+## Result
+
+7 listed Post Offices, all with money orders, all in the independent city of Newport News. None is labeled Open evenings. Four publish Saturday hours and are labeled Open weekends: Denbigh and Patrick Henry, 9:00 a.m. to 12:00 p.m.; Parkview and Warwick, 10:00 a.m. to 12:00 p.m. None publishes Sunday hours. Hours labeled Eastern Time. 3 holds.
+
+## Site changes in this PR
+
+- New `data/locations/newport-news.csv` and `/newport-news/`, `/newport-news/money-orders/`, and `/newport-news/after-hours/` pages.
+- Newport News is inserted under the existing Virginia section after Norfolk on the home page and `/cities/`. No other existing city CSV or page changed except the home and `/cities/` meta and list lines. The unsuffixed `/newport-news/` slug is new and does not collide with an existing page.
