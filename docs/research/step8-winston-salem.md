@@ -1,3 +1,13 @@
+# Winston-Salem, NC — community-named office added 2026-11-19
+
+The Pfafftown Post Office is now listed on the Winston-Salem pages, under the rule approved 2026-11-19: the official page prints a community name, both the current and 2020 Census address files place the address inside Winston-Salem city (GEOID 3775000), money-order tags are present, and the displayed city stays the official printed USPS city. Official map points also fall in Winston-Salem city on both files. The original Winston Salem-printed rows are unchanged.
+
+Added office (printed city in parentheses): Pfafftown (Pfafftown). Pfafftown is a community inside Winston-Salem city, not a separately incorporated place.
+
+The Winston-Salem list is now 5 Post Offices, all with money orders (none Open evenings; one Open weekends: Pfafftown Saturday 9:00 a.m. to 11:00 a.m.). Pfafftown weekday retail closes at 4:00 p.m., so it is not labeled Open evenings. Hours stay Eastern Time. Because this is the first listed office with Saturday hours, a new after-hours page was created at /winston-salem/after-hours/, which adds one sitemap URL. Three Winston Salem-printed offices remain held for no money-order tags.
+
+The body below is the original 2026-11-17 memo and is superseded for listed and hold counts.
+
 # Winston-Salem, North Carolina USPS research (2026-11-17, America/Denver)
 
 Fifth North Carolina state city in the Census ranking (Vintage 2025, SUMLEV 162, POPESTIMATE2025). Census place is Winston-Salem city, GEOID 3775000, population 257,271, in Forsyth County (GEOID 37067). Official listed pages print Winston Salem, NC, without the hyphen; Check Desk uses the Census place name Winston-Salem for the city field. This is not Kernersville, not Clemmons, not Lewisville, not Walkertown, and not Pfafftown. Hours are Eastern Time (49 CFR 71.4; the Eastern–Central boundary in 49 CFR 71.5 does not enter North Carolina). OpenStreetMap was not used. Raw data: `/workspace/step8nc/`. Classification: `/workspace/checkdesk/research/north-carolina-geocode-classify-2026-11-17.md`.
