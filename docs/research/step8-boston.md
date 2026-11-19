@@ -1,3 +1,15 @@
+# Boston, MA — neighborhood-named offices added 2026-11-19
+
+Fifteen neighborhood-named Post Offices are now listed on the Boston pages, under the rule approved 2026-11-19: the official page prints a neighborhood or community name, both the current and 2020 Census address files place the address inside Boston city (GEOID 2507000), money-order tags are present, and the displayed city stays the official printed USPS city. All fifteen also have official map points in Boston city on both files. The original eleven Boston-printed rows are unchanged.
+
+Added offices (printed city in parentheses): Brighton (Brighton); Codman Square (Dorchester Center); East Boston (East Boston); Fields Corner, Grove Hall, and Uphams Corner (Dorchester); Hyde Park and Readville (Hyde Park); Jamaica Plain (Jamaica Plain); Mattapan (Mattapan); Mission Hill (Roxbury Crossing); Roslindale (Roslindale); Roxbury (Roxbury); South Boston (South Boston); and West Roxbury (West Roxbury).
+
+The Boston list is now 26 Post Offices, all with money orders (11 Open evenings, 24 Open weekends, Saturday plus Fort Point on Sunday). Hours stay Eastern Time.
+
+Holds that remain: 3 Boston-printed offices with no money-order tags (Fenway Carrier Annex, Soldiers Field, State House); 5 neighborhood-printed offices inside the city with no money-order tags (Charlestown, Dorchester Center, Fields Corner Carrier Annex, Fields Corner New, Hyde Park Carrier Annex). Boston College and Chestnut Hill still geocode in Newton city and stay off this list.
+
+The body below is the original 2026-11-17 memo and is superseded for listed and hold counts.
+
 # Boston, Massachusetts USPS research (2026-11-17, America/Denver)
 
 First Massachusetts city (ship order: Boston, Worcester, Springfield, Cambridge, Lowell). Post Offices only. Hours labeled Eastern Time (49 CFR 71.4). Census place is Boston city, GEOID 2507000, Vintage 2025 population 672,973, in Suffolk County (GEOID 25025). The SUMLEV 162 place equals the one county part; Revere, Chelsea, and Winthrop Town stay off this list. This is Boston, Massachusetts, not a Boston in another state, and not Cambridge, Brookline, Somerville, Revere, Chelsea, Quincy, or Newton. Cambridge stays on a separate list. OpenStreetMap was not used.
