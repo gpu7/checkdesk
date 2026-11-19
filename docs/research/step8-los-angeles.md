@@ -1,3 +1,21 @@
+# Los Angeles, CA USPS research (2026-11-15, America/Denver; neighborhood-name release 2026-11-19)
+
+## 2026-11-19 update
+
+Richard approved listing Post Offices whose official printed city is a neighborhood or community name when both Census address files place the address inside the target incorporated city and money-order tags are present. Displayed addresses keep the official printed USPS city.
+
+This update adds 35 such offices to the Los Angeles pages. All 35 have all four Census legs in Los Angeles city, GEOID 0644000, Los Angeles County GEOID 06037, and list money-order tags. They were geocoded in the 2026-11-15 sweep; `last_verified` on the new rows is 2026-11-19. The original 43 Los Angeles-printed rows are unchanged, including the three documented map-point fallbacks (Terminal Annex Finance, Sunset, and West Los Angeles Finance).
+
+Printed names of the 35 added offices: North Hollywood 4, Canoga Park 2, Encino 2, San Pedro 2, and one each in Arleta, Chatsworth, Granada Hills, Harbor City, Marina del Rey, North Hills, Pacific Palisades, Pacoima, Panorama City, Playa del Rey, Porter Ranch, Reseda, Sherman Oaks, Studio City, Sun Valley, Sunland, Sylmar, Tarzana, Tujunga, Valley Village, Venice, West Hills, Wilmington, Winnetka, and Woodland Hills.
+
+The Los Angeles list is now 78 Post Offices, all with money orders. Open evenings: 23. Open weekends: 57 (Saturday only; no Sunday). Hours labeled Pacific Time.
+
+Holds that remain: 5 Los Angeles-printed geographic holds (Wagner Branch, Hazard, East Los Angeles, Airport Los Angeles, Barrington); 5 neighborhood-printed offices inside the city with no money-order tags (Civic Center Van Nuys, Van Nuys, Van Nuys CA SDC, Northridge, Toluca Lake New); 10 Los Angeles-printed in-city records with no money-order tags. OpenStreetMap was not used.
+
+The rest of this memo is the original 2026-11-15 research, kept for the locator, geocode, and hold documentation. Listed and hold counts in the original sections below are superseded by this update.
+
+---
+
 # Step 8: Los Angeles, CA (2026-11-15, America/Denver)
 
 **Rows:** 43 (43 Post Offices). First city of the California batch (Los Angeles, San Diego, San Jose, San Francisco, Fresno; one city at a time). Los Angeles is an incorporated city in Los Angeles County (Census "Los Angeles city", GEOID 0644000; county Los Angeles County, GEOID 06037), not a consolidated city-county. Long Beach is a separate incorporated city and is not listed here. Only addresses inside Los Angeles city whose official printed city is Los Angeles are listed. No businesses were contacted. Brands in scope for non-Colorado states: USPS and Walmart Supercenters only. This PR is USPS only; Walmart rows are omitted because the official walmart.com store locator was unavailable.
