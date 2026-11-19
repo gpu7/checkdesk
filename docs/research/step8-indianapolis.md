@@ -1,3 +1,13 @@
+# Indianapolis, IN — community-named offices added 2026-11-19
+
+Two community-named Post Offices are now listed on the Indianapolis pages, under the rule approved 2026-11-19: the official page prints a community name, both the current and 2020 Census address files place the address inside Indianapolis city (balance) (GEOID 1836003), money-order tags are present, and the displayed city stays the official printed USPS city. Both also have official map points in Indianapolis city (balance) on both files, and both are in Marion County. The original Indianapolis-printed rows are unchanged.
+
+Added offices (printed city in parentheses): Camby (Camby); and West Newton (West Newton). Camby and West Newton are communities inside Indianapolis city (balance), not separate incorporated places.
+
+The Indianapolis list is now 19 Post Offices, all with money orders (nine Open evenings, same closes as before; 18 Open weekends, Saturday only; the Indianapolis Post Office remains closed Saturday and Sunday). Hours stay Eastern Time. No neighborhood or community-named holds remain for this city. Five Indianapolis-printed offices remain held because they sit outside the balance (Clermont, Cumberland, Lawrence, Oaklandon, and Speedway).
+
+The body below is the original 2026-11-16 memo and is superseded for listed and hold counts.
+
 # Step 8: Indianapolis, IN (2026-11-16, America/Denver)
 
 Prepared 2026-11-16 (America/Denver). First Indiana city in the standing 50-state run (ship order: Indianapolis, Fort Wayne, Evansville, Carmel, Fishers). Post Offices only. Hours on the Indianapolis pages are Eastern Time. Census place: Indianapolis city (balance), GEOID 1836003, FUNCSTAT F, in Marion County (GEOID 18097, FUNCSTAT C). July 1, 2025 population 901,116 (Vintage 2025, SUMLEV 162). Ranking and city-limits checks use the SUMLEV 162 balance, not the SUMLEV 170 consolidated city (910,638) and not Lawrence, Beech Grove, Speedway, Southport, or the 11 included towns (Cumberland, Meridian Hills, Warren Park, Clermont, Homecroft, Rocky Ripple, Williams Creek, Wynnedale, Spring Hill, Crows Nest, and North Crows Nest). This is Indianapolis, Indiana, not an Indianapolis in another state. OpenStreetMap was not used.
