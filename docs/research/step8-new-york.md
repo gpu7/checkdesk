@@ -1,4 +1,21 @@
-# New York, New York USPS research (2026-11-17, America/Denver)
+# New York, New York USPS research (2026-11-17, America/Denver; neighborhood-name release 2026-11-19)
+
+## 2026-11-19 update
+
+Richard approved listing Post Offices whose official printed city is a neighborhood, community, village, or borough name when both Census address files (current and 2020) place the address inside the target incorporated city and money-order tags are present. Displayed addresses keep the official printed USPS city.
+
+This update adds 164 such offices to the New York pages. All 164 have all four Census legs (both address files and both official map points) in New York city, GEOID 3651000, and list money-order tags. They were geocoded in the 2026-11-17 sweep; `last_verified` on the new rows is 2026-11-19. The original 51 New York-printed rows are unchanged, including James A Farley's documented map-point fallback.
+
+County split of the 164 added offices: Queens 58, Kings 48, Bronx 45, Richmond 13. Printed names: Brooklyn 48, Bronx 45, Staten Island 13, Astoria 4, Flushing 4, Jamaica 3, Long Island City 3, Fresh Meadows 3, Howard Beach 2, Bayside 2, East Elmhurst 2, Ridgewood 2, Hollis 2, Little Neck 2, Jackson Heights 2, and one each in Arverne, Bellerose, Cambria Heights, College Point, Corona, Elmhurst, Far Rockaway, Glendale, Kew Gardens, Maspeth, Middle Village, Oakland Gardens, Ozone Park, Forest Hills, Rego Park, Richmond Hill, Rockaway Beach, Rosedale, Saint Albans, South Ozone Park, South Richmond Hill, Springfield Gardens, Sunnyside, Whitestone, Woodhaven, Woodside, and Glen Oaks.
+
+The New York list is now 215 Post Offices, all with money orders. Open evenings: 46. Open weekends: 168 (168 Saturday, 2 Sunday). Hours labeled Eastern Time.
+
+38 holds remain: 10 print New York and have no money-order tags; 17 are neighborhood- or borough-named and inside the city on all four legs but have no money-order tags; 11 are neighborhood- or borough-named but both address files do not place the address inside New York city (map-point fallback does not apply). OpenStreetMap was not used.
+
+The rest of this memo is the original 2026-11-17 research, kept for the locator, geocode, and hold documentation. Listed and hold counts in the original sections below are superseded by this update.
+
+---
+
 
 First New York state city in the Census ranking (Vintage 2025, SUMLEV 162, POPESTIMATE2025). Census place is New York city, GEOID 3651000, population 8,584,629, spanning five county parts coextensive with the borough counties: Bronx County (GEOID 36005), Kings County (36047), New York County (36061), Queens County (36081), and Richmond County (36085). Official listed pages print New York, NY. The 51 listed offices are in New York County. This is not Yonkers, not a borough-named office such as Brooklyn, Bronx, or Staten Island, not a Queens neighborhood such as Flushing or Jamaica, and not Newark, New Jersey. The pending rule to list offices whose printed city is a neighborhood or borough name but that sit inside New York city is not approved; those offices are held. Hours are Eastern Time (49 CFR 71.4; the Eastern–Central boundary in 49 CFR 71.5 does not enter New York). OpenStreetMap was not used. Raw data: `/workspace/step8ny/`. Classification: `/workspace/checkdesk/research/new-york-geocode-classify-2026-11-17.md`. Address retries: `/workspace/step8ny/retry_nomatch.jsonl`.
 
