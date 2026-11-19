@@ -1,3 +1,15 @@
+# Nashville, TN — neighborhood-named offices added 2026-11-19
+
+Seven neighborhood-named Post Offices are now listed on the Nashville pages, under the rule approved 2026-11-19: the official page prints a neighborhood or community name, both the current and 2020 Census address files place the address inside Nashville-Davidson metropolitan government (balance) (GEOID 4752006), money-order tags are present, and the displayed city stays the official printed USPS city. All seven also have official map points in the balance on both files. The original fifteen Nashville-printed rows are unchanged.
+
+Added offices (printed city in parentheses): Antioch (Antioch); Brentwood (Brentwood; the address files place it in the Nashville-Davidson balance, not Brentwood city); Hermitage (Hermitage); Joelton (Joelton); Madison (Madison); Old Hickory (Old Hickory); and Whites Creek (Whites Creek).
+
+The Nashville list is now 22 Post Offices, all with money orders (6 Open evenings, 20 Open weekends, Saturday plus Nashville Main Office Window on Sunday). Hours stay Central Time. Joelton has a mixed weekday close (4:00 p.m. Monday, Tuesday, Thursday, and Friday; 12:00 p.m. Wednesday), called out in the page prose.
+
+Holds that remain: Belle Meade (2020 address file in Belle Meade city); Melrose (official map point in Berry Hill city); Nashville at 901 Broadway (no money-order tags; same building as the listed Broadway Retail office). Kentucky offices stay off this list.
+
+The body below is the original 2026-11-18 memo and is superseded for listed and hold counts.
+
 # Nashville, Tennessee USPS research (2026-11-18, America/Denver)
 
 First Tennessee state city in the Census ranking (Vintage 2025, SUMLEV 162, POPESTIMATE2025). Census place is Nashville-Davidson metropolitan government (balance), GEOID 4752006, population 721,074. Official listed pages print Nashville, TN. This is Nashville, Tennessee, in Davidson County, at /nashville/. The Census place used for ranking and city-limits checks is Nashville-Davidson metropolitan government (balance), GEOID 4752006, not the SUMLEV 170 consolidated-city total and not Davidson County as a whole. This is not Belle Meade, not Berry Hill, and not another independent municipality in Davidson County. Neighborhood-named offices that print Antioch, Brentwood, Hermitage, Joelton, Madison, Old Hickory, or Whites Creek stay off this list. Offices in Kentucky stay off this list. Hours are Central Time (The central zone under 49 CFR 71.6(a) is west of the Tennessee stretch of the Eastern-Central boundary in 49 CFR 71.5(d) and east of the boundary in 49 CFR 71.7. Davidson, Shelby, and Montgomery Counties all lie west of that 71.5(d) line, so Nashville, Memphis, and Clarksville are in the Central zone. None of the five is a municipality on the boundary line under 49 CFR 71.5(h). The Central-Mountain boundary in 49 CFR 71.7 does not enter Tennessee.). OpenStreetMap was not used. Raw data: `/workspace/step8tn/`. Classification: `/workspace/checkdesk/research/tennessee-geocode-classify-2026-11-18.md`.
