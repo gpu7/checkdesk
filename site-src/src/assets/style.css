@@ -40,3 +40,6 @@ table.locations tbody th{white-space:normal;min-width:180px}
 .sources{font-size:.88rem;color:#333}
 .sources li{margin:4px 0;word-break:break-word}
 .jump{display:flex;flex-wrap:wrap;gap:6px 18px;list-style:none;padding:0}
+.other-cities h2{font-size:1.15rem}
+.other-cities ul{margin-top:.35em}
+.other-cities .small{margin:.45em 0 0}
