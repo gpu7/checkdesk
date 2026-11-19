@@ -18,7 +18,15 @@ python3 site-src/build.py
 - The output directory is deleted and fully rebuilt on every run.
 - The build is deterministic. Dates come only from each page's `"lastmod"` meta, from `default_lastmod`, or from `disclaimer_updated` in `site.config.json`, never from the clock.
 
-The builder also writes `sitemap.xml` and `robots.txt`, and it fails if the site-wide disclaimer is missing from `layout.html` or from any output HTML file (including the static 404).
+The builder also writes `sitemap.xml` and `robots.txt`, and it fails if the site-wide disclaimer is missing from `layout.html` or from any output HTML file (including the static 404). City index pages get an "Other <State> cities" section with up to six other Check Desk cities in the same state, rotated in slug order so every city in the state is reachable. The builder fails if a page title is longer than 60 characters.
+
+After a build, or on its own (it builds into a temporary directory):
+
+```sh
+python3 site-src/tools/test_links.py
+```
+
+That audit checks that every internal `href` and `src` resolves, every indexable page has a self-referencing `https://checkdesk.us/...` canonical with a trailing slash and a matching `og:url`, FAQPage JSON-LD matches the visible question `<details>` blocks, titles are 60 characters or fewer, and the same-state city links are present and connected. Meta descriptions outside 140–160 characters are reported as warnings only.
 
 ## Layout
 
@@ -31,7 +39,9 @@ src/pages/          page bodies, each starting with <!--meta {...} -->
 src/assets/         style.css (link gets ?v=<sha256 prefix> for cache-busting)
 src/static/         copied to the site root (favicon, 404.html, IndexNow key file)
 directory.py        renders location tables and counts from ../data at build time
+statelinks.py       same-state sibling links on city index pages, from the /cities/ list
 fee-display.json    chain fee wording shown on city tables; every entry cites fee ids in data/providers/fees.csv
+tools/test_links.py audit: internal links, canonicals, FAQ schema, titles, sibling links
 ```
 
 ## Data-driven blocks

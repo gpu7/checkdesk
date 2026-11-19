@@ -11,11 +11,16 @@ Also writes public/sitemap.xml and public/robots.txt, and copies src/static/* to
 The site-wide disclaimer in src/partials/disclaimer.html is injected into every built page
 via the {{disclaimer}} token in src/layout.html. The build fails if that token is missing
 or if any output page lacks the required disclaimer sentence.
+
+City index pages also get a generated "Other <State> cities" section (up to six
+same-state siblings, rotated in slug order so every city in the state is
+reachable). Titles must be 60 characters or fewer.
 """
 import argparse, calendar, hashlib, html as htmlmod, json, os, re, shutil, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from directory import Directory  # data-driven location tables and counts (see directory.py)
+import statelinks  # same-state city links on city index pages (see statelinks.py)
 from xml.sax.saxutils import escape
 
 ROOT = Path(__file__).resolve().parent
@@ -201,6 +206,7 @@ if static.exists():
         shutil.copy(f, OUT / f.name)
 
 DIRECTORY = Directory(ROOT.parent, ROOT)
+STATELINKS = statelinks.load(SRC / "pages" / "cities.html")
 pages = []
 for page in sorted((SRC / "pages").rglob("*.html")):
     raw = page.read_text()
@@ -209,8 +215,13 @@ for page in sorted((SRC / "pages").rglob("*.html")):
         raise SystemExit(f"missing <!--meta {{...}} --> in {page}")
     meta = json.loads(m.group(1))
     body = raw[m.end():].strip()
-    body = DIRECTORY.expand(body, meta.get("lastmod", cfg["default_lastmod"]), page_path(page) or "/")
-    pages.append((page_path(page), meta, body))
+    path = page_path(page)
+    body = DIRECTORY.expand(body, meta.get("lastmod", cfg["default_lastmod"]), path or "/")
+    body = STATELINKS.inject(path or "/", body)
+    title = meta["title"]
+    if len(title) > 60:
+        raise SystemExit(f"title is {len(title)} characters (max 60) on {path or '/'}: {title!r}")
+    pages.append((path, meta, body))
 
 NAV_KEYS = ("denver", "cities", "guides", "about", "disclosure", "privacy")
 urls = []
