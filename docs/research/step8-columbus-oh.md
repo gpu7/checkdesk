@@ -1,3 +1,15 @@
+# Columbus, OH — neighborhood-named offices added 2026-11-19
+
+Two neighborhood-named Post Offices are now listed on the Columbus, Ohio pages, under the rule approved 2026-11-19: the official page prints a community name, both the current and 2020 Census address files place the address inside Columbus city (GEOID 3918000), money-order tags are present, and the displayed city stays the official printed USPS city. Both also have official map points in Columbus city on both files, and both are in Franklin County. The original twenty Columbus-printed rows are unchanged. This is /columbus-oh/; /columbus/ is Columbus, Georgia and was not changed.
+
+Added offices (printed city in parentheses): Blacklick (Blacklick); and Galloway (Galloway). The address files place both in Columbus city, not in a separately incorporated place.
+
+The Columbus, Ohio list is now 22 Post Offices, all with money orders (6 Open evenings, 19 Open weekends, Saturday plus Citygate Retail on Sunday). Hours stay Eastern Time.
+
+Holds that remain: Gahanna, Whitehall, and Whitehall Annex (geographic; Gahanna city or Whitehall city); Brice (address in Brice village); 11 Columbus-printed in-city records with no money-order tags.
+
+The body below is the original 2026-11-18 memo and is superseded for listed and hold counts.
+
 # Columbus, Ohio USPS research (2026-11-18, America/Denver)
 
 First Ohio state city in the Census ranking (Vintage 2025, SUMLEV 162, POPESTIMATE2025). Census place is Columbus city, GEOID 3918000, population 938,396, mostly in Franklin County (GEOID 39049; 911,199) plus a Delaware County part (15,455) and a Fairfield County part (11,742). Ranking and city-limits checks use the whole-place GEOID 3918000. The listed offices are in Franklin County. Official listed pages print Columbus, OH. This is Columbus, Ohio, at `/columbus-oh/`; `/columbus/` is Columbus, Georgia. This is not Gahanna, not Whitehall, not Bexley (the city), not Blacklick, not Brice, not Galloway, not Grove City, not Dublin, not Hilliard, not Upper Arlington, not Reynoldsburg, not Westerville, not Delaware, not Powell, not Lancaster, and not Pickerington. Hours are Eastern Time (49 CFR 71.4 and 71.5; the Eastern–Central boundary runs through Michigan, Indiana, Kentucky, and Tennessee and does not mention Ohio or enter the state). OpenStreetMap was not used. Raw data: `/workspace/step8oh/`. Classification: `/workspace/checkdesk/research/ohio-geocode-classify-2026-11-17.md`.
