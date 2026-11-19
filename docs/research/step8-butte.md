@@ -1,3 +1,13 @@
+# Butte, MT — community-named office added 2026-11-19
+
+The Melrose Post Office is now listed on the Butte pages, under the rule approved 2026-11-19: the official page prints a community name, both the current and 2020 Census address files place the address inside Butte-Silver Bow (balance) (GEOID 3011397), money-order tags are present, and the displayed city stays the official printed USPS city. Official map points also fall in the balance on both files, in Silver Bow County. The original Butte-printed rows are unchanged.
+
+Added office (printed city in parentheses): Melrose (Melrose). Melrose is a community inside Butte-Silver Bow (balance), not a separately incorporated place.
+
+The Butte list is now 3 Post Offices, all with money orders (one Open evenings: Butte until 5:30 p.m.; one Open weekends: Butte, Saturday 9:00 a.m. to 1:00 p.m.). Melrose weekday retail closes at 1:00 p.m. and is closed Saturday and Sunday, so it is not on the evenings-and-weekends list. Hours stay Mountain Time. Divide and Ramsay stay held because both Census address files did not place the address inside the balance. One Butte-printed no-money-order record at the same address as the listed Butte Post Office also remains held.
+
+The body below is the original 2026-11-17 memo and is superseded for listed and hold counts.
+
 # Butte, Montana USPS research (2026-11-17, America/Denver)
 
 Fifth Montana city in the Census ranking (Vintage 2025, SUMLEV 162, POPESTIMATE2025). Check Desk pages use the name Butte for the Census place Butte-Silver Bow (balance), GEOID 3011397, population 35,469, FUNCSTAT F, the consolidated-government remainder in Silver Bow County (GEOID 30093). Ranking and city-limits checks use that SUMLEV 162 balance, not the SUMLEV 170 row "Butte-Silver Bow" (CONCIT 11390; 36,118) and not Walkerville town (649; GEOID 3077650). 35,469 + 649 = 36,118. Anaconda-Deer Lodge is outside this five. Official listed pages print Butte, MT. Hours are Mountain Time (49 CFR 71.8). OpenStreetMap was not used. Raw data: `/workspace/step8mt/`. Classification: `/workspace/checkdesk/research/montana-geocode-classify-2026-11-17.md`.
