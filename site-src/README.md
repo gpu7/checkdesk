@@ -18,7 +18,7 @@ python3 site-src/build.py
 - The output directory is deleted and fully rebuilt on every run.
 - The build is deterministic. Dates come only from each page's `"lastmod"` meta, from `default_lastmod`, or from `disclaimer_updated` in `site.config.json`, never from the clock.
 
-The builder also writes `sitemap.xml` and `robots.txt`, and it fails if the site-wide disclaimer is missing from `layout.html` or from any output HTML file (including the static 404). City index pages get an "Other <State> cities" section with up to six other Check Desk cities in the same state, rotated in slug order so every city in the state is reachable. The builder fails if a page title is longer than 60 characters.
+The builder also writes `sitemap.xml` and `robots.txt`, copies `llms.txt` from `src/static/` to the site root, and it fails if the site-wide disclaimer is missing from `layout.html` or from any output HTML file (including the static 404). City index pages get an "Other <State> cities" section with up to six other Check Desk cities in the same state, rotated in slug order so every city in the state is reachable. The builder fails if a page title is longer than 60 characters.
 
 After a build, or on its own (it builds into a temporary directory):
 
@@ -37,7 +37,7 @@ src/layout.html     shared header, nav, footer, and {{disclaimer}}
 src/partials/disclaimer.html   the site-wide disclaimer block
 src/pages/          page bodies, each starting with <!--meta {...} -->
 src/assets/         style.css (link gets ?v=<sha256 prefix> for cache-busting)
-src/static/         copied to the site root (favicon, 404.html, IndexNow key file)
+src/static/         copied to the site root (favicon, 404.html, IndexNow key file, llms.txt)
 directory.py        renders location tables and counts from ../data at build time
 statelinks.py       same-state sibling links on city index pages, from the /cities/ list
 fee-display.json    chain fee wording shown on city tables; every entry cites fee ids in data/providers/fees.csv

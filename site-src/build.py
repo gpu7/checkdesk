@@ -6,7 +6,7 @@ optional schema: "website" | "article" | "collection" | "page").
 URL scheme: src/pages/index.html -> /, src/pages/about.html -> /about/.
 Config: site.config.json (base_url, default_lastmod, disclaimer_updated, optional cf_analytics_token).
 Env SITE_BASE_URL overrides base_url.
-Also writes public/sitemap.xml and public/robots.txt, and copies src/static/* to the site root.
+Also writes public/sitemap.xml and public/robots.txt, copies src/static/* to the site root (including llms.txt for AI crawlers),
 
 The site-wide disclaimer in src/partials/disclaimer.html is injected into every built page
 via the {{disclaimer}} token in src/layout.html. The build fails if that token is missing
@@ -262,7 +262,12 @@ sm += [f"  <url><loc>{escape(u)}</loc><lastmod>{d}</lastmod></url>" for u, d in 
 sm.append("</urlset>")
 (OUT / "sitemap.xml").write_text("\n".join(sm) + "\n")
 (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {BASE}sitemap.xml\n")
-print(f"built sitemap.xml ({len(urls)} urls) and robots.txt, base {BASE}")
+llms_src = SRC / "static" / "llms.txt"
+if not llms_src.is_file():
+    raise SystemExit("missing src/static/llms.txt (copied to the site root for AI crawlers)")
+if not (OUT / "llms.txt").is_file():
+    raise SystemExit("llms.txt was not copied to the site root")
+print(f"built sitemap.xml ({len(urls)} urls) and robots.txt, copied llms.txt, base {BASE}")
 for w in DIRECTORY.warnings:
     print(w)
 print(f"warnings: {len(DIRECTORY.warnings)}")
