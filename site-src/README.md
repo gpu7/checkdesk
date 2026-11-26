@@ -63,7 +63,7 @@ How pages map to URLs:
 | `src/assets/*` | `/assets/*` | `public/assets/*` |
 | `src/static/*` | `/*` | `public/*` |
 
-Page `schema` values: `website` (WebSite JSON-LD), `article` (Article, BreadcrumbList, and FAQPage from on-page `<details>` FAQs), `collection`, or `page` (no JSON-LD).
+Page `schema` values: `website` (WebSite JSON-LD), `article` (Article, BreadcrumbList, and FAQPage from on-page `<details>` FAQs), `collection`, `about` (AboutPage, Organization, and BreadcrumbList), or `page` (no JSON-LD).
 
 ## Fact rules (every page)
 

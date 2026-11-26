@@ -2,7 +2,7 @@
 """Tiny static builder for Check Desk: wraps src/pages/**.html in src/layout.html -> public/ (or --out DIR).
 
 Each page starts with <!--meta {json} --> (title, description, nav, optional lastmod, optional noindex,
-optional schema: "website" | "article" | "collection" | "page").
+optional schema: "website" | "article" | "collection" | "about" | "page").
 URL scheme: src/pages/index.html -> /, src/pages/about.html -> /about/.
 Config: site.config.json (base_url, default_lastmod, disclaimer_updated, optional cf_analytics_token).
 Env SITE_BASE_URL overrides base_url.
@@ -181,6 +181,22 @@ def jsonld(meta, body, url, lastmod):
         graph.append({"@type": "CollectionPage", "name": h1, "description": meta["description"], "url": url,
                       "dateModified": lastmod, "inLanguage": "en-US", "publisher": ORG})
         graph.append(breadcrumbs(meta, h1, url))
+    elif kind == "about":
+        h1 = plain(re.search(r"<h1[^>]*>(.*?)</h1>", body, re.S).group(1))
+        org_id = BASE + "#organization"
+        organization = {
+            "@type": "Organization",
+            "@id": org_id,
+            "name": SITE_NAME,
+            "url": BASE,
+            "description": "An independent information directory of check cashing, money order, bill pay, and prepaid reload locations.",
+        }
+        org_ref = {"@id": org_id}
+        graph.append({"@type": "AboutPage", "name": h1, "description": meta["description"], "url": url,
+                      "dateModified": lastmod, "inLanguage": "en-US", "isPartOf": {"@type": "WebSite", "name": SITE_NAME, "url": BASE},
+                      "about": org_ref, "mainEntity": org_ref, "publisher": org_ref})
+        graph.append(breadcrumbs(meta, h1, url))
+        graph.append(organization)
     if not graph:
         return ""
     data = json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False, indent=1)

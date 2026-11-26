@@ -147,6 +147,31 @@ def visible_question_faqs(html):
     return [(q, a) for q, a in detail_pairs(html) if plain_faq(q).endswith("?")]
 
 
+def assert_about_schema(html, label):
+    """The About page must expose AboutPage and Organization JSON-LD."""
+    graph = jsonld_graph(html)
+    if graph is None:
+        raise SystemExit(f"{label}: About page is missing JSON-LD")
+    types = [node.get("@type") for node in graph["@graph"]]
+    if "AboutPage" not in types:
+        raise SystemExit(f"{label}: expected AboutPage in JSON-LD")
+    if "Organization" not in types:
+        raise SystemExit(f"{label}: expected Organization in JSON-LD")
+    about = next(node for node in graph["@graph"] if node.get("@type") == "AboutPage")
+    canon = _CANON.search(html)
+    if not canon or about.get("url") != canon.group(1):
+        raise SystemExit(f"{label}: AboutPage url is not the page canonical")
+    main = about.get("mainEntity") or {}
+    if main.get("@type") == "Organization":
+        pass
+    elif main.get("@id"):
+        orgs = [node for node in graph["@graph"] if node.get("@type") == "Organization" and node.get("@id") == main["@id"]]
+        if not orgs:
+            raise SystemExit(f"{label}: AboutPage mainEntity @id does not resolve to Organization")
+    else:
+        raise SystemExit(f"{label}: AboutPage mainEntity is not an Organization")
+
+
 def assert_visible_faq_matches_schema(html, label):
     graph = jsonld_graph(html)
     visible = visible_question_faqs(html)
@@ -323,6 +348,8 @@ def check_site(out: Path, graph):
         if not is_noindex(html):
             try:
                 assert_visible_faq_matches_schema(html, label)
+                if label == "about/index.html":
+                    assert_about_schema(html, label)
             except SystemExit as exc:
                 errors.append(str(exc))
 
