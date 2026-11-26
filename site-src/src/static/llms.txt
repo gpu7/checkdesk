@@ -1,0 +1,62 @@
+# Check Desk
+
+> Check Desk is a factual, verified directory of check cashing, money order, bill pay, and prepaid reload locations. It is written for unbanked and underbanked users and for people who need a desk open after typical bank hours. Every listing is built from public official sources and carries a last-verified date.
+
+This file is a map of the site for people and AI crawlers. The full list of city pages is on the home page and the cities index. The machine-readable sitemap is at https://checkdesk.us/sitemap.xml.
+
+## What this site is
+
+Check Desk is an independent information directory. It is not a bank, money transmitter, check casher, or financial adviser, and it is not affiliated with the businesses it names.
+
+- [Home](https://checkdesk.us/): the directory start page, with cities grouped by state
+- [About](https://checkdesk.us/about/): who we are, how we check facts, and the not-financial-advice notice
+- [Disclosure](https://checkdesk.us/disclosure/): how the site makes money (no ads, paid rankings, or affiliate links at this time)
+- [Privacy](https://checkdesk.us/privacy/)
+
+## City and state pages
+
+There is no separate URL for each state. Cities are grouped by state on the home page and on the cities index:
+
+- [Cities](https://checkdesk.us/cities/)
+
+Each city has a hub at `https://checkdesk.us/{city-slug}/` that lists only checked locations inside that city's limits. Example city hubs:
+
+- [Denver, Colorado](https://checkdesk.us/denver/)
+- [Colorado Springs, Colorado](https://checkdesk.us/colorado-springs/)
+- [Huntsville, Alabama](https://checkdesk.us/huntsville/)
+
+## City service pages
+
+When a city has checked locations for a service, it may also have a service page:
+
+- Money orders, for example [money orders in Denver](https://checkdesk.us/denver/money-orders/)
+- Evenings and weekends (open past 17:00 on a weekday, or open Saturday or Sunday), for example [evenings and weekends in Denver](https://checkdesk.us/denver/after-hours/)
+- Bill pay, for example [bill pay in Denver](https://checkdesk.us/denver/bill-pay/)
+- Check cashing, for example [check cashing in Denver](https://checkdesk.us/denver/check-cashing/)
+
+Most cities currently have a money-order page and an evenings-and-weekends page. Bill-pay and check-cashing pages are published only where official sources name those services at checked locations.
+
+Prepaid reload is a service Check Desk records when an official source names it. There is not yet a standalone prepaid-reload URL; start from the city hub.
+
+## Guides and brand policy pages
+
+- [All guides](https://checkdesk.us/guides/)
+- [Money order fees and limits](https://checkdesk.us/guides/money-orders/)
+- [Check-cashing fees](https://checkdesk.us/guides/check-cashing-fees/)
+- [ACE Cash Express check-cashing policy](https://checkdesk.us/providers/ace-cash-express/): official check-cashing wording only. ACE stores are not listed on city pages.
+
+## How listings are verified
+
+- Every price, hour, and service detail comes from the provider's official page or another clearly cited public source.
+- Each figure links to its source and carries the date it was last verified.
+- If a provider does not publish a fee, Check Desk writes "Not published, call ahead." It does not estimate or average prices.
+- Only locations checked on an official locator or official store page appear in city lists. A chain policy is not the same as a verified store.
+- Check Desk uses public sources only. It does not contact businesses to collect data.
+
+## What this site does not list
+
+Check Desk does not list payday lenders, title lenders, or stores whose chain also offers payday or title loans, including ACE Cash Express. The ACE policy page above covers official check-cashing wording only; it does not list stores or describe loans.
+
+## Disclaimer
+
+Policies and fees change. Call the location before you go. Check Desk is an information directory, not financial advice. Fees are shown only when a provider publishes them; otherwise the pages say "Not published, call ahead." This site is general information, not financial, legal, or tax advice, and not a recommendation to use or avoid any product, loan, or account.

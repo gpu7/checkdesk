@@ -72,15 +72,23 @@ aws s3 sync "$SRC" "s3://${CHECKDESK_BUCKET}" \
   --cache-control "public, max-age=300" \
   --metadata-directive REPLACE
 
-# 6) IndexNow key file at the site root (32-character hex name) — 1 day.
-#    The build copies it from site-src/src/static/. Do not use this include for robots.txt.
+# 6) llms.txt — 5 minutes (site map for AI crawlers; keep it as fresh as robots.txt).
+#    The build copies it from site-src/src/static/.
 aws s3 sync "$SRC" "s3://${CHECKDESK_BUCKET}" \
-  --exclude "*" --include "*.txt" --exclude "robots.txt" \
+  --exclude "*" --include "llms.txt" \
+  --content-type "text/plain; charset=utf-8" \
+  --cache-control "public, max-age=300" \
+  --metadata-directive REPLACE
+
+# 7) IndexNow key file at the site root (32-character hex name) — 1 day.
+#    The build copies it from site-src/src/static/. Do not use this include for robots.txt or llms.txt.
+aws s3 sync "$SRC" "s3://${CHECKDESK_BUCKET}" \
+  --exclude "*" --include "*.txt" --exclude "robots.txt" --exclude "llms.txt" \
   --content-type "text/plain; charset=utf-8" \
   --cache-control "public, max-age=86400" \
   --metadata-directive REPLACE
 
-# 7) Clear the CloudFront edge cache.
+# 8) Clear the CloudFront edge cache.
 aws cloudfront create-invalidation \
   --distribution-id "${CHECKDESK_DISTRIBUTION_ID}" \
   --paths "/*"
