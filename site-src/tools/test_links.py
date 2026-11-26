@@ -384,6 +384,11 @@ def check_site(out: Path, graph):
     robots = (out / "robots.txt").read_text()
     if f"Sitemap: {BASE}sitemap.xml" not in robots:
         errors.append("robots.txt is missing the sitemap line")
+    if "Disallow:" in robots:
+        errors.append("robots.txt should not disallow any path")
+    for agent in ("GPTBot", "ClaudeBot", "PerplexityBot", "Google-Extended", "Applebot-Extended", "CCBot"):
+        if f"User-agent: {agent}\nAllow: /" not in robots:
+            errors.append(f"robots.txt should explicitly allow {agent}")
 
     if errors:
         print("\n".join(errors[:80]))

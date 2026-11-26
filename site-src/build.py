@@ -261,7 +261,35 @@ sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitem
 sm += [f"  <url><loc>{escape(u)}</loc><lastmod>{d}</lastmod></url>" for u, d in urls]
 sm.append("</urlset>")
 (OUT / "sitemap.xml").write_text("\n".join(sm) + "\n")
-(OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {BASE}sitemap.xml\n")
+# A crawler that matches a named User-agent group uses only that group, not
+# the * group, so each named AI crawler is listed with its own Allow: /.
+# The previous file was "User-agent: * / Allow: /" and did not Disallow anything.
+AI_CRAWLERS = (
+    "GPTBot",
+    "OAI-SearchBot",
+    "ChatGPT-User",
+    "ClaudeBot",
+    "Claude-User",
+    "Claude-SearchBot",
+    "anthropic-ai",
+    "PerplexityBot",
+    "Perplexity-User",
+    "Google-Extended",
+    "Applebot-Extended",
+    "CCBot",
+)
+robots_lines = [
+    "# Check Desk allows search engines and AI crawlers. No paths are disallowed.",
+    "# A markdown site map for AI crawlers is at /llms.txt.",
+    "",
+    "User-agent: *",
+    "Allow: /",
+    "",
+]
+for agent in AI_CRAWLERS:
+    robots_lines += [f"User-agent: {agent}", "Allow: /", ""]
+robots_lines.append(f"Sitemap: {BASE}sitemap.xml")
+(OUT / "robots.txt").write_text("\n".join(robots_lines) + "\n")
 llms_src = SRC / "static" / "llms.txt"
 if not llms_src.is_file():
     raise SystemExit("missing src/static/llms.txt (copied to the site root for AI crawlers)")
